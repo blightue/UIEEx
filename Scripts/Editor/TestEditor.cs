@@ -4,11 +4,14 @@ using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 using SuiSuiShou.UIEEx;
 using UnityEngine;
+using PopupWindow = UnityEditor.PopupWindow;
 
 [CustomEditor(typeof(TestClass))]
 public class TestEditor : Editor
 {
     private TestClass test;
+
+    //private string[] choices = new[] {"AAA", "BBB", "CCC"};
 
     private void OnEnable()
     {
@@ -20,23 +23,37 @@ public class TestEditor : Editor
     {
         VisualElement root = new VisualElement();
 
-        // TextField textField = new TextField("name");
-        // textField.bindingPath = "name";
-        // textField.style.flexGrow = new StyleFloat(1f);
-        // textField.labelElement.style.minWidth = new StyleLength(StyleKeyword.Auto);
+        // UIELayout.Button("Button", () => Debug.Log("Button log"), root);
+        // UIELayout.RepeatButton("RepeatButton", () => Debug.Log("Repeat Log"), root);
+        // UIELayout.Scroller(0, 100, SliderDirection.Vertical, root);
 
-        //root.Add(textField);
-        IntegerField intField = new IntegerField("ID");
+        UnityEngine.UIElements.PopupWindow popupWindow = UIELayout.PopupWindow(root);
 
-        intField.bindingPath = "ID";
-        //root.Add(intField);
+        UIELayout.HelpBox("Help Box", HelpBoxMessageType.Info, popupWindow);
 
-        UIELayout.Button("Debug", () => test.Debug(), root);
+        DropdownField dropdownField = UIELayout.DropdownField("DropdownField", typeof(Numb), 0, popupWindow);
+        dropdownField.bindingPath = "numb";
 
-        root.Add((UIELayout.Box(FlexDirection.Column,
-            UIELayout.TextField("Name", parent: root),
-            intField)));
+        Slider slider = new Slider("floatValue");
+        slider.SetParent(popupWindow);
+        slider.highValue = 10;
+        slider.lowValue = 0;
+        slider.bindingPath = "floatValue";
+        
+        ProgressBar progressBar = UIELayout.ProgressBar("ProgressBar", 0, 10,popupWindow);
+        progressBar.bindingPath = "floatValue";
 
+        UIELayout.Toggle( popupWindow);
+
+        TwoPaneSplitView splitView = UIELayout.TwoPaneSplitView(popupWindow);
+        var leftView = new VisualElement();
+        var rightView = new VisualElement();
+        splitView.Add(leftView);
+        splitView.Add(rightView);
+        UIELayout.Label("Left",leftView);
+        UIELayout.Label("Left",leftView);
+        UIELayout.Label("Right",rightView);
+        
         return root;
     }
 }

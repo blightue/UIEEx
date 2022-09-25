@@ -56,6 +56,20 @@ namespace SuiSuiShou.UIEEx
             return box;
         }
 
+        public static GroupBox GroupBox(string text, params VisualElement[] children)
+        {
+            GroupBox groupBox = new GroupBox();
+
+            groupBox.text = text;
+
+            foreach (VisualElement element in children)
+            {
+                groupBox.Add(element);
+            }
+
+            return groupBox;
+        }
+
         public static void SetParent(VisualElement parent, VisualElement child)
         {
             if(parent != null) parent.Add(child);

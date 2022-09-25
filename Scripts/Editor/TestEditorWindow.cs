@@ -24,6 +24,21 @@ public class TestEditorWindow : EditorWindow
 
     private void CreateGUI()
     {
+        var leftView = new VisualElement();
+        var rightView = new VisualElement();
+
+        var splitView = UIELayout.TwoPaneSplitView(rootVisualElement);
+        
+        splitView.Add(leftView);
+        splitView.Add(rightView);
+
+        UIELayout.Label("Left", leftView);
+        UIELayout.Label("Right", rightView);
+    }
+
+
+    protected void TestGUI()
+    {
         TextField textField = new TextField("name");
         textField.bindingPath = nameof(TestClass.name);
         rootVisualElement.Add(textField);
@@ -45,7 +60,6 @@ public class TestEditorWindow : EditorWindow
         );
 
         rootVisualElement.Add(objectField);
-
     }
 
     [Serializable]

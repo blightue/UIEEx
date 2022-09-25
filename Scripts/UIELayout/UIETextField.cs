@@ -41,6 +41,9 @@ namespace SuiSuiShou.UIEEx
             TextField textField = new TextField(label);
             if (defalutText != null) textField.value = defalutText;
             if (parent != null) parent.Add(textField);
+
+            //textField.labelElement.style.minWidth = new StyleLength(105);
+            
             return textField;
         }
     }

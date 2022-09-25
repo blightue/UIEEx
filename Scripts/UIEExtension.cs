@@ -6,7 +6,7 @@ namespace SuiSuiShou.UIEEx
     {
         public static VisualElement SetParent(this VisualElement target, VisualElement parent)
         {
-            parent.Add(target);
+            if(parent != null) parent.Add(target);
             return target;
         }
     }
