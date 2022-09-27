@@ -45,15 +45,9 @@ public class TestEditor : Editor
 
         UIELayout.Toggle( popupWindow);
 
-        TwoPaneSplitView splitView = UIELayout.TwoPaneSplitView(popupWindow);
-        var leftView = new VisualElement();
-        var rightView = new VisualElement();
-        splitView.Add(leftView);
-        splitView.Add(rightView);
-        UIELayout.Label("Left",leftView);
-        UIELayout.Label("Left",leftView);
-        UIELayout.Label("Right",rightView);
+        EditorUIELayout.BoundsField("Bounds", popupWindow);
         
+
         return root;
     }
 }

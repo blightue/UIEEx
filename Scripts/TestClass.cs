@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.UIElements;
+using UnityEngine;
 
     public class TestClass : MonoBehaviour
     {
@@ -12,6 +13,8 @@
 
         public Vector2 minMax;
 
+        public Bounds bounds;
+        
         public void Debug()
         {
             UnityEngine.Debug.Log($"name: {name} ID: {ID}");

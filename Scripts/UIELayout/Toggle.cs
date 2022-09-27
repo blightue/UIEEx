@@ -5,7 +5,12 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout
     {
-        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="text"></param>
+        /// <param name="parent">bool</param>
+        /// <returns></returns>
         public static Toggle Toggle(string text, VisualElement parent = null)
         {
             Toggle toggle = Toggle(parent);
@@ -15,10 +20,13 @@ namespace SuiSuiShou.UIEEx
             return toggle;
         }
 
-        public static Toggle Toggle(VisualElement parent = null)
+        public static Toggle Toggle(VisualElement parent = null, string bindingPath = default)
         {
             Toggle toggle = new Toggle();
+
             toggle.SetParent(parent);
+            toggle.SetBindingPath(bindingPath);
+
             return toggle;
         }
     }

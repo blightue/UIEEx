@@ -9,5 +9,15 @@ namespace SuiSuiShou.UIEEx
             if(parent != null) parent.Add(target);
             return target;
         }
+
+        public static BindableElement SetBindingPath(this BindableElement target, string bindingPath)
+        {
+            if (bindingPath != default)
+            {
+                target.bindingPath = bindingPath;
+            }
+
+            return target;
+        }
     }
 }
