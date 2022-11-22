@@ -12,14 +12,13 @@ namespace SuiSuiShou.UIEEx
         /// <param name="parent"></param>
         /// <param name="bindingPath">string</param>
         /// <returns></returns>
-        public static TextElement TextElement(string text, VisualElement parent = null, string bindingPath = default)
+        public static TextElement TextElement(string text, VisualElement parent = null)
         {
             TextElement textElement = new TextElement();
 
             textElement.text = text;
 
             textElement.SetParent(parent);
-            textElement.SetBindingPath(bindingPath);
 
             return textElement;
         }

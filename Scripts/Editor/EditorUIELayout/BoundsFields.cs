@@ -12,21 +12,20 @@ namespace SuiSuiShou.UIEEx
         /// <param name="parent"></param>
         /// <param name="bindingPath">UnityEngine.Bounds</param>
         /// <returns></returns>
-        public static BoundsField BoundsField(string text, VisualElement parent = null, string bindingPath = default)
+        public static BoundsField BoundsField(string text, VisualElement parent = null)
         {
-            BoundsField boundsField = BoundsField(parent, bindingPath);
+            BoundsField boundsField = BoundsField(parent);
 
             boundsField.label = text;
 
             return boundsField;
         }
 
-        public static BoundsField BoundsField(VisualElement parent = null, string bindingPath = default)
+        public static BoundsField BoundsField(VisualElement parent = null)
         {
             BoundsField boundsField = new BoundsField();
 
             boundsField.SetParent(parent);
-            boundsField.SetBindingPath(bindingPath);
 
             return boundsField;
         }

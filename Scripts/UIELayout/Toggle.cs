@@ -20,12 +20,11 @@ namespace SuiSuiShou.UIEEx
             return toggle;
         }
 
-        public static Toggle Toggle(VisualElement parent = null, string bindingPath = default)
+        public static Toggle Toggle(VisualElement parent = null)
         {
             Toggle toggle = new Toggle();
 
             toggle.SetParent(parent);
-            toggle.SetBindingPath(bindingPath);
 
             return toggle;
         }

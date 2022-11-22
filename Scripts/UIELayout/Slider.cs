@@ -14,18 +14,16 @@ namespace SuiSuiShou.UIEEx
         /// <param name="parent"></param>
         /// <param name="bindingPath">float</param>
         /// <returns></returns>
-        public static Slider Slider(string text, float lowValue, float highValue, VisualElement parent = null,
-            string bindingPath = default)
+        public static Slider Slider(string text, float lowValue, float highValue, VisualElement parent = null)
         {
-            Slider slider = Slider(lowValue, highValue, parent, bindingPath);
+            Slider slider = Slider(lowValue, highValue, parent);
 
             slider.label = text;
 
             return slider;
         }
 
-        public static Slider Slider(float lowValue, float highValue, VisualElement parent = null,
-            string bindingPath = default)
+        public static Slider Slider(float lowValue, float highValue, VisualElement parent = null)
         {
             Slider slider = new Slider();
 
@@ -33,7 +31,6 @@ namespace SuiSuiShou.UIEEx
             slider.highValue = highValue;
 
             slider.SetParent(parent);
-            slider.SetBindingPath(bindingPath);
 
             return slider;
         }

@@ -5,9 +5,9 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout
     {
-        public static Label Label(VisualElement parent = null, string bindingPath = default)
+        public static Label Label(VisualElement parent = null)
         {
-            return Label(null, parent, bindingPath);
+            return Label(null, parent);
         }
         
         /// <summary>
@@ -17,11 +17,10 @@ namespace SuiSuiShou.UIEEx
         /// <param name="parent"></param>
         /// <param name="bindingPath">string</param>
         /// <returns></returns>
-        public static Label Label(string text, VisualElement parent = null, string bindingPath = default)
+        public static Label Label(string text, VisualElement parent = null)
         {
             Label label = new Label(text);
             label.SetParent(parent);
-            label.SetBindingPath(bindingPath);
             return label;
         }
     }

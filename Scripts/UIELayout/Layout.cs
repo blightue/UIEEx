@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using PlasticGui.WorkspaceWindow.Diff;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -8,71 +9,48 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout
     {
-        
-        public static VisualElement VerticalLayout(params VisualElement[] children)
+        public static VisualElement VerticalLayout(VisualElement parent = null)
         {
             VisualElement element = new VisualElement();
+            element
+                .SetParent(parent)
+                .style.flexDirection = new StyleEnum<FlexDirection>(FlexDirection.Column);
 
-            element.style.flexDirection = new StyleEnum<FlexDirection>(FlexDirection.Column);
-
-            foreach (var item in children)
-            {
-                element.Add(item);
-            }
-            
-            return element;
-        }
-        
-        public static VisualElement HorzontalLayout(params VisualElement[] children)
-        {
-            VisualElement element = new VisualElement();
-
-            element.style.flexDirection = new StyleEnum<FlexDirection>(FlexDirection.Row);
-
-            foreach (var item in children)
-            {
-                element.Add(item);
-            }
-            
             return element;
         }
 
-        public static Box Box(params VisualElement[] children)
+        public static VisualElement HorzontalLayout(VisualElement parent = null)
         {
-            return UIELayout.Box(FlexDirection.Column, children);
+            VisualElement element = new VisualElement();
+
+            element
+                .SetParent(parent)
+                .style.flexDirection = new StyleEnum<FlexDirection>(FlexDirection.Row);
+
+            return element;
         }
 
-        public static Box Box(FlexDirection direction, params VisualElement[] children)
+        public static Box Box(VisualElement parent = null)
+        {
+            return UIELayout.Box(FlexDirection.Column, parent);
+        }
+
+        public static Box Box(FlexDirection direction, VisualElement parent = null)
         {
             Box box = new Box();
 
-            box.style.flexDirection = new StyleEnum<FlexDirection>(direction);
-
-            foreach (VisualElement element in children)
-            {
-                box.Add(element);
-            }
+            box.SetParent(parent).style.flexDirection = new StyleEnum<FlexDirection>(direction);
 
             return box;
         }
 
-        public static GroupBox GroupBox(string text, params VisualElement[] children)
+        public static GroupBox GroupBox(string text, VisualElement parent)
         {
             GroupBox groupBox = new GroupBox();
 
-            groupBox.text = text;
-
-            foreach (VisualElement element in children)
-            {
-                groupBox.Add(element);
-            }
+            groupBox.SetParent(parent).text = text;
 
             return groupBox;
-        }
-
-        public static void SetParent(VisualElement parent, VisualElement child)
-        {
-            if(parent != null) parent.Add(child);
         }
     }
 }

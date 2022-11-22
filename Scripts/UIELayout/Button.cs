@@ -9,11 +9,12 @@ namespace SuiSuiShou.UIEEx
         {
             Button button = new Button(clickEvent);
 
+            button.SetParent(parent);
             button.text = text;
             button.focusable = false;
             button.style.flexGrow = new StyleFloat(1f);
 
-            if (parent != null) parent.Add(button);
+            
 
             return button;
         }

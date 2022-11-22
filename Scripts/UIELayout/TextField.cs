@@ -12,23 +12,22 @@ namespace SuiSuiShou.UIEEx
         /// <param name="parent"></param>
         /// <param name="bindingPath">string</param>
         /// <returns></returns>
-        public static TextField TextField(string label, string defalutText = null, VisualElement parent = null, string bindingPath = default)
+        public static TextField TextField(string label, string defalutText = null, VisualElement parent = null)
         {
-            TextField textField = TextField(defalutText, parent, bindingPath);
+            TextField textField = TextField(defalutText, parent);
 
             textField.label = label;
             
             return textField;
         }
 
-        public static TextField TextField(string defalutText = null, VisualElement parent = null, string bindingPath = default)
+        public static TextField TextField(string defalutText = null, VisualElement parent = null)
         {
             TextField textField = new TextField();
             
             if (defalutText != null) textField.value = defalutText;
             
             textField.SetParent(parent);
-            textField.SetBindingPath(bindingPath);
 
             return textField;
         }

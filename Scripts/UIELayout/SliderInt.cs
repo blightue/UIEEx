@@ -14,17 +14,16 @@ namespace SuiSuiShou.UIEEx
         /// <param name="parent"></param>
         /// <param name="bindingPath">int</param>
         /// <returns></returns>
-        public static SliderInt SliderInt(string text, int lowValue, int highValue, VisualElement parent = null,
-            string bindingPath = default)
+        public static SliderInt SliderInt(string text, int lowValue, int highValue, VisualElement parent = null)
         {
-            SliderInt sliderInt = SliderInt(lowValue, highValue, parent, bindingPath);
+            SliderInt sliderInt = SliderInt(lowValue, highValue, parent);
 
             sliderInt.label = text;
 
             return sliderInt;
         }
         
-        public static SliderInt SliderInt(int lowValue, int highValue, VisualElement parent = null, string bindingPath = default)
+        public static SliderInt SliderInt(int lowValue, int highValue, VisualElement parent = null)
         {
             SliderInt sliderInt = new SliderInt();
             

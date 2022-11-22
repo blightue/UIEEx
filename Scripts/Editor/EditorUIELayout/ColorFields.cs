@@ -15,22 +15,20 @@ namespace SuiSuiShou.UIEEx
         /// <param name="bindingPath">UnityEngine.Color</param>
         /// <returns></returns>
         public static ColorField ColorField(bool hdr = false, bool showAlpha = false, bool showEyedropper = false,
-            VisualElement parent = null, string bindingPath = default)
+            VisualElement parent = null)
         {
-            return ColorField(null, hdr, showAlpha, showEyedropper, parent, bindingPath);
+            return ColorField(null, hdr, showAlpha, showEyedropper, parent);
         }
 
         public static ColorField ColorField
         (string label, bool hdr = false, bool showAlpha = false, bool showEyedropper = false,
-            VisualElement parent = null,
-            string bindingPath = default)
+            VisualElement parent = null)
         {
             ColorField colorField = new ColorField();
 
             colorField.label = label;
 
             colorField.SetParent(parent);
-            colorField.SetBindingPath(bindingPath);
 
             colorField.hdr = hdr;
             colorField.showAlpha = showAlpha;
