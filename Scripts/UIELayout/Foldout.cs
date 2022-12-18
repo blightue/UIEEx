@@ -1,17 +1,16 @@
 ﻿using UnityEngine.UIElements;
-using System;
+using SuiSuiShou.UIEEx;
 
 namespace SuiSuiShou.UIEEx
 {
-    public static partial class UIELayout
+    public static partial class UIELayout 
     {
-        public static Foldout Foldout(string text, VisualElement parent = null)
+        public static Foldout Foldout (VisualElement parent = null)
         {
             Foldout foldout = new Foldout();
             foldout.SetParent(parent);
-            if(text != null) foldout.text = text;
-
             return foldout;
         }
+
     }
 }

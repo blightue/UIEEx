@@ -1,35 +1,37 @@
 ﻿using UnityEngine.UIElements;
+using SuiSuiShou.UIEEx;
 
 namespace SuiSuiShou.UIEEx
 {
-    public static partial class UIELayout
+    public static partial class UIELayout 
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="label"></param>
-        /// <param name="defalutText"></param>
-        /// <param name="parent"></param>
-        /// <param name="bindingPath">string</param>
-        /// <returns></returns>
-        public static TextField TextField(string label, string defalutText = null, VisualElement parent = null)
-        {
-            TextField textField = TextField(defalutText, parent);
-
-            textField.label = label;
-            
-            return textField;
-        }
-
-        public static TextField TextField(string defalutText = null, VisualElement parent = null)
+        public static TextField TextField (VisualElement parent = null)
         {
             TextField textField = new TextField();
-            
-            if (defalutText != null) textField.value = defalutText;
-            
             textField.SetParent(parent);
-
             return textField;
         }
+
+        public static TextField TextField (System.Int32 maxLength, System.Boolean multiline, System.Boolean isPasswordField, System.Char maskChar, VisualElement parent = null)
+        {
+            TextField textField = new TextField(maxLength, multiline, isPasswordField, maskChar);
+            textField.SetParent(parent);
+            return textField;
+        }
+
+        public static TextField TextField (System.String label, VisualElement parent = null)
+        {
+            TextField textField = new TextField(label);
+            textField.SetParent(parent);
+            return textField;
+        }
+
+        public static TextField TextField (System.String label, System.Int32 maxLength, System.Boolean multiline, System.Boolean isPasswordField, System.Char maskChar, VisualElement parent = null)
+        {
+            TextField textField = new TextField(label, maxLength, multiline, isPasswordField, maskChar);
+            textField.SetParent(parent);
+            return textField;
+        }
+
     }
 }

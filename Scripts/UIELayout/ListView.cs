@@ -1,39 +1,23 @@
-﻿using System.Collections;
-using System;
-using UnityEngine.UIElements;
+﻿using UnityEngine.UIElements;
+using SuiSuiShou.UIEEx;
 
 namespace SuiSuiShou.UIEEx
 {
-    public partial class UIELayout
+    public static partial class UIELayout 
     {
-        public static ListView ListView(string text, IList itemSource, float itemHeight, Func<VisualElement> makeItem,
-            Action<VisualElement, int> bindItem, VisualElement parent = null)
+        public static ListView ListView (VisualElement parent = null)
         {
-            ListView listView = ListView(itemSource, itemHeight, makeItem, bindItem, parent);
-
-            listView.headerTitle = text;
-
-            return listView;
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="itemSource"></param>
-        /// <param name="itemHeight"></param>
-        /// <param name="makeItem"></param>
-        /// <param name="bindItem"></param>
-        /// <param name="parent"></param>
-        /// <param name="bindingPath">IList</param>
-        /// <returns></returns>
-        public static ListView ListView(IList itemSource, float itemHeight, Func<VisualElement> makeItem,
-            Action<VisualElement, int> bindItem, VisualElement parent = null)
-        {
-            ListView listView = new ListView(itemSource, itemHeight, makeItem, bindItem);
-
+            ListView listView = new ListView();
             listView.SetParent(parent);
-
             return listView;
         }
+
+        public static ListView ListView (System.Collections.IList itemsSource, System.Single itemHeight, System.Func<UnityEngine.UIElements.VisualElement> makeItem, System.Action<UnityEngine.UIElements.VisualElement,System.Int32> bindItem, VisualElement parent = null)
+        {
+            ListView listView = new ListView(itemsSource, itemHeight, makeItem, bindItem);
+            listView.SetParent(parent);
+            return listView;
+        }
+
     }
 }

@@ -1,33 +1,30 @@
 ﻿using UnityEngine.UIElements;
-using System;
+using SuiSuiShou.UIEEx;
 
 namespace SuiSuiShou.UIEEx
 {
-    public static partial class UIELayout
+    public static partial class UIELayout 
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="text"></param>
-        /// <param name="parent"></param>
-        /// <param name="bindingPath">UnityEngine.Vector2</param>
-        /// <returns></returns>
-        public static MinMaxSlider MinMaxSlider(string text, VisualElement parent = null, string bindingPath = default)
+        public static MinMaxSlider MinMaxSlider (VisualElement parent = null)
         {
-            MinMaxSlider slider = MinMaxSlider(parent, bindingPath);
-
-            slider.label = text;
-
-            return slider;
+            MinMaxSlider minMaxSlider = new MinMaxSlider();
+            minMaxSlider.SetParent(parent);
+            return minMaxSlider;
         }
-        
-        public static MinMaxSlider MinMaxSlider(VisualElement parent = null, string bindingPath = default)
+
+        public static MinMaxSlider MinMaxSlider (System.Single minValue, System.Single maxValue, System.Single minLimit, System.Single maxLimit, VisualElement parent = null)
         {
-            MinMaxSlider slider = new MinMaxSlider();
-
-            slider.SetBindingPath(bindingPath);
-
-            return slider;
+            MinMaxSlider minMaxSlider = new MinMaxSlider(minValue, maxValue, minLimit, maxLimit);
+            minMaxSlider.SetParent(parent);
+            return minMaxSlider;
         }
+
+        public static MinMaxSlider MinMaxSlider (System.String label, System.Single minValue, System.Single maxValue, System.Single minLimit, System.Single maxLimit, VisualElement parent = null)
+        {
+            MinMaxSlider minMaxSlider = new MinMaxSlider(label, minValue, maxValue, minLimit, maxLimit);
+            minMaxSlider.SetParent(parent);
+            return minMaxSlider;
+        }
+
     }
 }

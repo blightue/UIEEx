@@ -1,5 +1,8 @@
-﻿using UnityEngine.UIElements;
+﻿using System;
+using UnityEngine.UIElements;
 using System.Collections.Generic;
+using UnityEditor;
+using UnityEditor.UIElements;
 
 namespace SuiSuiShou.UIEEx
 {
@@ -18,6 +21,12 @@ namespace SuiSuiShou.UIEEx
                 target.bindingPath = bindingPath;
             }
 
+            return target;
+        }
+
+        public static T SetBindObject<T>(this T target, SerializedObject serializedObj) where T : BindableElement
+        {
+            target.Bind(serializedObj);
             return target;
         }
     }

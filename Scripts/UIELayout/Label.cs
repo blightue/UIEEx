@@ -1,27 +1,23 @@
 ﻿using UnityEngine.UIElements;
-using System;
+using SuiSuiShou.UIEEx;
 
 namespace SuiSuiShou.UIEEx
 {
-    public static partial class UIELayout
+    public static partial class UIELayout 
     {
-        public static Label Label(VisualElement parent = null)
+        public static Label Label (VisualElement parent = null)
         {
-            return Label(null, parent);
+            Label label = new Label();
+            label.SetParent(parent);
+            return label;
         }
-        
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="text"></param>
-        /// <param name="parent"></param>
-        /// <param name="bindingPath">string</param>
-        /// <returns></returns>
-        public static Label Label(string text, VisualElement parent = null)
+
+        public static Label Label (System.String text, VisualElement parent = null)
         {
             Label label = new Label(text);
             label.SetParent(parent);
             return label;
         }
+
     }
 }
