@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Editor
+namespace SuiSuiShou.UIEEx.Editor
 {
     public class UIELayoutCodeGenWindow : EditorWindow
     {
@@ -28,7 +28,7 @@ namespace Editor
             "See the License for the specific language governing permissions and\n" +
             "limitations under the License.\n*/\n\n";
 
-        [MenuItem("Tools/UIEEx/Code Generator")]
+        [MenuItem("Tools/UIEEx/Code Gen/Code Generator")]
         private static void ShowWindow()
         {
             var window = GetWindow<UIELayoutCodeGenWindow>();

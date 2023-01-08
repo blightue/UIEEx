@@ -4,14 +4,14 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor
+namespace SuiSuiShou.UIEEx.Editor
 {
     public class ElementNameFilter : EditorWindow
     {
         private string inputName;
         [SerializeField] private UIETypeNameSO targetNames;
         
-        [MenuItem("Tools/UIEEx/Code Generator/Element Name Filter")]
+        [MenuItem("Tools/UIEEx/Code Gen/Element Name Filter")]
         private static void ShowWindow()
         {
             var window = GetWindow<ElementNameFilter>();
