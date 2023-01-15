@@ -9,9 +9,9 @@ namespace SuiSuiShou.UIEEx.Editor
     public class ElementNameFilter : EditorWindow
     {
         private string inputName;
-        [SerializeField] private UIETypeNameSO targetNames;
+        [SerializeField] private UIEControlsNameSO targetNames;
         
-        [MenuItem("Tools/UIEEx/Code Gen/Element Name Filter")]
+        [MenuItem("Window/UI Toolkit/UIEEx/Code Gen/Element Name Filter")]
         private static void ShowWindow()
         {
             var window = GetWindow<ElementNameFilter>();
@@ -21,8 +21,8 @@ namespace SuiSuiShou.UIEEx.Editor
 
         private void OnGUI()
         {
-            targetNames = (UIETypeNameSO) EditorGUILayout.ObjectField
-                ("Target Names", targetNames, typeof(UIETypeNameSO), false);
+            targetNames = (UIEControlsNameSO) EditorGUILayout.ObjectField
+                ("Target Names", targetNames, typeof(UIEControlsNameSO), false);
             inputName = EditorGUILayout.TextField("Element Name", inputName);
             
             if(GUILayout.Button("Write To Name SO"))
@@ -44,8 +44,8 @@ namespace SuiSuiShou.UIEEx.Editor
 
             FilterNames(inputNames, engineTypes, editorTypes);
             
-            targetNames.EngineElementTypeNames = engineTypes.ToArray();
-            targetNames.EditorElementTypeNames = editorTypes.ToArray();
+            targetNames.EngineControlsNames = engineTypes.ToArray();
+            targetNames.EditorControlsNames = editorTypes.ToArray();
             
             EditorUtility.SetDirty(targetNames);
         }

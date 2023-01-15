@@ -11,7 +11,7 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public class UIELayoutCodeGenWindow : EditorWindow
     {
-        [SerializeField] private UIETypeNameSO elementsNameSO;
+        [SerializeField] private UIEControlsNameSO elementsNameSO;
         [SerializeField] private string UIEExEnginePath;
         [SerializeField] private string UIEExEditorPath;
 
@@ -28,7 +28,7 @@ namespace SuiSuiShou.UIEEx.Editor
             "See the License for the specific language governing permissions and\n" +
             "limitations under the License.\n*/\n\n";
 
-        [MenuItem("Tools/UIEEx/Code Gen/Code Generator")]
+        [MenuItem("Window/UI Toolkit/UIEEx/Code Gen/Code Generator")]
         private static void ShowWindow()
         {
             var window = GetWindow<UIELayoutCodeGenWindow>();
@@ -39,7 +39,8 @@ namespace SuiSuiShou.UIEEx.Editor
         private void OnGUI()
         {
             elementsNameSO =
-                (UIETypeNameSO) EditorGUILayout.ObjectField("Elements", elementsNameSO, typeof(UIETypeNameSO), false);
+                (UIEControlsNameSO) EditorGUILayout.ObjectField
+                    ("Elements", elementsNameSO, typeof(UIEControlsNameSO), false);
 
             EditorGUILayout.BeginHorizontal();
             EditorGUILayout.LabelField("Engine Folder", EditorStyles.boldLabel);
@@ -65,8 +66,8 @@ namespace SuiSuiShou.UIEEx.Editor
 
         private void GenerateScripts()
         {
-            GenerateElement[] engineElements = GetEngineElements(elementsNameSO.EngineElementTypeNames);
-            GenerateElement[] editorElements = GetEditorElements(elementsNameSO.EditorElementTypeNames);
+            ControlElement[] engineElements = elementsNameSO.EngineElements;
+            ControlElement[] editorElements = elementsNameSO.EditorElements;
 
             WriteScriptFile(engineElements, UIEExEnginePath);
             WriteScriptFile(editorElements, UIEExEditorPath);
@@ -76,47 +77,12 @@ namespace SuiSuiShou.UIEEx.Editor
 
         #region Get Types
 
-        private GenerateElement[] GetEngineElements(string[] typeNames)
-        {
-            Assembly engineAssembly = Assembly.Load("UnityEngine.UIElementsModule");
-            GenerateElement[] result = new GenerateElement[typeNames.Length];
-            for (int i = 0; i < typeNames.Length; i++)
-            {
-                result[i] = new GenerateElement
-                (
-                    engineAssembly.GetType(typeNames[i], true, true),
-                    "UIELayout",
-                    "SuiSuiShou.UIEEx",
-                    false
-                );
-            }
-
-            return result;
-        }
-
-        private GenerateElement[] GetEditorElements(string[] typeNames)
-        {
-            Assembly editorAssembly = Assembly.Load("UnityEditor.UIElementsModule");
-            GenerateElement[] result = new GenerateElement[typeNames.Length];
-            for (int i = 0; i < typeNames.Length; i++)
-            {
-                result[i] = new GenerateElement
-                (
-                    editorAssembly.GetType(typeNames[i], true, true),
-                    "EditorUIELayout",
-                    "SuiSuiShou.UIEEx.Editor",
-                    true
-                );
-            }
-
-            return result;
-        }
 
         #endregion
 
         #region Scripts Generate
 
-        private string GenerateScript(GenerateElement element)
+        private string GenerateScript(ControlElement element)
         {
             ConstructorInfo[] constructors = element.Type.GetConstructors();
 
@@ -195,9 +161,9 @@ namespace SuiSuiShou.UIEEx.Editor
 
         #region Write Script Files
 
-        private void WriteScriptFile(GenerateElement[] elements, string folderPath)
+        private void WriteScriptFile(ControlElement[] elements, string folderPath)
         {
-            foreach (GenerateElement element in elements)
+            foreach (ControlElement element in elements)
             {
                 WriteScriptFile
                 (
@@ -259,25 +225,4 @@ namespace SuiSuiShou.UIEEx.Editor
 
         #endregion
     }
-
-    #region Data Struct
-
-    [Serializable]
-    public class GenerateElement
-    {
-        public Type Type;
-        public string ClassName;
-        public string NameSpace;
-        public bool IsEditor;
-
-        public GenerateElement(Type type, string className, string nameSpace, bool isEditor)
-        {
-            Type = type;
-            ClassName = className;
-            NameSpace = nameSpace;
-            IsEditor = isEditor;
-        }
-    }
-
-    #endregion
 }

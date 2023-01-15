@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6cb36b8a4e74b29a0d97065db715cca, type: 3}
-  m_Name: Elements 4 Gen
+  m_Name: UIToolkitControls2021.3
   m_EditorClassIdentifier: 
-  EngineElementTypeNames:
+  EngineControlsNames:
   - UnityEngine.UIElements.Box
   - UnityEngine.UIElements.Button
   - UnityEngine.UIElements.DropdownField
@@ -37,7 +37,7 @@ MonoBehaviour:
   - UnityEngine.UIElements.TextField
   - UnityEngine.UIElements.Toggle
   - UnityEngine.UIElements.TwoPaneSplitView
-  EditorElementTypeNames:
+  EditorControlsNames:
   - UnityEditor.UIElements.BoundsField
   - UnityEditor.UIElements.BoundsIntField
   - UnityEditor.UIElements.ColorField
