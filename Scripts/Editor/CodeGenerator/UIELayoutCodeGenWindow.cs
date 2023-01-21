@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -11,7 +12,8 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public class UIELayoutCodeGenWindow : EditorWindow
     {
-        [SerializeField] private UIEControlsNameSO elementsNameSO;
+        [SerializeField] private UIEControlsNameSO controlsNameSO;
+        [SerializeField] private UIEControlsSummarySO controlsSummarySO;
         [SerializeField] private string UIEExEnginePath;
         [SerializeField] private string UIEExEditorPath;
 
@@ -38,11 +40,13 @@ namespace SuiSuiShou.UIEEx.Editor
 
         private void OnGUI()
         {
-            elementsNameSO =
+            controlsNameSO =
                 (UIEControlsNameSO) EditorGUILayout.ObjectField
-                    ("Elements", elementsNameSO, typeof(UIEControlsNameSO), false);
-
-            EditorGUILayout.BeginHorizontal();
+                    ("Controls Name", controlsNameSO, typeof(UIEControlsNameSO), false);
+            controlsSummarySO =
+                (UIEControlsSummarySO)EditorGUILayout.ObjectField
+                    ("Controls Summary", controlsSummarySO, typeof(UIEControlsSummarySO), false);
+                EditorGUILayout.BeginHorizontal();
             EditorGUILayout.LabelField("Engine Folder", EditorStyles.boldLabel);
             bool isEngineFolder = GUILayout.Button("Select");
             EditorGUILayout.EndHorizontal();
@@ -66,11 +70,11 @@ namespace SuiSuiShou.UIEEx.Editor
 
         private void GenerateScripts()
         {
-            ControlElement[] engineElements = elementsNameSO.EngineElements;
-            ControlElement[] editorElements = elementsNameSO.EditorElements;
+            ControlElement[] engineElements = controlsNameSO.EngineElements;
+            ControlElement[] editorElements = controlsNameSO.EditorElements;
 
-            WriteScriptFile(engineElements, UIEExEnginePath);
-            WriteScriptFile(editorElements, UIEExEditorPath);
+            WriteScriptFile(engineElements, controlsSummarySO.EngineControlsMap, UIEExEnginePath);
+            WriteScriptFile(editorElements, controlsSummarySO.EditorControlsMap, UIEExEditorPath);
 
             AssetDatabase.Refresh();
         }
@@ -82,7 +86,7 @@ namespace SuiSuiShou.UIEEx.Editor
 
         #region Scripts Generate
 
-        private string GenerateScript(ControlElement element)
+        private string GenerateScript(ControlElement element, SummaryContent summaries)
         {
             ConstructorInfo[] constructors = element.Type.GetConstructors();
 
@@ -99,33 +103,51 @@ namespace SuiSuiShou.UIEEx.Editor
                 "{\n" +
                 $"    public static partial class {className} \n" +
                 "    {\n" +
-                GenerateConstructors(constructors, typeName, instanceName) +
+                GenerateConstructors(constructors, summaries, typeName, instanceName) +
                 "    }\n" +
                 "}";
             
             return script;
         }
 
-        private string GenerateConstructors(ConstructorInfo[] infors, string typeName, string instanceName)
+        private string GenerateConstructors(ConstructorInfo[] infors, SummaryContent summaries, string typeName, string instanceName)
         {
             StringBuilder result = new StringBuilder();
-            foreach (ConstructorInfo infor in infors)
+            
+            if(summaries == null) Debug.LogError($"{typeName} is null");
+            if(summaries.CtorSummaries == null) Debug.LogError($"{typeName} ctor is null");
+            
+            List<string> ctorSummaries = summaries.CtorSummaries.ToList();
+
+            if (infors.Length != ctorSummaries.Count)
             {
-                result.Append(GenerateConstructor(infor, typeName, instanceName));
+                if(infors.Length == ctorSummaries.Count + 1)
+                    ctorSummaries.Add(summaries.TypeSummary);
+                else
+                    Debug.LogError
+                    ($"Type {typeName} Elements ctor length [{infors.Length}] != summaries length [{ctorSummaries.Count}]");
+            }
+
+            for (int i = 0; i < infors.Length; i++)
+            {
+                ConstructorInfo infor = infors[i];
+                string summary = ctorSummaries[i];
+                result.Append(GenerateConstructor(infor, summary, typeName, instanceName));
             }
 
             return result.ToString();
         }
 
-        private string GenerateConstructor(ConstructorInfo constructorInfo, string typeName, string instanceName)
+        private string GenerateConstructor(ConstructorInfo constructorInfo, string summary, string typeName, string instanceName)
         {
             return
+                AddSummaryParent(summary) +
                 $"        public static {typeName} {typeName} ({GenerateConstructorParameters(constructorInfo)})\n" +
-                $"        {{\n" +
+                "        {{\n" +
                 $"            {typeName} {instanceName} = new {typeName}({GetConstructorParameters(constructorInfo)});\n" +
                 $"            {instanceName}.SetParent(parent);\n" +
                 $"            return {instanceName};\n" +
-                $"        }}\n\n";
+                "        }}\n\n";
         }
 
         private string GenerateConstructorParameters(ConstructorInfo constructor)
@@ -161,13 +183,19 @@ namespace SuiSuiShou.UIEEx.Editor
 
         #region Write Script Files
 
-        private void WriteScriptFile(ControlElement[] elements, string folderPath)
+        private void WriteScriptFile(ControlElement[] elements, Dictionary<string, SummaryContent> nameSummaryMap, string folderPath)
         {
+            if (elements.Length != nameSummaryMap.Count)
+            {
+                Debug.LogError($"Elements count {elements.Length} != summary count {nameSummaryMap.Count}");
+                return;
+            }
+            
             foreach (ControlElement element in elements)
             {
                 WriteScriptFile
                 (
-                    GenerateScript(element),
+                    GenerateScript(element, nameSummaryMap[element.Type.FullName]),
                     folderPath,
                     element.Type.Name.Split('.')[^1]
                 );
@@ -221,6 +249,12 @@ namespace SuiSuiShou.UIEEx.Editor
 
             sb.Append('>');
             return sb.ToString();
+        }
+
+        private string AddSummaryParent(string summary)
+        {
+            string parent = "\n///<param name=\"parent\">The parent of this element.</param>\n";
+            return summary + parent;
         }
 
         #endregion
