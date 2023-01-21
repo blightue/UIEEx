@@ -23,19 +23,32 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Creates a GroupBox with no label.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static GroupBox GroupBox (VisualElement parent = null)
-        {
+        {{
             GroupBox groupBox = new GroupBox();
             groupBox.SetParent(parent);
             return groupBox;
-        }
+        }}
 
+///<summary>
+///<para>
+///Creates a GroupBox with a title.
+///</para>
+///</summary>
+///<param name="text">The title text.</param>
+///<param name="parent">The parent of this element.</param>
         public static GroupBox GroupBox (System.String text, VisualElement parent = null)
-        {
+        {{
             GroupBox groupBox = new GroupBox(text);
             groupBox.SetParent(parent);
             return groupBox;
-        }
+        }}
 
     }
 }

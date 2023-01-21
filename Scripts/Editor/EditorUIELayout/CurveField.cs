@@ -24,19 +24,32 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of CurveField.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static CurveField CurveField (VisualElement parent = null)
-        {
+        {{
             CurveField curveField = new CurveField();
             curveField.SetParent(parent);
             return curveField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of CurveField.
+///</para>
+///</summary>
+///<param name="label">The text to use as a label.</param>
+///<param name="parent">The parent of this element.</param>
         public static CurveField CurveField (System.String label, VisualElement parent = null)
-        {
+        {{
             CurveField curveField = new CurveField(label);
             curveField.SetParent(parent);
             return curveField;
-        }
+        }}
 
     }
 }

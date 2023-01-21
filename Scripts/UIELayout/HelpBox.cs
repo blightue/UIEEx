@@ -23,19 +23,33 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Creates a new HelpBox.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static HelpBox HelpBox (VisualElement parent = null)
-        {
+        {{
             HelpBox helpBox = new HelpBox();
             helpBox.SetParent(parent);
             return helpBox;
-        }
+        }}
 
+///<summary>
+///<para>
+///Creates a new HelpBox.
+///</para>
+///</summary>
+///<param name="text">The message text.</param>
+///<param name="messageType">The type of message.</param>
+///<param name="parent">The parent of this element.</param>
         public static HelpBox HelpBox (System.String text, UnityEngine.UIElements.HelpBoxMessageType messageType, VisualElement parent = null)
-        {
+        {{
             HelpBox helpBox = new HelpBox(text, messageType);
             helpBox.SetParent(parent);
             return helpBox;
-        }
+        }}
 
     }
 }

@@ -24,12 +24,18 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static ToolbarMenu ToolbarMenu (VisualElement parent = null)
-        {
+        {{
             ToolbarMenu toolbarMenu = new ToolbarMenu();
             toolbarMenu.SetParent(parent);
             return toolbarMenu;
-        }
+        }}
 
     }
 }

@@ -24,19 +24,32 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of BoundsField.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static BoundsField BoundsField (VisualElement parent = null)
-        {
+        {{
             BoundsField boundsField = new BoundsField();
             boundsField.SetParent(parent);
             return boundsField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of BoundsField.
+///</para>
+///</summary>
+///<param name="label">The text to use as a label.</param>
+///<param name="parent">The parent of this element.</param>
         public static BoundsField BoundsField (System.String label, VisualElement parent = null)
-        {
+        {{
             BoundsField boundsField = new BoundsField(label);
             boundsField.SetParent(parent);
             return boundsField;
-        }
+        }}
 
     }
 }

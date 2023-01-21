@@ -23,19 +23,33 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of RadioButtonGroup.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static RadioButtonGroup RadioButtonGroup (VisualElement parent = null)
-        {
+        {{
             RadioButtonGroup radioButtonGroup = new RadioButtonGroup();
             radioButtonGroup.SetParent(parent);
             return radioButtonGroup;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of RadioButtonGroup.
+///</para>
+///</summary>
+///<param name="label">The label for this group</param>
+///<param name="radioButtonChoices">The choices to display in this group</param>
+///<param name="parent">The parent of this element.</param>
         public static RadioButtonGroup RadioButtonGroup (System.String label, System.Collections.Generic.List<System.String> radioButtonChoices, VisualElement parent = null)
-        {
+        {{
             RadioButtonGroup radioButtonGroup = new RadioButtonGroup(label, radioButtonChoices);
             radioButtonGroup.SetParent(parent);
             return radioButtonGroup;
-        }
+        }}
 
     }
 }

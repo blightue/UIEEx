@@ -24,33 +24,60 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///InspectorElement constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static InspectorElement InspectorElement (VisualElement parent = null)
-        {
+        {{
             InspectorElement inspectorElement = new InspectorElement();
             inspectorElement.SetParent(parent);
             return inspectorElement;
-        }
+        }}
 
+///<summary>
+///<para>
+///InspectorElement constructor.
+///</para>
+///</summary>
+///<param name="obj">Create a SerializedObject from given obj and automatically Bind() to it.</param>
+///<param name="parent">The parent of this element.</param>
         public static InspectorElement InspectorElement (UnityEngine.Object obj, VisualElement parent = null)
-        {
+        {{
             InspectorElement inspectorElement = new InspectorElement(obj);
             inspectorElement.SetParent(parent);
             return inspectorElement;
-        }
+        }}
 
+///<summary>
+///<para>
+///InspectorElement constructor.
+///</para>
+///</summary>
+///<param name="obj">Create a SerializedObject from given obj and automatically Bind() to it.</param>
+///<param name="parent">The parent of this element.</param>
         public static InspectorElement InspectorElement (UnityEditor.SerializedObject obj, VisualElement parent = null)
-        {
+        {{
             InspectorElement inspectorElement = new InspectorElement(obj);
             inspectorElement.SetParent(parent);
             return inspectorElement;
-        }
+        }}
 
+///<summary>
+///<para>
+///InspectorElement constructor.
+///</para>
+///</summary>
+///<param name="editor"></param>
+///<param name="parent">The parent of this element.</param>
         public static InspectorElement InspectorElement (UnityEditor.Editor editor, VisualElement parent = null)
-        {
+        {{
             InspectorElement inspectorElement = new InspectorElement(editor);
             inspectorElement.SetParent(parent);
             return inspectorElement;
-        }
+        }}
 
     }
 }

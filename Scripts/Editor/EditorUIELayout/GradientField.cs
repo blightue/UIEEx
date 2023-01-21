@@ -24,19 +24,32 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static GradientField GradientField (VisualElement parent = null)
-        {
+        {{
             GradientField gradientField = new GradientField();
             gradientField.SetParent(parent);
             return gradientField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static GradientField GradientField (System.String label, VisualElement parent = null)
-        {
+        {{
             GradientField gradientField = new GradientField(label);
             gradientField.SetParent(parent);
             return gradientField;
-        }
+        }}
 
     }
 }

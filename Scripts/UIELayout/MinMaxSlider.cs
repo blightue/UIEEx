@@ -23,26 +23,53 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static MinMaxSlider MinMaxSlider (VisualElement parent = null)
-        {
+        {{
             MinMaxSlider minMaxSlider = new MinMaxSlider();
             minMaxSlider.SetParent(parent);
             return minMaxSlider;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="minValue">The minimum value in the range to be represented.</param>
+///<param name="maxValue">The maximum value in the range to be represented.</param>
+///<param name="minLimit">The minimum value of the slider limit.</param>
+///<param name="maxLimit">The maximum value of the slider limit.</param>
+///<param name="parent">The parent of this element.</param>
         public static MinMaxSlider MinMaxSlider (System.Single minValue, System.Single maxValue, System.Single minLimit, System.Single maxLimit, VisualElement parent = null)
-        {
+        {{
             MinMaxSlider minMaxSlider = new MinMaxSlider(minValue, maxValue, minLimit, maxLimit);
             minMaxSlider.SetParent(parent);
             return minMaxSlider;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="minValue">The minimum value in the range to be represented.</param>
+///<param name="maxValue">The maximum value in the range to be represented.</param>
+///<param name="minLimit">The minimum value of the slider limit.</param>
+///<param name="maxLimit">The maximum value of the slider limit.</param>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static MinMaxSlider MinMaxSlider (System.String label, System.Single minValue, System.Single maxValue, System.Single minLimit, System.Single maxLimit, VisualElement parent = null)
-        {
+        {{
             MinMaxSlider minMaxSlider = new MinMaxSlider(label, minValue, maxValue, minLimit, maxLimit);
             minMaxSlider.SetParent(parent);
             return minMaxSlider;
-        }
+        }}
 
     }
 }

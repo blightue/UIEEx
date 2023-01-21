@@ -24,33 +24,69 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of MaskField.
+///</para>
+///</summary>
+///<param name="choices">A list of choices to populate the field.</param>
+///<param name="defaultValue">The initial mask value for this field.</param>
+///<param name="formatSelectedValueCallback">A callback to format the selected value. Unity calls this method automatically when a new value is selected in the field..</param>
+///<param name="formatListItemCallback">The initial mask value this field should use. Unity calls this method automatically when displaying choices for the field.</param>
+///<param name="defaultMask"></param>
+///<param name="parent">The parent of this element.</param>
         public static MaskField MaskField (System.Collections.Generic.List<System.String> choices, System.Int32 defaultMask, System.Func<System.String,System.String> formatSelectedValueCallback, System.Func<System.String,System.String> formatListItemCallback, VisualElement parent = null)
-        {
+        {{
             MaskField maskField = new MaskField(choices, defaultMask, formatSelectedValueCallback, formatListItemCallback);
             maskField.SetParent(parent);
             return maskField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of MaskField.
+///</para>
+///</summary>
+///<param name="label">The text to use as a label for the field.</param>
+///<param name="choices">A list of choices to populate the field.</param>
+///<param name="defaultValue">The initial mask value for this field.</param>
+///<param name="formatSelectedValueCallback">A callback to format the selected value. Unity calls this method automatically when a new value is selected in the field..</param>
+///<param name="formatListItemCallback">The initial mask value this field should use. Unity calls this method automatically when displaying choices for the field.</param>
+///<param name="defaultMask"></param>
+///<param name="parent">The parent of this element.</param>
         public static MaskField MaskField (System.String label, System.Collections.Generic.List<System.String> choices, System.Int32 defaultMask, System.Func<System.String,System.String> formatSelectedValueCallback, System.Func<System.String,System.String> formatListItemCallback, VisualElement parent = null)
-        {
+        {{
             MaskField maskField = new MaskField(label, choices, defaultMask, formatSelectedValueCallback, formatListItemCallback);
             maskField.SetParent(parent);
             return maskField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of MaskField.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static MaskField MaskField (VisualElement parent = null)
-        {
+        {{
             MaskField maskField = new MaskField();
             maskField.SetParent(parent);
             return maskField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of MaskField.
+///</para>
+///</summary>
+///<param name="label">The text to use as a label for the field.</param>
+///<param name="parent">The parent of this element.</param>
         public static MaskField MaskField (System.String label, VisualElement parent = null)
-        {
+        {{
             MaskField maskField = new MaskField(label);
             maskField.SetParent(parent);
             return maskField;
-        }
+        }}
 
     }
 }

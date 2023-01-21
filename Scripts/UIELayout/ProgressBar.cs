@@ -23,12 +23,18 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///A control that displays the progress between a lower and upper bound value.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static ProgressBar ProgressBar (VisualElement parent = null)
-        {
+        {{
             ProgressBar progressBar = new ProgressBar();
             progressBar.SetParent(parent);
             return progressBar;
-        }
+        }}
 
     }
 }

@@ -24,26 +24,47 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///PropertyField constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static PropertyField PropertyField (VisualElement parent = null)
-        {
+        {{
             PropertyField propertyField = new PropertyField();
             propertyField.SetParent(parent);
             return propertyField;
-        }
+        }}
 
+///<summary>
+///<para>
+///PropertyField constructor.
+///</para>
+///</summary>
+///<param name="property">Providing a SerializedProperty in the construct just sets the bindingPath. You will still have to call Bind() on the PropertyField afterwards.</param>
+///<param name="parent">The parent of this element.</param>
         public static PropertyField PropertyField (UnityEditor.SerializedProperty property, VisualElement parent = null)
-        {
+        {{
             PropertyField propertyField = new PropertyField(property);
             propertyField.SetParent(parent);
             return propertyField;
-        }
+        }}
 
+///<summary>
+///<para>
+///PropertyField constructor.
+///</para>
+///</summary>
+///<param name="property">Providing a SerializedProperty in the construct just sets the bindingPath. You will still have to call Bind() on the PropertyField afterwards.</param>
+///<param name="label">Optionally overwrite the property label.</param>
+///<param name="parent">The parent of this element.</param>
         public static PropertyField PropertyField (UnityEditor.SerializedProperty property, System.String label, VisualElement parent = null)
-        {
+        {{
             PropertyField propertyField = new PropertyField(property, label);
             propertyField.SetParent(parent);
             return propertyField;
-        }
+        }}
 
     }
 }

@@ -23,19 +23,34 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Parameterized constructor.
+///</para>
+///</summary>
+///<param name="fixedPaneIndex">0 for setting first child as the fixed pane, 1 for the second child element.</param>
+///<param name="fixedPaneStartDimension">Set an inital width or height for the fixed pane.</param>
+///<param name="orientation">Orientation of the split view.</param>
+///<param name="parent">The parent of this element.</param>
         public static TwoPaneSplitView TwoPaneSplitView (VisualElement parent = null)
-        {
+        {{
             TwoPaneSplitView twoPaneSplitView = new TwoPaneSplitView();
             twoPaneSplitView.SetParent(parent);
             return twoPaneSplitView;
-        }
+        }}
 
+///<summary>
+///<para>
+///A SplitView that contains two resizable panes. One pane is fixed-size while the other pane has flex-grow style set to 1 to take all remaining space. The border between he panes is draggable to resize both panes. Both horizontal and vertical modes are supported. Requires _exactly_ two child elements to operate.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static TwoPaneSplitView TwoPaneSplitView (System.Int32 fixedPaneIndex, System.Single fixedPaneStartDimension, UnityEngine.UIElements.TwoPaneSplitViewOrientation orientation, VisualElement parent = null)
-        {
+        {{
             TwoPaneSplitView twoPaneSplitView = new TwoPaneSplitView(fixedPaneIndex, fixedPaneStartDimension, orientation);
             twoPaneSplitView.SetParent(parent);
             return twoPaneSplitView;
-        }
+        }}
 
     }
 }

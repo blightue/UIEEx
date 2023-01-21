@@ -24,26 +24,47 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static FloatField FloatField (VisualElement parent = null)
-        {
+        {{
             FloatField floatField = new FloatField();
             floatField.SetParent(parent);
             return floatField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="maxLength">Maximum number of characters the field can take.</param>
+///<param name="parent">The parent of this element.</param>
         public static FloatField FloatField (System.Int32 maxLength, VisualElement parent = null)
-        {
+        {{
             FloatField floatField = new FloatField(maxLength);
             floatField.SetParent(parent);
             return floatField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="maxLength">Maximum number of characters the field can take.</param>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static FloatField FloatField (System.String label, System.Int32 maxLength, VisualElement parent = null)
-        {
+        {{
             FloatField floatField = new FloatField(label, maxLength);
             floatField.SetParent(parent);
             return floatField;
-        }
+        }}
 
     }
 }

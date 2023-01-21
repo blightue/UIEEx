@@ -23,19 +23,32 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Creates a RadioButton with no label.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static RadioButton RadioButton (VisualElement parent = null)
-        {
+        {{
             RadioButton radioButton = new RadioButton();
             radioButton.SetParent(parent);
             return radioButton;
-        }
+        }}
 
+///<summary>
+///<para>
+///Creates a RadioButton with a Label and a default manipulator.
+///</para>
+///</summary>
+///<param name="label">The Label text.</param>
+///<param name="parent">The parent of this element.</param>
         public static RadioButton RadioButton (System.String label, VisualElement parent = null)
-        {
+        {{
             RadioButton radioButton = new RadioButton(label);
             radioButton.SetParent(parent);
             return radioButton;
-        }
+        }}
 
     }
 }

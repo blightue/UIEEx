@@ -24,12 +24,18 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static ToolbarPopupSearchField ToolbarPopupSearchField (VisualElement parent = null)
-        {
+        {{
             ToolbarPopupSearchField toolbarPopupSearchField = new ToolbarPopupSearchField();
             toolbarPopupSearchField.SetParent(parent);
             return toolbarPopupSearchField;
-        }
+        }}
 
     }
 }

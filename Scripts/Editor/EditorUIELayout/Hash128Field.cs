@@ -24,26 +24,47 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of Hash128Field.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Hash128Field Hash128Field (VisualElement parent = null)
-        {
+        {{
             Hash128Field hash128Field = new Hash128Field();
             hash128Field.SetParent(parent);
             return hash128Field;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of Hash128Field.
+///</para>
+///</summary>
+///<param name="maxLength">Maximum number of characters for the field.</param>
+///<param name="parent">The parent of this element.</param>
         public static Hash128Field Hash128Field (System.Int32 maxLength, VisualElement parent = null)
-        {
+        {{
             Hash128Field hash128Field = new Hash128Field(maxLength);
             hash128Field.SetParent(parent);
             return hash128Field;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of Hash128Field.
+///</para>
+///</summary>
+///<param name="label">The text to use as a label.</param>
+///<param name="maxLength">Maximum number of characters for the field.</param>
+///<param name="parent">The parent of this element.</param>
         public static Hash128Field Hash128Field (System.String label, System.Int32 maxLength, VisualElement parent = null)
-        {
+        {{
             Hash128Field hash128Field = new Hash128Field(label, maxLength);
             hash128Field.SetParent(parent);
             return hash128Field;
-        }
+        }}
 
     }
 }

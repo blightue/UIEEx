@@ -24,47 +24,92 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+///</para>
+///</summary>
+///<param name="defaultValue">Initial value. This also detects the Enum type.</param>
+///<param name="parent">The parent of this element.</param>
         public static EnumFlagsField EnumFlagsField (System.Enum defaultValue, VisualElement parent = null)
-        {
+        {{
             EnumFlagsField enumFlagsField = new EnumFlagsField(defaultValue);
             enumFlagsField.SetParent(parent);
             return enumFlagsField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+///</para>
+///</summary>
+///<param name="defaultValue">Initial value. This also detects the Enum type.</param>
+///<param name="includeObsoleteValues"></param>
+///<param name="parent">The parent of this element.</param>
         public static EnumFlagsField EnumFlagsField (System.Enum defaultValue, System.Boolean includeObsoleteValues, VisualElement parent = null)
-        {
+        {{
             EnumFlagsField enumFlagsField = new EnumFlagsField(defaultValue, includeObsoleteValues);
             enumFlagsField.SetParent(parent);
             return enumFlagsField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+///</para>
+///</summary>
+///<param name="defaultValue">Initial value. This also detects the Enum type.</param>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static EnumFlagsField EnumFlagsField (System.String label, System.Enum defaultValue, VisualElement parent = null)
-        {
+        {{
             EnumFlagsField enumFlagsField = new EnumFlagsField(label, defaultValue);
             enumFlagsField.SetParent(parent);
             return enumFlagsField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static EnumFlagsField EnumFlagsField (VisualElement parent = null)
-        {
+        {{
             EnumFlagsField enumFlagsField = new EnumFlagsField();
             enumFlagsField.SetParent(parent);
             return enumFlagsField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+///</para>
+///</summary>
+///<param name="defaultValue">Initial value. This also detects the Enum type.</param>
+///<param name="label"></param>
+///<param name="includeObsoleteValues"></param>
+///<param name="parent">The parent of this element.</param>
         public static EnumFlagsField EnumFlagsField (System.String label, System.Enum defaultValue, System.Boolean includeObsoleteValues, VisualElement parent = null)
-        {
+        {{
             EnumFlagsField enumFlagsField = new EnumFlagsField(label, defaultValue, includeObsoleteValues);
             enumFlagsField.SetParent(parent);
             return enumFlagsField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+///</para>
+///</summary>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static EnumFlagsField EnumFlagsField (System.String label, VisualElement parent = null)
-        {
+        {{
             EnumFlagsField enumFlagsField = new EnumFlagsField(label);
             enumFlagsField.SetParent(parent);
             return enumFlagsField;
-        }
+        }}
 
     }
 }

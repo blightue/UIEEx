@@ -23,19 +23,32 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Creates a Toggle with no label.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Toggle Toggle (VisualElement parent = null)
-        {
+        {{
             Toggle toggle = new Toggle();
             toggle.SetParent(parent);
             return toggle;
-        }
+        }}
 
+///<summary>
+///<para>
+///Creates a Toggle with a Label and a default manipulator.
+///</para>
+///</summary>
+///<param name="label">The Label text.</param>
+///<param name="parent">The parent of this element.</param>
         public static Toggle Toggle (System.String label, VisualElement parent = null)
-        {
+        {{
             Toggle toggle = new Toggle(label);
             toggle.SetParent(parent);
             return toggle;
-        }
+        }}
 
     }
 }

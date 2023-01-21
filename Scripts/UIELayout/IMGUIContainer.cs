@@ -23,19 +23,32 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static IMGUIContainer IMGUIContainer (VisualElement parent = null)
-        {
+        {{
             IMGUIContainer iMGUIContainer = new IMGUIContainer();
             iMGUIContainer.SetParent(parent);
             return iMGUIContainer;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="onGUIHandler">The function assigned to &lt;see cref="onGUIHandler" /&gt;.</param>
+///<param name="parent">The parent of this element.</param>
         public static IMGUIContainer IMGUIContainer (System.Action onGUIHandler, VisualElement parent = null)
-        {
+        {{
             IMGUIContainer iMGUIContainer = new IMGUIContainer(onGUIHandler);
             iMGUIContainer.SetParent(parent);
             return iMGUIContainer;
-        }
+        }}
 
     }
 }

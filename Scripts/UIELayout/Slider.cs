@@ -23,26 +23,53 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Slider Slider (VisualElement parent = null)
-        {
+        {{
             Slider slider = new Slider();
             slider.SetParent(parent);
             return slider;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="start"></param>
+///<param name="end"></param>
+///<param name="direction"></param>
+///<param name="pageSize"></param>
+///<param name="parent">The parent of this element.</param>
         public static Slider Slider (System.Single start, System.Single end, UnityEngine.UIElements.SliderDirection direction, System.Single pageSize, VisualElement parent = null)
-        {
+        {{
             Slider slider = new Slider(start, end, direction, pageSize);
             slider.SetParent(parent);
             return slider;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="label"></param>
+///<param name="start"></param>
+///<param name="end"></param>
+///<param name="direction"></param>
+///<param name="pageSize"></param>
+///<param name="parent">The parent of this element.</param>
         public static Slider Slider (System.String label, System.Single start, System.Single end, UnityEngine.UIElements.SliderDirection direction, System.Single pageSize, VisualElement parent = null)
-        {
+        {{
             Slider slider = new Slider(label, start, end, direction, pageSize);
             slider.SetParent(parent);
             return slider;
-        }
+        }}
 
     }
 }

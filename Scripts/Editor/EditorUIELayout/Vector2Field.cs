@@ -24,19 +24,32 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of Vector2Field.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Vector2Field Vector2Field (VisualElement parent = null)
-        {
+        {{
             Vector2Field vector2Field = new Vector2Field();
             vector2Field.SetParent(parent);
             return vector2Field;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of Vector2Field.
+///</para>
+///</summary>
+///<param name="label">The text to use as a label.</param>
+///<param name="parent">The parent of this element.</param>
         public static Vector2Field Vector2Field (System.String label, VisualElement parent = null)
-        {
+        {{
             Vector2Field vector2Field = new Vector2Field(label);
             vector2Field.SetParent(parent);
             return vector2Field;
-        }
+        }}
 
     }
 }

@@ -23,47 +23,102 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Construct a DropdownField.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static DropdownField DropdownField (VisualElement parent = null)
-        {
+        {{
             DropdownField dropdownField = new DropdownField();
             dropdownField.SetParent(parent);
             return dropdownField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Construct a DropdownField.
+///</para>
+///</summary>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static DropdownField DropdownField (System.String label, VisualElement parent = null)
-        {
+        {{
             DropdownField dropdownField = new DropdownField(label);
             dropdownField.SetParent(parent);
             return dropdownField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Construct a DropdownField.
+///</para>
+///</summary>
+///<param name="choices"></param>
+///<param name="defaultValue"></param>
+///<param name="formatSelectedValueCallback"></param>
+///<param name="formatListItemCallback"></param>
+///<param name="parent">The parent of this element.</param>
         public static DropdownField DropdownField (System.Collections.Generic.List<System.String> choices, System.String defaultValue, System.Func<System.String,System.String> formatSelectedValueCallback, System.Func<System.String,System.String> formatListItemCallback, VisualElement parent = null)
-        {
+        {{
             DropdownField dropdownField = new DropdownField(choices, defaultValue, formatSelectedValueCallback, formatListItemCallback);
             dropdownField.SetParent(parent);
             return dropdownField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Construct a DropdownField.
+///</para>
+///</summary>
+///<param name="label"></param>
+///<param name="choices"></param>
+///<param name="defaultValue"></param>
+///<param name="formatSelectedValueCallback"></param>
+///<param name="formatListItemCallback"></param>
+///<param name="parent">The parent of this element.</param>
         public static DropdownField DropdownField (System.String label, System.Collections.Generic.List<System.String> choices, System.String defaultValue, System.Func<System.String,System.String> formatSelectedValueCallback, System.Func<System.String,System.String> formatListItemCallback, VisualElement parent = null)
-        {
+        {{
             DropdownField dropdownField = new DropdownField(label, choices, defaultValue, formatSelectedValueCallback, formatListItemCallback);
             dropdownField.SetParent(parent);
             return dropdownField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Construct a DropdownField.
+///</para>
+///</summary>
+///<param name="choices"></param>
+///<param name="defaultIndex"></param>
+///<param name="formatSelectedValueCallback"></param>
+///<param name="formatListItemCallback"></param>
+///<param name="parent">The parent of this element.</param>
         public static DropdownField DropdownField (System.Collections.Generic.List<System.String> choices, System.Int32 defaultIndex, System.Func<System.String,System.String> formatSelectedValueCallback, System.Func<System.String,System.String> formatListItemCallback, VisualElement parent = null)
-        {
+        {{
             DropdownField dropdownField = new DropdownField(choices, defaultIndex, formatSelectedValueCallback, formatListItemCallback);
             dropdownField.SetParent(parent);
             return dropdownField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Construct a DropdownField.
+///</para>
+///</summary>
+///<param name="label"></param>
+///<param name="choices"></param>
+///<param name="defaultIndex"></param>
+///<param name="formatSelectedValueCallback"></param>
+///<param name="formatListItemCallback"></param>
+///<param name="parent">The parent of this element.</param>
         public static DropdownField DropdownField (System.String label, System.Collections.Generic.List<System.String> choices, System.Int32 defaultIndex, System.Func<System.String,System.String> formatSelectedValueCallback, System.Func<System.String,System.String> formatListItemCallback, VisualElement parent = null)
-        {
+        {{
             DropdownField dropdownField = new DropdownField(label, choices, defaultIndex, formatSelectedValueCallback, formatListItemCallback);
             dropdownField.SetParent(parent);
             return dropdownField;
-        }
+        }}
 
     }
 }

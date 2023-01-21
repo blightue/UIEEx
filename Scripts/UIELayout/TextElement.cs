@@ -23,12 +23,18 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of TextElement.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static TextElement TextElement (VisualElement parent = null)
-        {
+        {{
             TextElement textElement = new TextElement();
             textElement.SetParent(parent);
             return textElement;
-        }
+        }}
 
     }
 }

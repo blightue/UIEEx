@@ -23,19 +23,32 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructs a Button.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Button Button (VisualElement parent = null)
-        {
+        {{
             Button button = new Button();
             button.SetParent(parent);
             return button;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructs a button with an Action that is triggered when the button is clicked.
+///</para>
+///</summary>
+///<param name="clickEvent">The action triggered when the button is clicked.</param>
+///<param name="parent">The parent of this element.</param>
         public static Button Button (System.Action clickEvent, VisualElement parent = null)
-        {
+        {{
             Button button = new Button(clickEvent);
             button.SetParent(parent);
             return button;
-        }
+        }}
 
     }
 }

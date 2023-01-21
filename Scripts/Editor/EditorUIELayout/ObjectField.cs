@@ -24,19 +24,32 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static ObjectField ObjectField (VisualElement parent = null)
-        {
+        {{
             ObjectField objectField = new ObjectField();
             objectField.SetParent(parent);
             return objectField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static ObjectField ObjectField (System.String label, VisualElement parent = null)
-        {
+        {{
             ObjectField objectField = new ObjectField(label);
             objectField.SetParent(parent);
             return objectField;
-        }
+        }}
 
     }
 }

@@ -24,19 +24,32 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of ColorField.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static ColorField ColorField (VisualElement parent = null)
-        {
+        {{
             ColorField colorField = new ColorField();
             colorField.SetParent(parent);
             return colorField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of ColorField.
+///</para>
+///</summary>
+///<param name="label">The text to use as a label.</param>
+///<param name="parent">The parent of this element.</param>
         public static ColorField ColorField (System.String label, VisualElement parent = null)
-        {
+        {{
             ColorField colorField = new ColorField(label);
             colorField.SetParent(parent);
             return colorField;
-        }
+        }}
 
     }
 }

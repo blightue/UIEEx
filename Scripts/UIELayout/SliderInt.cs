@@ -23,26 +23,53 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructors for the SliderInt.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static SliderInt SliderInt (VisualElement parent = null)
-        {
+        {{
             SliderInt sliderInt = new SliderInt();
             sliderInt.SetParent(parent);
             return sliderInt;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructors for the SliderInt.
+///</para>
+///</summary>
+///<param name="start">This is the low value of the slider.</param>
+///<param name="end">This is the high value of the slider.</param>
+///<param name="direction">This is the slider direction, horizontal or vertical.</param>
+///<param name="pageSize">This is the number of values to change when the slider is clicked.</param>
+///<param name="parent">The parent of this element.</param>
         public static SliderInt SliderInt (System.Int32 start, System.Int32 end, UnityEngine.UIElements.SliderDirection direction, System.Single pageSize, VisualElement parent = null)
-        {
+        {{
             SliderInt sliderInt = new SliderInt(start, end, direction, pageSize);
             sliderInt.SetParent(parent);
             return sliderInt;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructors for the SliderInt.
+///</para>
+///</summary>
+///<param name="start">This is the low value of the slider.</param>
+///<param name="end">This is the high value of the slider.</param>
+///<param name="direction">This is the slider direction, horizontal or vertical.</param>
+///<param name="pageSize">This is the number of values to change when the slider is clicked.</param>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static SliderInt SliderInt (System.String label, System.Int32 start, System.Int32 end, UnityEngine.UIElements.SliderDirection direction, System.Single pageSize, VisualElement parent = null)
-        {
+        {{
             SliderInt sliderInt = new SliderInt(label, start, end, direction, pageSize);
             sliderInt.SetParent(parent);
             return sliderInt;
-        }
+        }}
 
     }
 }

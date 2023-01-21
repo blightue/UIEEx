@@ -23,12 +23,18 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructs a Foldout element.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Foldout Foldout (VisualElement parent = null)
-        {
+        {{
             Foldout foldout = new Foldout();
             foldout.SetParent(parent);
             return foldout;
-        }
+        }}
 
     }
 }

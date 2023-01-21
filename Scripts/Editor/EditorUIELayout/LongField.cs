@@ -24,26 +24,47 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static LongField LongField (VisualElement parent = null)
-        {
+        {{
             LongField longField = new LongField();
             longField.SetParent(parent);
             return longField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="maxLength">Maximum number of characters the field can take.</param>
+///<param name="parent">The parent of this element.</param>
         public static LongField LongField (System.Int32 maxLength, VisualElement parent = null)
-        {
+        {{
             LongField longField = new LongField(maxLength);
             longField.SetParent(parent);
             return longField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="maxLength">Maximum number of characters the field can take.</param>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static LongField LongField (System.String label, System.Int32 maxLength, VisualElement parent = null)
-        {
+        {{
             LongField longField = new LongField(label, maxLength);
             longField.SetParent(parent);
             return longField;
-        }
+        }}
 
     }
 }

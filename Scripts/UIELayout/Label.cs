@@ -23,19 +23,32 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructs a label.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Label Label (VisualElement parent = null)
-        {
+        {{
             Label label = new Label();
             label.SetParent(parent);
             return label;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructs a label.
+///</para>
+///</summary>
+///<param name="text">The text to be displayed.</param>
+///<param name="parent">The parent of this element.</param>
         public static Label Label (System.String text, VisualElement parent = null)
-        {
+        {{
             Label label = new Label(text);
             label.SetParent(parent);
             return label;
-        }
+        }}
 
     }
 }

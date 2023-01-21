@@ -23,19 +23,38 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Creates a ListView with all default properties. The ListView.itemSource
+///must all be set for the ListView to function properly.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static ListView ListView (VisualElement parent = null)
-        {
+        {{
             ListView listView = new ListView();
             listView.SetParent(parent);
             return listView;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructs a ListView, with all important properties provided.
+///</para>
+///</summary>
+///<param name="itemsSource">The list of items to use as a data source.</param>
+///<param name="itemHeight">The height of each item, in pixels.</param>
+///<param name="makeItem">The factory method to call to create a display item. The method should return a
+///VisualElement that can be bound to a data item.</param>
+///<param name="bindItem">The method to call to bind a data item to a display item. The method
+///receives as parameters the display item to bind, and the index of the data item to bind it to.</param>
+///<param name="parent">The parent of this element.</param>
         public static ListView ListView (System.Collections.IList itemsSource, System.Single itemHeight, System.Func<UnityEngine.UIElements.VisualElement> makeItem, System.Action<UnityEngine.UIElements.VisualElement,System.Int32> bindItem, VisualElement parent = null)
-        {
+        {{
             ListView listView = new ListView(itemsSource, itemHeight, makeItem, bindItem);
             listView.SetParent(parent);
             return listView;
-        }
+        }}
 
     }
 }

@@ -23,12 +23,18 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of Box.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Box Box (VisualElement parent = null)
-        {
+        {{
             Box box = new Box();
             box.SetParent(parent);
             return box;
-        }
+        }}
 
     }
 }

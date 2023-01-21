@@ -23,19 +23,31 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Scroller Scroller (VisualElement parent = null)
-        {
+        {{
             Scroller scroller = new Scroller();
             scroller.SetParent(parent);
             return scroller;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static Scroller Scroller (System.Single lowValue, System.Single highValue, System.Action<System.Single> valueChanged, UnityEngine.UIElements.SliderDirection direction, VisualElement parent = null)
-        {
+        {{
             Scroller scroller = new Scroller(lowValue, highValue, valueChanged, direction);
             scroller.SetParent(parent);
             return scroller;
-        }
+        }}
 
     }
 }

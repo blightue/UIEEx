@@ -23,33 +23,67 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Creates a new textfield.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static TextField TextField (VisualElement parent = null)
-        {
+        {{
             TextField textField = new TextField();
             textField.SetParent(parent);
             return textField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Creates a new textfield.
+///</para>
+///</summary>
+///<param name="maxLength">The maximum number of characters this textfield can hold. If 0, there is no limit.</param>
+///<param name="multiline">Set this to true to allow multiple lines in the textfield and false if otherwise.</param>
+///<param name="isPasswordField">Set this to true to mask the characters and false if otherwise.</param>
+///<param name="maskChar">The character used for masking in a password field.</param>
+///<param name="parent">The parent of this element.</param>
         public static TextField TextField (System.Int32 maxLength, System.Boolean multiline, System.Boolean isPasswordField, System.Char maskChar, VisualElement parent = null)
-        {
+        {{
             TextField textField = new TextField(maxLength, multiline, isPasswordField, maskChar);
             textField.SetParent(parent);
             return textField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Creates a new textfield.
+///</para>
+///</summary>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static TextField TextField (System.String label, VisualElement parent = null)
-        {
+        {{
             TextField textField = new TextField(label);
             textField.SetParent(parent);
             return textField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Creates a new textfield.
+///</para>
+///</summary>
+///<param name="maxLength">The maximum number of characters this textfield can hold. If 0, there is no limit.</param>
+///<param name="multiline">Set this to true to allow multiple lines in the textfield and false if otherwise.</param>
+///<param name="isPasswordField">Set this to true to mask the characters and false if otherwise.</param>
+///<param name="maskChar">The character used for masking in a password field.</param>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static TextField TextField (System.String label, System.Int32 maxLength, System.Boolean multiline, System.Boolean isPasswordField, System.Char maskChar, VisualElement parent = null)
-        {
+        {{
             TextField textField = new TextField(label, maxLength, multiline, isPasswordField, maskChar);
             textField.SetParent(parent);
             return textField;
-        }
+        }}
 
     }
 }

@@ -23,19 +23,34 @@ namespace SuiSuiShou.UIEEx
 {
     public static partial class UIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static RepeatButton RepeatButton (VisualElement parent = null)
-        {
+        {{
             RepeatButton repeatButton = new RepeatButton();
             repeatButton.SetParent(parent);
             return repeatButton;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="clickEvent">The action to execute when the button is pressed.</param>
+///<param name="delay">The initial delay before the action is executed for the first time.</param>
+///<param name="interval">The interval between each execution of the action.</param>
+///<param name="parent">The parent of this element.</param>
         public static RepeatButton RepeatButton (System.Action clickEvent, System.Int64 delay, System.Int64 interval, VisualElement parent = null)
-        {
+        {{
             RepeatButton repeatButton = new RepeatButton(clickEvent, delay, interval);
             repeatButton.SetParent(parent);
             return repeatButton;
-        }
+        }}
 
     }
 }

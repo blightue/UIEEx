@@ -24,19 +24,32 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Initializes and returns an instance of RectIntField.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static RectIntField RectIntField (VisualElement parent = null)
-        {
+        {{
             RectIntField rectIntField = new RectIntField();
             rectIntField.SetParent(parent);
             return rectIntField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Initializes and returns an instance of RectIntField.
+///</para>
+///</summary>
+///<param name="label">The text to use as a label.</param>
+///<param name="parent">The parent of this element.</param>
         public static RectIntField RectIntField (System.String label, VisualElement parent = null)
-        {
+        {{
             RectIntField rectIntField = new RectIntField(label);
             rectIntField.SetParent(parent);
             return rectIntField;
-        }
+        }}
 
     }
 }

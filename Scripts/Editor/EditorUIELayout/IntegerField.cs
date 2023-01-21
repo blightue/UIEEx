@@ -24,26 +24,47 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static IntegerField IntegerField (VisualElement parent = null)
-        {
+        {{
             IntegerField integerField = new IntegerField();
             integerField.SetParent(parent);
             return integerField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="maxLength">Maximum number of characters the field can take.</param>
+///<param name="parent">The parent of this element.</param>
         public static IntegerField IntegerField (System.Int32 maxLength, VisualElement parent = null)
-        {
+        {{
             IntegerField integerField = new IntegerField(maxLength);
             integerField.SetParent(parent);
             return integerField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="maxLength">Maximum number of characters the field can take.</param>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static IntegerField IntegerField (System.String label, System.Int32 maxLength, VisualElement parent = null)
-        {
+        {{
             IntegerField integerField = new IntegerField(label, maxLength);
             integerField.SetParent(parent);
             return integerField;
-        }
+        }}
 
     }
 }

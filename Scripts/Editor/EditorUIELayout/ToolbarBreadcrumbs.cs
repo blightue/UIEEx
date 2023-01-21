@@ -24,12 +24,18 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructs a breadcrumb UI element for the toolbar to help users navigate a hierarchy.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static ToolbarBreadcrumbs ToolbarBreadcrumbs (VisualElement parent = null)
-        {
+        {{
             ToolbarBreadcrumbs toolbarBreadcrumbs = new ToolbarBreadcrumbs();
             toolbarBreadcrumbs.SetParent(parent);
             return toolbarBreadcrumbs;
-        }
+        }}
 
     }
 }

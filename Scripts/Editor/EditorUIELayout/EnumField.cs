@@ -24,26 +24,47 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Construct an EnumField.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static EnumField EnumField (VisualElement parent = null)
-        {
+        {{
             EnumField enumField = new EnumField();
             enumField.SetParent(parent);
             return enumField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Construct an EnumField.
+///</para>
+///</summary>
+///<param name="defaultValue">Initial value. Also used to detect Enum type.</param>
+///<param name="parent">The parent of this element.</param>
         public static EnumField EnumField (System.Enum defaultValue, VisualElement parent = null)
-        {
+        {{
             EnumField enumField = new EnumField(defaultValue);
             enumField.SetParent(parent);
             return enumField;
-        }
+        }}
 
+///<summary>
+///<para>
+///Construct an EnumField.
+///</para>
+///</summary>
+///<param name="defaultValue">Initial value. Also used to detect Enum type.</param>
+///<param name="label"></param>
+///<param name="parent">The parent of this element.</param>
         public static EnumField EnumField (System.String label, System.Enum defaultValue, VisualElement parent = null)
-        {
+        {{
             EnumField enumField = new EnumField(label, defaultValue);
             enumField.SetParent(parent);
             return enumField;
-        }
+        }}
 
     }
 }

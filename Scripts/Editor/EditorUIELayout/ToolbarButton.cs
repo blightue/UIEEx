@@ -24,19 +24,32 @@ namespace SuiSuiShou.UIEEx.Editor
 {
     public static partial class EditorUIELayout 
     {
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="clickEvent">The action to be called when the button is pressed.</param>
+///<param name="parent">The parent of this element.</param>
         public static ToolbarButton ToolbarButton (System.Action clickEvent, VisualElement parent = null)
-        {
+        {{
             ToolbarButton toolbarButton = new ToolbarButton(clickEvent);
             toolbarButton.SetParent(parent);
             return toolbarButton;
-        }
+        }}
 
+///<summary>
+///<para>
+///Constructor.
+///</para>
+///</summary>
+///<param name="parent">The parent of this element.</param>
         public static ToolbarButton ToolbarButton (VisualElement parent = null)
-        {
+        {{
             ToolbarButton toolbarButton = new ToolbarButton();
             toolbarButton.SetParent(parent);
             return toolbarButton;
-        }
+        }}
 
     }
 }
