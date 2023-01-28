@@ -29,5 +29,11 @@ namespace SuiSuiShou.UIEEx
             target.Bind(serializedObj);
             return target;
         }
+        
+        public static T SetText<T>(this T target, string text) where T : TextElement
+        {
+            target.text = text;
+            return target;
+        }
     }
 }
