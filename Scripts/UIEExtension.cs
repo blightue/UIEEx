@@ -35,5 +35,11 @@ namespace SuiSuiShou.UIEEx
             target.text = text;
             return target;
         }
+        
+        public static BaseField<T> SetLabel<T>(this BaseField<T> target, string label)
+        {
+            target.label = label;
+            return target;
+        }
     }
 }
