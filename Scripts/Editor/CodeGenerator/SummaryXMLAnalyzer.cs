@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using System.Xml;
 
-namespace SuiSuiShou.UIEEx.Editor
+namespace SuiSuiShou.UIEEx.CodeGenerator
 {
     public class SummaryXMLAnalyzer : EditorWindow
     {

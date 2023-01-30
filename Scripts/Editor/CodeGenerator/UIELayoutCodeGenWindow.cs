@@ -8,7 +8,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace SuiSuiShou.UIEEx.Editor
+namespace SuiSuiShou.UIEEx.CodeGenerator
 {
     public class UIELayoutCodeGenWindow : EditorWindow
     {

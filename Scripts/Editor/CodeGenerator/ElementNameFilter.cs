@@ -4,7 +4,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace SuiSuiShou.UIEEx.Editor
+namespace SuiSuiShou.UIEEx.CodeGenerator
 {
     public class ElementNameFilter : EditorWindow
     {

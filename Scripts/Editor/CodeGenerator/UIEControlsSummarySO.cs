@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace SuiSuiShou.UIEEx.Editor
+namespace SuiSuiShou.UIEEx.CodeGenerator
 {
     [CreateAssetMenu(menuName = "UI Toolkit/UIEEx/Code Gen/Controls Summary")]
     public class UIEControlsSummarySO : ScriptableObject
