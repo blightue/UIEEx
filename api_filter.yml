@@ -1,0 +1,4 @@
+apiRules:
+- exclude:
+    uidRegex: ^SuiSuiShou\.UIEEx\.CodeGenerator
+    type: Namespace
