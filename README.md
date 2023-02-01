@@ -43,14 +43,14 @@ UIEEx(UIElement Extension) is an extension library of Unity UI Elements package.
 * EditorWindow Sample
 
     ```c#
-    public class UIEExSamplw : EditorWindow
+    public class UIEExSample : EditorWindow
     {
         [SerializeField] private int clickedCount = 0;
     
         [MenuItem("Tools/UIEEx Sample")]
         private static void ShowWindow()
         {
-            var window = GetWindow<UIEExSamplw>();
+            var window = GetWindow<UIEExSample>();
             window.Show();
         }
     
