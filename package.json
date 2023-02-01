@@ -1,5 +1,5 @@
 {
-  "name": "com.suisuishou.uielementextension",
+  "name": "net.suisuishou.uielementextension",
   "displayName": "UI Elements Extention",
   "version": "0.1.1",
   "unity": "2020.3",
@@ -10,7 +10,7 @@
   "author": {
     "name": "SuiSuiShou",
     "email": "bligtue@gmail.com",
-    "url": "https://github.com/blightue"
+    "url": "http://suisuishou.net"
   },
   "type": "tool",
   "hideInEditor": false
