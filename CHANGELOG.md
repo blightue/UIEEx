@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.2] - 2023-02-06
+
+### Fixed
+- Fixed UIEExtension contain editor script issue.
+
 ## [0.1.1] - 2023-01-31
 
 ### Updated

@@ -1,8 +1,6 @@
 ﻿using System;
 using UnityEngine.UIElements;
 using System.Collections.Generic;
-using UnityEditor;
-using UnityEditor.UIElements;
 
 namespace SuiSuiShou.UIEEx
 {
@@ -36,18 +34,7 @@ namespace SuiSuiShou.UIEEx
             return target;
         }
 
-        /// <summary>
-        /// Set the bind object of the target element
-        /// </summary>
-        /// <param name="target"></param>
-        /// <param name="serializedObj"></param>
-        /// <typeparam name="T"></typeparam>
-        /// <returns></returns>
-        public static T SetBindObject<T>(this T target, SerializedObject serializedObj) where T : BindableElement
-        {
-            target.Bind(serializedObj);
-            return target;
-        }
+
         
         /// <summary>
         /// Set the text of the target element
