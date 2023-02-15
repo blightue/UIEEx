@@ -4,6 +4,8 @@
 
 UIEEx(UIElement Extension) is an extension library of Unity UI Elements package. UIEEx improve the workflow of creating editor &amp; runtime UI with UI Elements.
 
+[Full Documentation](Doc URL)
+
 ## Getting Started
 
 ### Installation instructions
@@ -25,20 +27,33 @@ UIEEx(UIElement Extension) is an extension library of Unity UI Elements package.
 
 ### Quick Start
 
-#### Create visual elements
+#### Elements Factory
 
-* Elements Factory
+ * use `UIELayout.[ElementName]([Element Constructor Parameters], [Parent Element(Optional Arguments)])` to create visual elements.
 
-  From:
-  ```csharp
-  Label label = new Label("Content");
-  label.SetParent(rootVisualElement);
-  ```
+ * Sample:
+    ```csharp
+    // Label Element Constructor:
+    // Label label = new Label("Content");
+    Label label = UIELayout.Label("Content", rootVisualElement);
+    ```
   
-  To:
-  ```csharp
-  Label label = UIELayout.Label("Content", rootVisualElement);
-  ```
+ * use `EditorUIELayout` for elements which in `UnityEditor.UIElements`
+
+#### Method chaining
+
+ * UIEEx provide method chaining for elements, you can use `Set[Property]` to set element property.
+  
+ * Check all supported properties in [ElementExtension](Doc URL) api documentation.
+
+ * Sample:
+    ```csharp
+    Button button = UIELayout.Button(rootVisualElement)
+      .SetBindingPath("m_ButtonName")
+      .SetBindObject(serializedObject);
+    ```
+
+#### Samples
 
 * EditorWindow Sample
 
