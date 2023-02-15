@@ -29,7 +29,7 @@ UIEEx(UIElement Extension) is an extension library of Unity UI Elements package.
 
 #### Elements Factory
 
- * use `UIELayout.[ElementName]([Element Constructor Parameters], [Parent Element(Optional Arguments)])` to create visual elements.
+ * use `UIELayout.[ElementName]([Element Constructor Parameters], [Parent Element(Optional Arguments)])` to create visual elements. If parent parameter is specified, the element will be added to its parent element automatically.
 
  * Sample:
     ```csharp
@@ -38,7 +38,8 @@ UIEEx(UIElement Extension) is an extension library of Unity UI Elements package.
     Label label = UIELayout.Label("Content", rootVisualElement);
     ```
   
- * use `EditorUIELayout` for elements which in `UnityEditor.UIElements`
+ * class `UIELayout` for elements which in `UnityEngine.UIElements`
+ * class `EditorUIELayout` for elements which in `UnityEditor.UIElements`
 
 #### Method chaining
 
