@@ -7,7 +7,7 @@ namespace SuiSuiShou.UIEEx
     /// <summary>
     /// UI Elements extension methods
     /// </summary>
-    public static class UIEExtension
+    public static partial class UIEExtension
     {
         /// <summary>
         /// Set the parent of the target element

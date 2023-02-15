@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 
 namespace SuiSuiShou.UIEEx.Editor
 {
-    public static class EditorUIEExtension
+    public static partial class UIEExtension
     {
         /// <summary>
         /// Set the bind object of the target element
