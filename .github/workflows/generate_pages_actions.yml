@@ -4,7 +4,7 @@ on:
   push:
     branches: [ docfx ]
 jobs:
-  add_docfx:
+  Publish_GH-Pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
