@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuiSuiShou.UIEEx.Editor
+  commentId: N:SuiSuiShou.UIEEx.Editor
+  id: SuiSuiShou.UIEEx.Editor
+  children:
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  - SuiSuiShou.UIEEx.Editor.UIEExtension
+  langs:
+  - csharp
+  - vb
+  name: SuiSuiShou.UIEEx.Editor
+  nameWithType: SuiSuiShou.UIEEx.Editor
+  fullName: SuiSuiShou.UIEEx.Editor
+  type: Namespace
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+references:
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  commentId: T:SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  name: EditorUIELayout
+  nameWithType: EditorUIELayout
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+- uid: SuiSuiShou.UIEEx.Editor.UIEExtension
+  commentId: T:SuiSuiShou.UIEEx.Editor.UIEExtension
+  name: UIEExtension
+  nameWithType: UIEExtension
+  fullName: SuiSuiShou.UIEEx.Editor.UIEExtension

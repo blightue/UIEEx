@@ -1,0 +1,4083 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  commentId: T:SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  id: EditorUIELayout
+  parent: SuiSuiShou.UIEEx.Editor
+  children:
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.Enum,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.Editor,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.SerializedObject,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.Object,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty,System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(System.String,System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(System.Action,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(UnityEngine.UIElements.VisualElement)
+  langs:
+  - csharp
+  - vb
+  name: EditorUIELayout
+  nameWithType: EditorUIELayout
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  type: Class
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/GradientField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EditorUIELayout
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/GradientField.cs
+    startLine: 24
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  syntax:
+    content: public static class EditorUIELayout
+    content.vb: Public Module EditorUIELayout
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(UnityEngine.UIElements.VisualElement)
+  id: RectField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: RectField(VisualElement)
+  nameWithType: EditorUIELayout.RectField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/RectField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RectField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/RectField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of RectField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RectField RectField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.RectField
+    content.vb: Public Shared Function RectField(parent As VisualElement = Nothing) As RectField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(System.String,UnityEngine.UIElements.VisualElement)
+  id: RectField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: RectField(string, VisualElement)
+  nameWithType: EditorUIELayout.RectField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/RectField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RectField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/RectField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of RectField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RectField RectField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.RectField
+    content.vb: Public Shared Function RectField(label As String, parent As VisualElement = Nothing) As RectField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField*
+  nameWithType.vb: EditorUIELayout.RectField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: RectField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.Int32,UnityEngine.UIElements.VisualElement)
+  id: LayerMaskField(System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LayerMaskField(int, VisualElement)
+  nameWithType: EditorUIELayout.LayerMaskField(int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LayerMaskField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LayerMaskField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LayerMaskField.cs
+    startLine: 33
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor of the field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LayerMaskField LayerMaskField(int defaultMask, VisualElement parent = null)
+    parameters:
+    - id: defaultMask
+      type: System.Int32
+      description: The mask to use for a first selection.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LayerMaskField
+    content.vb: Public Shared Function LayerMaskField(defaultMask As Integer, parent As VisualElement = Nothing) As LayerMaskField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*
+  nameWithType.vb: EditorUIELayout.LayerMaskField(Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: LayerMaskField(Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  id: LayerMaskField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LayerMaskField(string, int, VisualElement)
+  nameWithType: EditorUIELayout.LayerMaskField(string, int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(string, int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LayerMaskField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LayerMaskField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LayerMaskField.cs
+    startLine: 48
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor of the field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LayerMaskField LayerMaskField(string label, int defaultMask, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The label to prefix the &lt;see cref=&quot;LayerMaskField&quot; />.
+    - id: defaultMask
+      type: System.Int32
+      description: The mask to use for a first selection.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LayerMaskField
+    content.vb: Public Shared Function LayerMaskField(label As String, defaultMask As Integer, parent As VisualElement = Nothing) As LayerMaskField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*
+  nameWithType.vb: EditorUIELayout.LayerMaskField(String, Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(String, Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: LayerMaskField(String, Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(UnityEngine.UIElements.VisualElement)
+  id: LayerMaskField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LayerMaskField(VisualElement)
+  nameWithType: EditorUIELayout.LayerMaskField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LayerMaskField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LayerMaskField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LayerMaskField.cs
+    startLine: 61
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor of the field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LayerMaskField LayerMaskField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LayerMaskField
+    content.vb: Public Shared Function LayerMaskField(parent As VisualElement = Nothing) As LayerMaskField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.String,UnityEngine.UIElements.VisualElement)
+  id: LayerMaskField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LayerMaskField(string, VisualElement)
+  nameWithType: EditorUIELayout.LayerMaskField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LayerMaskField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LayerMaskField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LayerMaskField.cs
+    startLine: 75
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor of the field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LayerMaskField LayerMaskField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The label to prefix the &lt;see cref=&quot;LayerMaskField&quot; />.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LayerMaskField
+    content.vb: Public Shared Function LayerMaskField(label As String, parent As VisualElement = Nothing) As LayerMaskField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*
+  nameWithType.vb: EditorUIELayout.LayerMaskField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: LayerMaskField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(UnityEngine.UIElements.VisualElement)
+  id: TagField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: TagField(VisualElement)
+  nameWithType: EditorUIELayout.TagField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/TagField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TagField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/TagField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of CurveField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TagField TagField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.TagField
+    content.vb: Public Shared Function TagField(parent As VisualElement = Nothing) As TagField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(System.String,System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(System.String,System.String,UnityEngine.UIElements.VisualElement)
+  id: TagField(System.String,System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: TagField(string, string, VisualElement)
+  nameWithType: EditorUIELayout.TagField(string, string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(string, string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/TagField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TagField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/TagField.cs
+    startLine: 47
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of CurveField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TagField TagField(string label, string defaultValue, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label for the field.
+    - id: defaultValue
+      type: System.String
+      description: The initial tag value this field should use.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.TagField
+    content.vb: Public Shared Function TagField(label As String, defaultValue As String, parent As VisualElement = Nothing) As TagField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField*
+  nameWithType.vb: EditorUIELayout.TagField(String, String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(String, String, UnityEngine.UIElements.VisualElement)
+  name.vb: TagField(String, String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(UnityEngine.UIElements.VisualElement)
+  id: Vector2Field(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector2Field(VisualElement)
+  nameWithType: EditorUIELayout.Vector2Field(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector2Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector2Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector2Field.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector2Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector2Field Vector2Field(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector2Field
+    content.vb: Public Shared Function Vector2Field(parent As VisualElement = Nothing) As Vector2Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(System.String,UnityEngine.UIElements.VisualElement)
+  id: Vector2Field(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector2Field(string, VisualElement)
+  nameWithType: EditorUIELayout.Vector2Field(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector2Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector2Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector2Field.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector2Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector2Field Vector2Field(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector2Field
+    content.vb: Public Shared Function Vector2Field(label As String, parent As VisualElement = Nothing) As Vector2Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field*
+  nameWithType.vb: EditorUIELayout.Vector2Field(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(String, UnityEngine.UIElements.VisualElement)
+  name.vb: Vector2Field(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(UnityEngine.UIElements.VisualElement)
+  id: ObjectField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ObjectField(VisualElement)
+  nameWithType: EditorUIELayout.ObjectField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ObjectField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ObjectField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ObjectField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ObjectField ObjectField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ObjectField
+    content.vb: Public Shared Function ObjectField(parent As VisualElement = Nothing) As ObjectField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(System.String,UnityEngine.UIElements.VisualElement)
+  id: ObjectField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ObjectField(string, VisualElement)
+  nameWithType: EditorUIELayout.ObjectField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ObjectField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ObjectField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ObjectField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ObjectField ObjectField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ObjectField
+    content.vb: Public Shared Function ObjectField(label As String, parent As VisualElement = Nothing) As ObjectField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField*
+  nameWithType.vb: EditorUIELayout.ObjectField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: ObjectField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(UnityEngine.UIElements.VisualElement)
+  id: Hash128Field(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Hash128Field(VisualElement)
+  nameWithType: EditorUIELayout.Hash128Field(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Hash128Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Hash128Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Hash128Field.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Hash128Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Hash128Field Hash128Field(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Hash128Field
+    content.vb: Public Shared Function Hash128Field(parent As VisualElement = Nothing) As Hash128Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(System.Int32,UnityEngine.UIElements.VisualElement)
+  id: Hash128Field(System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Hash128Field(int, VisualElement)
+  nameWithType: EditorUIELayout.Hash128Field(int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Hash128Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Hash128Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Hash128Field.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Hash128Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Hash128Field Hash128Field(int maxLength, VisualElement parent = null)
+    parameters:
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters for the field.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Hash128Field
+    content.vb: Public Shared Function Hash128Field(maxLength As Integer, parent As VisualElement = Nothing) As Hash128Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field*
+  nameWithType.vb: EditorUIELayout.Hash128Field(Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: Hash128Field(Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  id: Hash128Field(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Hash128Field(string, int, VisualElement)
+  nameWithType: EditorUIELayout.Hash128Field(string, int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(string, int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Hash128Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Hash128Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Hash128Field.cs
+    startLine: 61
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Hash128Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Hash128Field Hash128Field(string label, int maxLength, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters for the field.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Hash128Field
+    content.vb: Public Shared Function Hash128Field(label As String, maxLength As Integer, parent As VisualElement = Nothing) As Hash128Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field*
+  nameWithType.vb: EditorUIELayout.Hash128Field(String, Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(String, Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: Hash128Field(String, Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(UnityEngine.UIElements.VisualElement)
+  id: Vector4Field(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector4Field(VisualElement)
+  nameWithType: EditorUIELayout.Vector4Field(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector4Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector4Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector4Field.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector4Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector4Field Vector4Field(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector4Field
+    content.vb: Public Shared Function Vector4Field(parent As VisualElement = Nothing) As Vector4Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(System.String,UnityEngine.UIElements.VisualElement)
+  id: Vector4Field(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector4Field(string, VisualElement)
+  nameWithType: EditorUIELayout.Vector4Field(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector4Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector4Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector4Field.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector4Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector4Field Vector4Field(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector4Field
+    content.vb: Public Shared Function Vector4Field(label As String, parent As VisualElement = Nothing) As Vector4Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field*
+  nameWithType.vb: EditorUIELayout.Vector4Field(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(String, UnityEngine.UIElements.VisualElement)
+  name.vb: Vector4Field(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(UnityEngine.UIElements.VisualElement)
+  id: FloatField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: FloatField(VisualElement)
+  nameWithType: EditorUIELayout.FloatField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/FloatField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: FloatField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/FloatField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static FloatField FloatField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.FloatField
+    content.vb: Public Shared Function FloatField(parent As VisualElement = Nothing) As FloatField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(System.Int32,UnityEngine.UIElements.VisualElement)
+  id: FloatField(System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: FloatField(int, VisualElement)
+  nameWithType: EditorUIELayout.FloatField(int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/FloatField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: FloatField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/FloatField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static FloatField FloatField(int maxLength, VisualElement parent = null)
+    parameters:
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters the field can take.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.FloatField
+    content.vb: Public Shared Function FloatField(maxLength As Integer, parent As VisualElement = Nothing) As FloatField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField*
+  nameWithType.vb: EditorUIELayout.FloatField(Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: FloatField(Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  id: FloatField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: FloatField(string, int, VisualElement)
+  nameWithType: EditorUIELayout.FloatField(string, int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(string, int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/FloatField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: FloatField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/FloatField.cs
+    startLine: 61
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static FloatField FloatField(string label, int maxLength, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters the field can take.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.FloatField
+    content.vb: Public Shared Function FloatField(label As String, maxLength As Integer, parent As VisualElement = Nothing) As FloatField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField*
+  nameWithType.vb: EditorUIELayout.FloatField(String, Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(String, Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: FloatField(String, Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(UnityEngine.UIElements.VisualElement)
+  id: CurveField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: CurveField(VisualElement)
+  nameWithType: EditorUIELayout.CurveField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/CurveField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: CurveField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/CurveField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of CurveField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static CurveField CurveField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.CurveField
+    content.vb: Public Shared Function CurveField(parent As VisualElement = Nothing) As CurveField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(System.String,UnityEngine.UIElements.VisualElement)
+  id: CurveField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: CurveField(string, VisualElement)
+  nameWithType: EditorUIELayout.CurveField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/CurveField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: CurveField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/CurveField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of CurveField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static CurveField CurveField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.CurveField
+    content.vb: Public Shared Function CurveField(label As String, parent As VisualElement = Nothing) As CurveField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField*
+  nameWithType.vb: EditorUIELayout.CurveField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: CurveField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle(UnityEngine.UIElements.VisualElement)
+  id: ToolbarToggle(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ToolbarToggle(VisualElement)
+  nameWithType: EditorUIELayout.ToolbarToggle(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ToolbarToggle.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ToolbarToggle
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ToolbarToggle.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ToolbarToggle ToolbarToggle(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ToolbarToggle
+    content.vb: Public Shared Function ToolbarToggle(parent As VisualElement = Nothing) As ToolbarToggle
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(UnityEngine.UIElements.VisualElement)
+  id: IntegerField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: IntegerField(VisualElement)
+  nameWithType: EditorUIELayout.IntegerField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/IntegerField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: IntegerField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/IntegerField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static IntegerField IntegerField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.IntegerField
+    content.vb: Public Shared Function IntegerField(parent As VisualElement = Nothing) As IntegerField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(System.Int32,UnityEngine.UIElements.VisualElement)
+  id: IntegerField(System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: IntegerField(int, VisualElement)
+  nameWithType: EditorUIELayout.IntegerField(int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/IntegerField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: IntegerField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/IntegerField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static IntegerField IntegerField(int maxLength, VisualElement parent = null)
+    parameters:
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters the field can take.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.IntegerField
+    content.vb: Public Shared Function IntegerField(maxLength As Integer, parent As VisualElement = Nothing) As IntegerField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField*
+  nameWithType.vb: EditorUIELayout.IntegerField(Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: IntegerField(Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  id: IntegerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: IntegerField(string, int, VisualElement)
+  nameWithType: EditorUIELayout.IntegerField(string, int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(string, int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/IntegerField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: IntegerField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/IntegerField.cs
+    startLine: 61
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static IntegerField IntegerField(string label, int maxLength, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters the field can take.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.IntegerField
+    content.vb: Public Shared Function IntegerField(label As String, maxLength As Integer, parent As VisualElement = Nothing) As IntegerField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField*
+  nameWithType.vb: EditorUIELayout.IntegerField(String, Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(String, Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: IntegerField(String, Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(System.Action,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(System.Action,UnityEngine.UIElements.VisualElement)
+  id: ToolbarButton(System.Action,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ToolbarButton(Action, VisualElement)
+  nameWithType: EditorUIELayout.ToolbarButton(Action, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(System.Action, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ToolbarButton.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ToolbarButton
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ToolbarButton.cs
+    startLine: 33
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ToolbarButton ToolbarButton(Action clickEvent, VisualElement parent = null)
+    parameters:
+    - id: clickEvent
+      type: System.Action
+      description: The action to be called when the button is pressed.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ToolbarButton
+    content.vb: Public Shared Function ToolbarButton(clickEvent As Action, parent As VisualElement = Nothing) As ToolbarButton
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(UnityEngine.UIElements.VisualElement)
+  id: ToolbarButton(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ToolbarButton(VisualElement)
+  nameWithType: EditorUIELayout.ToolbarButton(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ToolbarButton.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ToolbarButton
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ToolbarButton.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ToolbarButton ToolbarButton(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ToolbarButton
+    content.vb: Public Shared Function ToolbarButton(parent As VisualElement = Nothing) As ToolbarButton
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(UnityEngine.UIElements.VisualElement)
+  id: RectIntField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: RectIntField(VisualElement)
+  nameWithType: EditorUIELayout.RectIntField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/RectIntField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RectIntField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/RectIntField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of RectIntField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RectIntField RectIntField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.RectIntField
+    content.vb: Public Shared Function RectIntField(parent As VisualElement = Nothing) As RectIntField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(System.String,UnityEngine.UIElements.VisualElement)
+  id: RectIntField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: RectIntField(string, VisualElement)
+  nameWithType: EditorUIELayout.RectIntField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/RectIntField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RectIntField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/RectIntField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of RectIntField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RectIntField RectIntField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.RectIntField
+    content.vb: Public Shared Function RectIntField(label As String, parent As VisualElement = Nothing) As RectIntField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField*
+  nameWithType.vb: EditorUIELayout.RectIntField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: RectIntField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField(UnityEngine.UIElements.VisualElement)
+  id: ToolbarSearchField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ToolbarSearchField(VisualElement)
+  nameWithType: EditorUIELayout.ToolbarSearchField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ToolbarSearchField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ToolbarSearchField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ToolbarSearchField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ToolbarSearchField ToolbarSearchField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ToolbarSearchField
+    content.vb: Public Shared Function ToolbarSearchField(parent As VisualElement = Nothing) As ToolbarSearchField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(UnityEngine.UIElements.VisualElement)
+  id: ColorField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ColorField(VisualElement)
+  nameWithType: EditorUIELayout.ColorField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ColorField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ColorField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ColorField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of ColorField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ColorField ColorField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ColorField
+    content.vb: Public Shared Function ColorField(parent As VisualElement = Nothing) As ColorField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(System.String,UnityEngine.UIElements.VisualElement)
+  id: ColorField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ColorField(string, VisualElement)
+  nameWithType: EditorUIELayout.ColorField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ColorField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ColorField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ColorField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of ColorField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ColorField ColorField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ColorField
+    content.vb: Public Shared Function ColorField(label As String, parent As VisualElement = Nothing) As ColorField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField*
+  nameWithType.vb: EditorUIELayout.ColorField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: ColorField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar(UnityEngine.UIElements.VisualElement)
+  id: Toolbar(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Toolbar(VisualElement)
+  nameWithType: EditorUIELayout.Toolbar(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Toolbar.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Toolbar
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Toolbar.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Toolbar Toolbar(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Toolbar
+    content.vb: Public Shared Function Toolbar(parent As VisualElement = Nothing) As Toolbar
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(UnityEngine.UIElements.VisualElement)
+  id: Vector3Field(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector3Field(VisualElement)
+  nameWithType: EditorUIELayout.Vector3Field(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector3Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector3Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector3Field.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector3Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector3Field Vector3Field(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector3Field
+    content.vb: Public Shared Function Vector3Field(parent As VisualElement = Nothing) As Vector3Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(System.String,UnityEngine.UIElements.VisualElement)
+  id: Vector3Field(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector3Field(string, VisualElement)
+  nameWithType: EditorUIELayout.Vector3Field(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector3Field.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector3Field
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector3Field.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector3Field.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector3Field Vector3Field(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector3Field
+    content.vb: Public Shared Function Vector3Field(label As String, parent As VisualElement = Nothing) As Vector3Field
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field*
+  nameWithType.vb: EditorUIELayout.Vector3Field(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(String, UnityEngine.UIElements.VisualElement)
+  name.vb: Vector3Field(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(UnityEngine.UIElements.VisualElement)
+  id: DoubleField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: DoubleField(VisualElement)
+  nameWithType: EditorUIELayout.DoubleField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/DoubleField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DoubleField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/DoubleField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DoubleField DoubleField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.DoubleField
+    content.vb: Public Shared Function DoubleField(parent As VisualElement = Nothing) As DoubleField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(System.Int32,UnityEngine.UIElements.VisualElement)
+  id: DoubleField(System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: DoubleField(int, VisualElement)
+  nameWithType: EditorUIELayout.DoubleField(int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/DoubleField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DoubleField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/DoubleField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DoubleField DoubleField(int maxLength, VisualElement parent = null)
+    parameters:
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters the field can take.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.DoubleField
+    content.vb: Public Shared Function DoubleField(maxLength As Integer, parent As VisualElement = Nothing) As DoubleField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField*
+  nameWithType.vb: EditorUIELayout.DoubleField(Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: DoubleField(Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  id: DoubleField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: DoubleField(string, int, VisualElement)
+  nameWithType: EditorUIELayout.DoubleField(string, int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(string, int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/DoubleField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DoubleField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/DoubleField.cs
+    startLine: 61
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DoubleField DoubleField(string label, int maxLength, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters the field can take.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.DoubleField
+    content.vb: Public Shared Function DoubleField(label As String, maxLength As Integer, parent As VisualElement = Nothing) As DoubleField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField*
+  nameWithType.vb: EditorUIELayout.DoubleField(String, Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(String, Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: DoubleField(String, Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu(UnityEngine.UIElements.VisualElement)
+  id: ToolbarMenu(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ToolbarMenu(VisualElement)
+  nameWithType: EditorUIELayout.ToolbarMenu(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ToolbarMenu.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ToolbarMenu
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ToolbarMenu.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ToolbarMenu ToolbarMenu(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ToolbarMenu
+    content.vb: Public Shared Function ToolbarMenu(parent As VisualElement = Nothing) As ToolbarMenu
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(UnityEngine.UIElements.VisualElement)
+  id: Vector3IntField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector3IntField(VisualElement)
+  nameWithType: EditorUIELayout.Vector3IntField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector3IntField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector3IntField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector3IntField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector3IntField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector3IntField Vector3IntField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector3IntField
+    content.vb: Public Shared Function Vector3IntField(parent As VisualElement = Nothing) As Vector3IntField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(System.String,UnityEngine.UIElements.VisualElement)
+  id: Vector3IntField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector3IntField(string, VisualElement)
+  nameWithType: EditorUIELayout.Vector3IntField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector3IntField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector3IntField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector3IntField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector3IntField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector3IntField Vector3IntField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector3IntField
+    content.vb: Public Shared Function Vector3IntField(label As String, parent As VisualElement = Nothing) As Vector3IntField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField*
+  nameWithType.vb: EditorUIELayout.Vector3IntField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: Vector3IntField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(UnityEngine.UIElements.VisualElement)
+  id: LongField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LongField(VisualElement)
+  nameWithType: EditorUIELayout.LongField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LongField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LongField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LongField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LongField LongField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LongField
+    content.vb: Public Shared Function LongField(parent As VisualElement = Nothing) As LongField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(System.Int32,UnityEngine.UIElements.VisualElement)
+  id: LongField(System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LongField(int, VisualElement)
+  nameWithType: EditorUIELayout.LongField(int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LongField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LongField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LongField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LongField LongField(int maxLength, VisualElement parent = null)
+    parameters:
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters the field can take.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LongField
+    content.vb: Public Shared Function LongField(maxLength As Integer, parent As VisualElement = Nothing) As LongField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField*
+  nameWithType.vb: EditorUIELayout.LongField(Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: LongField(Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  id: LongField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LongField(string, int, VisualElement)
+  nameWithType: EditorUIELayout.LongField(string, int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(string, int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LongField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LongField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LongField.cs
+    startLine: 61
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LongField LongField(string label, int maxLength, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: maxLength
+      type: System.Int32
+      description: Maximum number of characters the field can take.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LongField
+    content.vb: Public Shared Function LongField(label As String, maxLength As Integer, parent As VisualElement = Nothing) As LongField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField*
+  nameWithType.vb: EditorUIELayout.LongField(String, Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(String, Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: LongField(String, Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(UnityEngine.UIElements.VisualElement)
+  id: Vector2IntField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector2IntField(VisualElement)
+  nameWithType: EditorUIELayout.Vector2IntField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector2IntField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector2IntField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector2IntField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector2IntField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector2IntField Vector2IntField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector2IntField
+    content.vb: Public Shared Function Vector2IntField(parent As VisualElement = Nothing) As Vector2IntField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(System.String,UnityEngine.UIElements.VisualElement)
+  id: Vector2IntField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: Vector2IntField(string, VisualElement)
+  nameWithType: EditorUIELayout.Vector2IntField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/Vector2IntField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Vector2IntField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/Vector2IntField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of Vector2IntField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Vector2IntField Vector2IntField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.Vector2IntField
+    content.vb: Public Shared Function Vector2IntField(label As String, parent As VisualElement = Nothing) As Vector2IntField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField*
+  nameWithType.vb: EditorUIELayout.Vector2IntField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: Vector2IntField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer(UnityEngine.UIElements.VisualElement)
+  id: ToolbarSpacer(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ToolbarSpacer(VisualElement)
+  nameWithType: EditorUIELayout.ToolbarSpacer(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ToolbarSpacer.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ToolbarSpacer
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ToolbarSpacer.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ToolbarSpacer ToolbarSpacer(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ToolbarSpacer
+    content.vb: Public Shared Function ToolbarSpacer(parent As VisualElement = Nothing) As ToolbarSpacer
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(UnityEngine.UIElements.VisualElement)
+  id: BoundsIntField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: BoundsIntField(VisualElement)
+  nameWithType: EditorUIELayout.BoundsIntField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/BoundsIntField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: BoundsIntField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/BoundsIntField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of BoundsIntField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static BoundsIntField BoundsIntField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.BoundsIntField
+    content.vb: Public Shared Function BoundsIntField(parent As VisualElement = Nothing) As BoundsIntField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(System.String,UnityEngine.UIElements.VisualElement)
+  id: BoundsIntField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: BoundsIntField(string, VisualElement)
+  nameWithType: EditorUIELayout.BoundsIntField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/BoundsIntField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: BoundsIntField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/BoundsIntField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of BoundsIntField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static BoundsIntField BoundsIntField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.BoundsIntField
+    content.vb: Public Shared Function BoundsIntField(label As String, parent As VisualElement = Nothing) As BoundsIntField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField*
+  nameWithType.vb: EditorUIELayout.BoundsIntField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: BoundsIntField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(UnityEngine.UIElements.VisualElement)
+  id: EnumField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumField(VisualElement)
+  nameWithType: EditorUIELayout.EnumField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstruct an EnumField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumField EnumField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumField
+    content.vb: Public Shared Function EnumField(parent As VisualElement = Nothing) As EnumField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.Enum,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.Enum,UnityEngine.UIElements.VisualElement)
+  id: EnumField(System.Enum,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumField(Enum, VisualElement)
+  nameWithType: EditorUIELayout.EnumField(Enum, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.Enum, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstruct an EnumField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumField EnumField(Enum defaultValue, VisualElement parent = null)
+    parameters:
+    - id: defaultValue
+      type: System.Enum
+      description: Initial value. Also used to detect Enum type.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumField
+    content.vb: Public Shared Function EnumField(defaultValue As [Enum], parent As VisualElement = Nothing) As EnumField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)
+  id: EnumField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumField(string, Enum, VisualElement)
+  nameWithType: EditorUIELayout.EnumField(string, Enum, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(string, System.Enum, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumField.cs
+    startLine: 61
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstruct an EnumField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumField EnumField(string label, Enum defaultValue, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: defaultValue
+      type: System.Enum
+      description: Initial value. Also used to detect Enum type.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumField
+    content.vb: Public Shared Function EnumField(label As String, defaultValue As [Enum], parent As VisualElement = Nothing) As EnumField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField*
+  nameWithType.vb: EditorUIELayout.EnumField(String, Enum, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(String, System.Enum, UnityEngine.UIElements.VisualElement)
+  name.vb: EnumField(String, Enum, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs(UnityEngine.UIElements.VisualElement)
+  id: ToolbarBreadcrumbs(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ToolbarBreadcrumbs(VisualElement)
+  nameWithType: EditorUIELayout.ToolbarBreadcrumbs(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ToolbarBreadcrumbs.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ToolbarBreadcrumbs
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ToolbarBreadcrumbs.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructs a breadcrumb UI element for the toolbar to help users navigate a hierarchy.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ToolbarBreadcrumbs ToolbarBreadcrumbs(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ToolbarBreadcrumbs
+    content.vb: Public Shared Function ToolbarBreadcrumbs(parent As VisualElement = Nothing) As ToolbarBreadcrumbs
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.String,UnityEngine.UIElements.VisualElement)
+  id: LayerField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LayerField(string, VisualElement)
+  nameWithType: EditorUIELayout.LayerField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LayerField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LayerField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LayerField.cs
+    startLine: 33
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of LayerField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LayerField LayerField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label for the field.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LayerField
+    content.vb: Public Shared Function LayerField(label As String, parent As VisualElement = Nothing) As LayerField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*
+  nameWithType.vb: EditorUIELayout.LayerField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: LayerField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(UnityEngine.UIElements.VisualElement)
+  id: LayerField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LayerField(VisualElement)
+  nameWithType: EditorUIELayout.LayerField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LayerField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LayerField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LayerField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of LayerField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LayerField LayerField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LayerField
+    content.vb: Public Shared Function LayerField(parent As VisualElement = Nothing) As LayerField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.Int32,UnityEngine.UIElements.VisualElement)
+  id: LayerField(System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LayerField(int, VisualElement)
+  nameWithType: EditorUIELayout.LayerField(int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LayerField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LayerField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LayerField.cs
+    startLine: 60
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of LayerField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LayerField LayerField(int defaultValue, VisualElement parent = null)
+    parameters:
+    - id: defaultValue
+      type: System.Int32
+      description: The initial layer value this field should use.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LayerField
+    content.vb: Public Shared Function LayerField(defaultValue As Integer, parent As VisualElement = Nothing) As LayerField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*
+  nameWithType.vb: EditorUIELayout.LayerField(Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: LayerField(Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  id: LayerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: LayerField(string, int, VisualElement)
+  nameWithType: EditorUIELayout.LayerField(string, int, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(string, int, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/LayerField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: LayerField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/LayerField.cs
+    startLine: 75
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of LayerField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static LayerField LayerField(string label, int defaultValue, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label for the field.
+    - id: defaultValue
+      type: System.Int32
+      description: The initial layer value this field should use.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.LayerField
+    content.vb: Public Shared Function LayerField(label As String, defaultValue As Integer, parent As VisualElement = Nothing) As LayerField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*
+  nameWithType.vb: EditorUIELayout.LayerField(String, Integer, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(String, Integer, UnityEngine.UIElements.VisualElement)
+  name.vb: LayerField(String, Integer, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum,UnityEngine.UIElements.VisualElement)
+  id: EnumFlagsField(System.Enum,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumFlagsField(Enum, VisualElement)
+  nameWithType: EditorUIELayout.EnumFlagsField(Enum, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumFlagsField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+    startLine: 33
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructs an EnumFlagsField with a default value, and initializes its underlying type.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumFlagsField EnumFlagsField(Enum defaultValue, VisualElement parent = null)
+    parameters:
+    - id: defaultValue
+      type: System.Enum
+      description: Initial value. This also detects the Enum type.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumFlagsField
+    content.vb: Public Shared Function EnumFlagsField(defaultValue As [Enum], parent As VisualElement = Nothing) As EnumFlagsField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)
+  id: EnumFlagsField(System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumFlagsField(Enum, bool, VisualElement)
+  nameWithType: EditorUIELayout.EnumFlagsField(Enum, bool, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum, bool, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumFlagsField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+    startLine: 48
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructs an EnumFlagsField with a default value, and initializes its underlying type.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumFlagsField EnumFlagsField(Enum defaultValue, bool includeObsoleteValues, VisualElement parent = null)
+    parameters:
+    - id: defaultValue
+      type: System.Enum
+      description: Initial value. This also detects the Enum type.
+    - id: includeObsoleteValues
+      type: System.Boolean
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumFlagsField
+    content.vb: Public Shared Function EnumFlagsField(defaultValue As [Enum], includeObsoleteValues As Boolean, parent As VisualElement = Nothing) As EnumFlagsField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*
+  nameWithType.vb: EditorUIELayout.EnumFlagsField(Enum, Boolean, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum, Boolean, UnityEngine.UIElements.VisualElement)
+  name.vb: EnumFlagsField(Enum, Boolean, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)
+  id: EnumFlagsField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumFlagsField(string, Enum, VisualElement)
+  nameWithType: EditorUIELayout.EnumFlagsField(string, Enum, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(string, System.Enum, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumFlagsField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+    startLine: 63
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructs an EnumFlagsField with a default value, and initializes its underlying type.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumFlagsField EnumFlagsField(string label, Enum defaultValue, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: defaultValue
+      type: System.Enum
+      description: Initial value. This also detects the Enum type.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumFlagsField
+    content.vb: Public Shared Function EnumFlagsField(label As String, defaultValue As [Enum], parent As VisualElement = Nothing) As EnumFlagsField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*
+  nameWithType.vb: EditorUIELayout.EnumFlagsField(String, Enum, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(String, System.Enum, UnityEngine.UIElements.VisualElement)
+  name.vb: EnumFlagsField(String, Enum, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(UnityEngine.UIElements.VisualElement)
+  id: EnumFlagsField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumFlagsField(VisualElement)
+  nameWithType: EditorUIELayout.EnumFlagsField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumFlagsField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+    startLine: 76
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructs an EnumFlagsField with a default value, and initializes its underlying type.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumFlagsField EnumFlagsField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumFlagsField
+    content.vb: Public Shared Function EnumFlagsField(parent As VisualElement = Nothing) As EnumFlagsField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)
+  id: EnumFlagsField(System.String,System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumFlagsField(string, Enum, bool, VisualElement)
+  nameWithType: EditorUIELayout.EnumFlagsField(string, Enum, bool, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(string, System.Enum, bool, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumFlagsField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+    startLine: 92
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructs an EnumFlagsField with a default value, and initializes its underlying type.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumFlagsField EnumFlagsField(string label, Enum defaultValue, bool includeObsoleteValues, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: defaultValue
+      type: System.Enum
+      description: Initial value. This also detects the Enum type.
+    - id: includeObsoleteValues
+      type: System.Boolean
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumFlagsField
+    content.vb: Public Shared Function EnumFlagsField(label As String, defaultValue As [Enum], includeObsoleteValues As Boolean, parent As VisualElement = Nothing) As EnumFlagsField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*
+  nameWithType.vb: EditorUIELayout.EnumFlagsField(String, Enum, Boolean, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(String, System.Enum, Boolean, UnityEngine.UIElements.VisualElement)
+  name.vb: EnumFlagsField(String, Enum, Boolean, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,UnityEngine.UIElements.VisualElement)
+  id: EnumFlagsField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: EnumFlagsField(string, VisualElement)
+  nameWithType: EditorUIELayout.EnumFlagsField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: EnumFlagsField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/EnumFlagsField.cs
+    startLine: 106
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructs an EnumFlagsField with a default value, and initializes its underlying type.\n</p>\n"
+  example: []
+  syntax:
+    content: public static EnumFlagsField EnumFlagsField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.EnumFlagsField
+    content.vb: Public Shared Function EnumFlagsField(label As String, parent As VisualElement = Nothing) As EnumFlagsField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*
+  nameWithType.vb: EditorUIELayout.EnumFlagsField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: EnumFlagsField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(UnityEngine.UIElements.VisualElement)
+  id: BoundsField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: BoundsField(VisualElement)
+  nameWithType: EditorUIELayout.BoundsField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/BoundsField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: BoundsField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/BoundsField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of BoundsField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static BoundsField BoundsField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.BoundsField
+    content.vb: Public Shared Function BoundsField(parent As VisualElement = Nothing) As BoundsField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(System.String,UnityEngine.UIElements.VisualElement)
+  id: BoundsField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: BoundsField(string, VisualElement)
+  nameWithType: EditorUIELayout.BoundsField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/BoundsField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: BoundsField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/BoundsField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of BoundsField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static BoundsField BoundsField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.BoundsField
+    content.vb: Public Shared Function BoundsField(label As String, parent As VisualElement = Nothing) As BoundsField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField*
+  nameWithType.vb: EditorUIELayout.BoundsField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: BoundsField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField(UnityEngine.UIElements.VisualElement)
+  id: ToolbarPopupSearchField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: ToolbarPopupSearchField(VisualElement)
+  nameWithType: EditorUIELayout.ToolbarPopupSearchField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/ToolbarPopupSearchField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ToolbarPopupSearchField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/ToolbarPopupSearchField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ToolbarPopupSearchField ToolbarPopupSearchField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.ToolbarPopupSearchField
+    content.vb: Public Shared Function ToolbarPopupSearchField(parent As VisualElement = Nothing) As ToolbarPopupSearchField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.UIElements.VisualElement)
+  id: InspectorElement(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: InspectorElement(VisualElement)
+  nameWithType: EditorUIELayout.InspectorElement(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/InspectorElement.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: InspectorElement
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/InspectorElement.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInspectorElement constructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static InspectorElement InspectorElement(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.InspectorElement
+    content.vb: Public Shared Function InspectorElement(parent As VisualElement = Nothing) As InspectorElement
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.Object,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.Object,UnityEngine.UIElements.VisualElement)
+  id: InspectorElement(UnityEngine.Object,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: InspectorElement(Object, VisualElement)
+  nameWithType: EditorUIELayout.InspectorElement(Object, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.Object, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/InspectorElement.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: InspectorElement
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/InspectorElement.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInspectorElement constructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static InspectorElement InspectorElement(Object obj, VisualElement parent = null)
+    parameters:
+    - id: obj
+      type: UnityEngine.Object
+      description: Create a SerializedObject from given obj and automatically Bind() to it.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.InspectorElement
+    content.vb: Public Shared Function InspectorElement(obj As [Object], parent As VisualElement = Nothing) As InspectorElement
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.SerializedObject,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.SerializedObject,UnityEngine.UIElements.VisualElement)
+  id: InspectorElement(UnityEditor.SerializedObject,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: InspectorElement(SerializedObject, VisualElement)
+  nameWithType: EditorUIELayout.InspectorElement(SerializedObject, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.SerializedObject, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/InspectorElement.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: InspectorElement
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/InspectorElement.cs
+    startLine: 60
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInspectorElement constructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static InspectorElement InspectorElement(SerializedObject obj, VisualElement parent = null)
+    parameters:
+    - id: obj
+      type: UnityEditor.SerializedObject
+      description: Create a SerializedObject from given obj and automatically Bind() to it.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.InspectorElement
+    content.vb: Public Shared Function InspectorElement(obj As SerializedObject, parent As VisualElement = Nothing) As InspectorElement
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.Editor,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.Editor,UnityEngine.UIElements.VisualElement)
+  id: InspectorElement(UnityEditor.Editor,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: InspectorElement(Editor, VisualElement)
+  nameWithType: EditorUIELayout.InspectorElement(Editor, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.Editor, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/InspectorElement.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: InspectorElement
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/InspectorElement.cs
+    startLine: 74
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInspectorElement constructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static InspectorElement InspectorElement(Editor editor, VisualElement parent = null)
+    parameters:
+    - id: editor
+      type: UnityEditor.Editor
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.InspectorElement
+    content.vb: Public Shared Function InspectorElement(editor As Editor, parent As VisualElement = Nothing) As InspectorElement
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  id: MaskField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: MaskField(List<string>, int, Func<string, string>, Func<string, string>, VisualElement)
+  nameWithType: EditorUIELayout.MaskField(List<string>, int, Func<string, string>, Func<string, string>, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.Collections.Generic.List<string>, int, System.Func<string, string>, System.Func<string, string>, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/MaskField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: MaskField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/MaskField.cs
+    startLine: 37
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of MaskField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static MaskField MaskField(List<string> choices, int defaultMask, Func<string, string> formatSelectedValueCallback, Func<string, string> formatListItemCallback, VisualElement parent = null)
+    parameters:
+    - id: choices
+      type: System.Collections.Generic.List{System.String}
+      description: A list of choices to populate the field.
+    - id: defaultMask
+      type: System.Int32
+      description: ''
+    - id: formatSelectedValueCallback
+      type: System.Func{System.String,System.String}
+      description: A callback to format the selected value. Unity calls this method automatically when a new value is selected in the field..
+    - id: formatListItemCallback
+      type: System.Func{System.String,System.String}
+      description: The initial mask value this field should use. Unity calls this method automatically when displaying choices for the field.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.MaskField
+    content.vb: Public Shared Function MaskField(choices As List(Of String), defaultMask As Integer, formatSelectedValueCallback As Func(Of String, String), formatListItemCallback As Func(Of String, String), parent As VisualElement = Nothing) As MaskField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*
+  nameWithType.vb: EditorUIELayout.MaskField(List(Of String), Integer, Func(Of String, String), Func(Of String, String), VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.Collections.Generic.List(Of String), Integer, System.Func(Of String, String), System.Func(Of String, String), UnityEngine.UIElements.VisualElement)
+  name.vb: MaskField(List(Of String), Integer, Func(Of String, String), Func(Of String, String), VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  id: MaskField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: MaskField(string, List<string>, int, Func<string, string>, Func<string, string>, VisualElement)
+  nameWithType: EditorUIELayout.MaskField(string, List<string>, int, Func<string, string>, Func<string, string>, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(string, System.Collections.Generic.List<string>, int, System.Func<string, string>, System.Func<string, string>, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/MaskField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: MaskField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/MaskField.cs
+    startLine: 56
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of MaskField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static MaskField MaskField(string label, List<string> choices, int defaultMask, Func<string, string> formatSelectedValueCallback, Func<string, string> formatListItemCallback, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label for the field.
+    - id: choices
+      type: System.Collections.Generic.List{System.String}
+      description: A list of choices to populate the field.
+    - id: defaultMask
+      type: System.Int32
+      description: ''
+    - id: formatSelectedValueCallback
+      type: System.Func{System.String,System.String}
+      description: A callback to format the selected value. Unity calls this method automatically when a new value is selected in the field..
+    - id: formatListItemCallback
+      type: System.Func{System.String,System.String}
+      description: The initial mask value this field should use. Unity calls this method automatically when displaying choices for the field.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.MaskField
+    content.vb: Public Shared Function MaskField(label As String, choices As List(Of String), defaultMask As Integer, formatSelectedValueCallback As Func(Of String, String), formatListItemCallback As Func(Of String, String), parent As VisualElement = Nothing) As MaskField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*
+  nameWithType.vb: EditorUIELayout.MaskField(String, List(Of String), Integer, Func(Of String, String), Func(Of String, String), VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(String, System.Collections.Generic.List(Of String), Integer, System.Func(Of String, String), System.Func(Of String, String), UnityEngine.UIElements.VisualElement)
+  name.vb: MaskField(String, List(Of String), Integer, Func(Of String, String), Func(Of String, String), VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(UnityEngine.UIElements.VisualElement)
+  id: MaskField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: MaskField(VisualElement)
+  nameWithType: EditorUIELayout.MaskField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/MaskField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: MaskField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/MaskField.cs
+    startLine: 69
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of MaskField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static MaskField MaskField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.MaskField
+    content.vb: Public Shared Function MaskField(parent As VisualElement = Nothing) As MaskField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.String,UnityEngine.UIElements.VisualElement)
+  id: MaskField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: MaskField(string, VisualElement)
+  nameWithType: EditorUIELayout.MaskField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/MaskField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: MaskField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/MaskField.cs
+    startLine: 83
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nInitializes and returns an instance of MaskField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static MaskField MaskField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The text to use as a label for the field.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.MaskField
+    content.vb: Public Shared Function MaskField(label As String, parent As VisualElement = Nothing) As MaskField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*
+  nameWithType.vb: EditorUIELayout.MaskField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: MaskField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEngine.UIElements.VisualElement)
+  id: PropertyField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: PropertyField(VisualElement)
+  nameWithType: EditorUIELayout.PropertyField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/PropertyField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: PropertyField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/PropertyField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nPropertyField constructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static PropertyField PropertyField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.PropertyField
+    content.vb: Public Shared Function PropertyField(parent As VisualElement = Nothing) As PropertyField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.UIElements.VisualElement)
+  id: PropertyField(UnityEditor.SerializedProperty,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: PropertyField(SerializedProperty, VisualElement)
+  nameWithType: EditorUIELayout.PropertyField(SerializedProperty, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/PropertyField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: PropertyField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/PropertyField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nPropertyField constructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static PropertyField PropertyField(SerializedProperty property, VisualElement parent = null)
+    parameters:
+    - id: property
+      type: UnityEditor.SerializedProperty
+      description: Providing a SerializedProperty in the construct just sets the bindingPath. You will still have to call Bind() on the PropertyField afterwards.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.PropertyField
+    content.vb: Public Shared Function PropertyField([property] As SerializedProperty, parent As VisualElement = Nothing) As PropertyField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty,System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty,System.String,UnityEngine.UIElements.VisualElement)
+  id: PropertyField(UnityEditor.SerializedProperty,System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: PropertyField(SerializedProperty, string, VisualElement)
+  nameWithType: EditorUIELayout.PropertyField(SerializedProperty, string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty, string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/PropertyField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: PropertyField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/PropertyField.cs
+    startLine: 61
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nPropertyField constructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static PropertyField PropertyField(SerializedProperty property, string label, VisualElement parent = null)
+    parameters:
+    - id: property
+      type: UnityEditor.SerializedProperty
+      description: Providing a SerializedProperty in the construct just sets the bindingPath. You will still have to call Bind() on the PropertyField afterwards.
+    - id: label
+      type: System.String
+      description: Optionally overwrite the property label.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.PropertyField
+    content.vb: Public Shared Function PropertyField([property] As SerializedProperty, label As String, parent As VisualElement = Nothing) As PropertyField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField*
+  nameWithType.vb: EditorUIELayout.PropertyField(SerializedProperty, String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty, String, UnityEngine.UIElements.VisualElement)
+  name.vb: PropertyField(SerializedProperty, String, VisualElement)
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(UnityEngine.UIElements.VisualElement)
+  id: GradientField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: GradientField(VisualElement)
+  nameWithType: EditorUIELayout.GradientField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/GradientField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: GradientField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/GradientField.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static GradientField GradientField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.GradientField
+    content.vb: Public Shared Function GradientField(parent As VisualElement = Nothing) As GradientField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField*
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(System.String,UnityEngine.UIElements.VisualElement)
+  id: GradientField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  langs:
+  - csharp
+  - vb
+  name: GradientField(string, VisualElement)
+  nameWithType: EditorUIELayout.GradientField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/Editor/EditorUIELayout/GradientField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: GradientField
+    path: ../UIEEx/Scripts/Editor/EditorUIELayout/GradientField.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Editor
+  namespace: SuiSuiShou.UIEEx.Editor
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static GradientField GradientField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEditor.UIElements.GradientField
+    content.vb: Public Shared Function GradientField(label As String, parent As VisualElement = Nothing) As GradientField
+  overload: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField*
+  nameWithType.vb: EditorUIELayout.GradientField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: GradientField(String, VisualElement)
+references:
+- uid: SuiSuiShou.UIEEx.Editor
+  commentId: N:SuiSuiShou.UIEEx.Editor
+  name: SuiSuiShou.UIEEx.Editor
+  nameWithType: SuiSuiShou.UIEEx.Editor
+  fullName: SuiSuiShou.UIEEx.Editor
+  spec.csharp:
+  - uid: SuiSuiShou
+    name: SuiSuiShou
+  - name: .
+  - uid: SuiSuiShou.UIEEx
+    name: UIEEx
+  - name: .
+  - uid: SuiSuiShou.UIEEx.Editor
+    name: Editor
+  spec.vb:
+  - uid: SuiSuiShou
+    name: SuiSuiShou
+  - name: .
+  - uid: SuiSuiShou.UIEEx
+    name: UIEEx
+  - name: .
+  - uid: SuiSuiShou.UIEEx.Editor
+    name: Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField
+  name: RectField
+  nameWithType: EditorUIELayout.RectField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEditor.UIElements.RectField
+  commentId: T:UnityEditor.UIElements.RectField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: RectField
+  nameWithType: RectField
+  fullName: UnityEditor.UIElements.RectField
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEditor.UIElements
+  commentId: N:UnityEditor.UIElements
+  isExternal: true
+  name: UnityEditor.UIElements
+  nameWithType: UnityEditor.UIElements
+  fullName: UnityEditor.UIElements
+  spec.csharp:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEditor
+    name: UnityEditor
+    isExternal: true
+  - name: .
+  - uid: UnityEditor.UIElements
+    name: UIElements
+    isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField
+  name: LayerMaskField
+  nameWithType: EditorUIELayout.LayerMaskField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UnityEditor.UIElements.LayerMaskField
+  commentId: T:UnityEditor.UIElements.LayerMaskField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: LayerMaskField
+  nameWithType: LayerMaskField
+  fullName: UnityEditor.UIElements.LayerMaskField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField
+  name: TagField
+  nameWithType: EditorUIELayout.TagField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField
+- uid: UnityEditor.UIElements.TagField
+  commentId: T:UnityEditor.UIElements.TagField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: TagField
+  nameWithType: TagField
+  fullName: UnityEditor.UIElements.TagField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field
+  name: Vector2Field
+  nameWithType: EditorUIELayout.Vector2Field
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field
+- uid: UnityEditor.UIElements.Vector2Field
+  commentId: T:UnityEditor.UIElements.Vector2Field
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: Vector2Field
+  nameWithType: Vector2Field
+  fullName: UnityEditor.UIElements.Vector2Field
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField
+  name: ObjectField
+  nameWithType: EditorUIELayout.ObjectField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField
+- uid: UnityEditor.UIElements.ObjectField
+  commentId: T:UnityEditor.UIElements.ObjectField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ObjectField
+  nameWithType: ObjectField
+  fullName: UnityEditor.UIElements.ObjectField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field
+  name: Hash128Field
+  nameWithType: EditorUIELayout.Hash128Field
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field
+- uid: UnityEditor.UIElements.Hash128Field
+  commentId: T:UnityEditor.UIElements.Hash128Field
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: Hash128Field
+  nameWithType: Hash128Field
+  fullName: UnityEditor.UIElements.Hash128Field
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field
+  name: Vector4Field
+  nameWithType: EditorUIELayout.Vector4Field
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field
+- uid: UnityEditor.UIElements.Vector4Field
+  commentId: T:UnityEditor.UIElements.Vector4Field
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: Vector4Field
+  nameWithType: Vector4Field
+  fullName: UnityEditor.UIElements.Vector4Field
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField
+  name: FloatField
+  nameWithType: EditorUIELayout.FloatField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField
+- uid: UnityEditor.UIElements.FloatField
+  commentId: T:UnityEditor.UIElements.FloatField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: FloatField
+  nameWithType: FloatField
+  fullName: UnityEditor.UIElements.FloatField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField
+  name: CurveField
+  nameWithType: EditorUIELayout.CurveField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField
+- uid: UnityEditor.UIElements.CurveField
+  commentId: T:UnityEditor.UIElements.CurveField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: CurveField
+  nameWithType: CurveField
+  fullName: UnityEditor.UIElements.CurveField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle
+  name: ToolbarToggle
+  nameWithType: EditorUIELayout.ToolbarToggle
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle
+- uid: UnityEditor.UIElements.ToolbarToggle
+  commentId: T:UnityEditor.UIElements.ToolbarToggle
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ToolbarToggle
+  nameWithType: ToolbarToggle
+  fullName: UnityEditor.UIElements.ToolbarToggle
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField
+  name: IntegerField
+  nameWithType: EditorUIELayout.IntegerField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField
+- uid: UnityEditor.UIElements.IntegerField
+  commentId: T:UnityEditor.UIElements.IntegerField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: IntegerField
+  nameWithType: IntegerField
+  fullName: UnityEditor.UIElements.IntegerField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton
+  name: ToolbarButton
+  nameWithType: EditorUIELayout.ToolbarButton
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: UnityEditor.UIElements.ToolbarButton
+  commentId: T:UnityEditor.UIElements.ToolbarButton
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ToolbarButton
+  nameWithType: ToolbarButton
+  fullName: UnityEditor.UIElements.ToolbarButton
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField
+  name: RectIntField
+  nameWithType: EditorUIELayout.RectIntField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField
+- uid: UnityEditor.UIElements.RectIntField
+  commentId: T:UnityEditor.UIElements.RectIntField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: RectIntField
+  nameWithType: RectIntField
+  fullName: UnityEditor.UIElements.RectIntField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField
+  name: ToolbarSearchField
+  nameWithType: EditorUIELayout.ToolbarSearchField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField
+- uid: UnityEditor.UIElements.ToolbarSearchField
+  commentId: T:UnityEditor.UIElements.ToolbarSearchField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ToolbarSearchField
+  nameWithType: ToolbarSearchField
+  fullName: UnityEditor.UIElements.ToolbarSearchField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField
+  name: ColorField
+  nameWithType: EditorUIELayout.ColorField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField
+- uid: UnityEditor.UIElements.ColorField
+  commentId: T:UnityEditor.UIElements.ColorField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ColorField
+  nameWithType: ColorField
+  fullName: UnityEditor.UIElements.ColorField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar
+  name: Toolbar
+  nameWithType: EditorUIELayout.Toolbar
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar
+- uid: UnityEditor.UIElements.Toolbar
+  commentId: T:UnityEditor.UIElements.Toolbar
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: Toolbar
+  nameWithType: Toolbar
+  fullName: UnityEditor.UIElements.Toolbar
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field
+  name: Vector3Field
+  nameWithType: EditorUIELayout.Vector3Field
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field
+- uid: UnityEditor.UIElements.Vector3Field
+  commentId: T:UnityEditor.UIElements.Vector3Field
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: Vector3Field
+  nameWithType: Vector3Field
+  fullName: UnityEditor.UIElements.Vector3Field
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField
+  name: DoubleField
+  nameWithType: EditorUIELayout.DoubleField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField
+- uid: UnityEditor.UIElements.DoubleField
+  commentId: T:UnityEditor.UIElements.DoubleField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: DoubleField
+  nameWithType: DoubleField
+  fullName: UnityEditor.UIElements.DoubleField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu
+  name: ToolbarMenu
+  nameWithType: EditorUIELayout.ToolbarMenu
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu
+- uid: UnityEditor.UIElements.ToolbarMenu
+  commentId: T:UnityEditor.UIElements.ToolbarMenu
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ToolbarMenu
+  nameWithType: ToolbarMenu
+  fullName: UnityEditor.UIElements.ToolbarMenu
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField
+  name: Vector3IntField
+  nameWithType: EditorUIELayout.Vector3IntField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField
+- uid: UnityEditor.UIElements.Vector3IntField
+  commentId: T:UnityEditor.UIElements.Vector3IntField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: Vector3IntField
+  nameWithType: Vector3IntField
+  fullName: UnityEditor.UIElements.Vector3IntField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField
+  name: LongField
+  nameWithType: EditorUIELayout.LongField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField
+- uid: UnityEditor.UIElements.LongField
+  commentId: T:UnityEditor.UIElements.LongField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: LongField
+  nameWithType: LongField
+  fullName: UnityEditor.UIElements.LongField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField
+  name: Vector2IntField
+  nameWithType: EditorUIELayout.Vector2IntField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField
+- uid: UnityEditor.UIElements.Vector2IntField
+  commentId: T:UnityEditor.UIElements.Vector2IntField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: Vector2IntField
+  nameWithType: Vector2IntField
+  fullName: UnityEditor.UIElements.Vector2IntField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer
+  name: ToolbarSpacer
+  nameWithType: EditorUIELayout.ToolbarSpacer
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer
+- uid: UnityEditor.UIElements.ToolbarSpacer
+  commentId: T:UnityEditor.UIElements.ToolbarSpacer
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ToolbarSpacer
+  nameWithType: ToolbarSpacer
+  fullName: UnityEditor.UIElements.ToolbarSpacer
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField
+  name: BoundsIntField
+  nameWithType: EditorUIELayout.BoundsIntField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField
+- uid: UnityEditor.UIElements.BoundsIntField
+  commentId: T:UnityEditor.UIElements.BoundsIntField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: BoundsIntField
+  nameWithType: BoundsIntField
+  fullName: UnityEditor.UIElements.BoundsIntField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField
+  name: EnumField
+  nameWithType: EditorUIELayout.EnumField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField
+- uid: UnityEditor.UIElements.EnumField
+  commentId: T:UnityEditor.UIElements.EnumField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: EnumField
+  nameWithType: EnumField
+  fullName: UnityEditor.UIElements.EnumField
+- uid: System.Enum
+  commentId: T:System.Enum
+  parent: System
+  isExternal: true
+  name: Enum
+  nameWithType: Enum
+  fullName: System.Enum
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs
+  name: ToolbarBreadcrumbs
+  nameWithType: EditorUIELayout.ToolbarBreadcrumbs
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs
+- uid: UnityEditor.UIElements.ToolbarBreadcrumbs
+  commentId: T:UnityEditor.UIElements.ToolbarBreadcrumbs
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ToolbarBreadcrumbs
+  nameWithType: ToolbarBreadcrumbs
+  fullName: UnityEditor.UIElements.ToolbarBreadcrumbs
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField
+  name: LayerField
+  nameWithType: EditorUIELayout.LayerField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField
+- uid: UnityEditor.UIElements.LayerField
+  commentId: T:UnityEditor.UIElements.LayerField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: LayerField
+  nameWithType: LayerField
+  fullName: UnityEditor.UIElements.LayerField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField
+  name: EnumFlagsField
+  nameWithType: EditorUIELayout.EnumFlagsField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField
+- uid: UnityEditor.UIElements.EnumFlagsField
+  commentId: T:UnityEditor.UIElements.EnumFlagsField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: EnumFlagsField
+  nameWithType: EnumFlagsField
+  fullName: UnityEditor.UIElements.EnumFlagsField
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField
+  name: BoundsField
+  nameWithType: EditorUIELayout.BoundsField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField
+- uid: UnityEditor.UIElements.BoundsField
+  commentId: T:UnityEditor.UIElements.BoundsField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: BoundsField
+  nameWithType: BoundsField
+  fullName: UnityEditor.UIElements.BoundsField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField
+  name: ToolbarPopupSearchField
+  nameWithType: EditorUIELayout.ToolbarPopupSearchField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField
+- uid: UnityEditor.UIElements.ToolbarPopupSearchField
+  commentId: T:UnityEditor.UIElements.ToolbarPopupSearchField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: ToolbarPopupSearchField
+  nameWithType: ToolbarPopupSearchField
+  fullName: UnityEditor.UIElements.ToolbarPopupSearchField
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement
+  name: InspectorElement
+  nameWithType: EditorUIELayout.InspectorElement
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement
+- uid: UnityEditor.UIElements.InspectorElement
+  commentId: T:UnityEditor.UIElements.InspectorElement
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: InspectorElement
+  nameWithType: InspectorElement
+  fullName: UnityEditor.UIElements.InspectorElement
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor.SerializedObject
+  commentId: T:UnityEditor.SerializedObject
+  parent: UnityEditor
+  isExternal: true
+  name: SerializedObject
+  nameWithType: SerializedObject
+  fullName: UnityEditor.SerializedObject
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: UnityEditor.Editor
+  commentId: T:UnityEditor.Editor
+  parent: UnityEditor
+  isExternal: true
+  name: Editor
+  nameWithType: Editor
+  fullName: UnityEditor.Editor
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField
+  name: MaskField
+  nameWithType: EditorUIELayout.MaskField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System.Func{System.String,System.String}
+  commentId: T:System.Func{System.String,System.String}
+  parent: System
+  definition: System.Func`2
+  name: Func<string, string>
+  nameWithType: Func<string, string>
+  fullName: System.Func<string, string>
+  nameWithType.vb: Func(Of String, String)
+  fullName.vb: System.Func(Of String, String)
+  name.vb: Func(Of String, String)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: UnityEditor.UIElements.MaskField
+  commentId: T:UnityEditor.UIElements.MaskField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: MaskField
+  nameWithType: MaskField
+  fullName: UnityEditor.UIElements.MaskField
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField
+  name: PropertyField
+  nameWithType: EditorUIELayout.PropertyField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField
+- uid: UnityEditor.UIElements.PropertyField
+  commentId: T:UnityEditor.UIElements.PropertyField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: PropertyField
+  nameWithType: PropertyField
+  fullName: UnityEditor.UIElements.PropertyField
+- uid: UnityEditor.SerializedProperty
+  commentId: T:UnityEditor.SerializedProperty
+  parent: UnityEditor
+  isExternal: true
+  name: SerializedProperty
+  nameWithType: SerializedProperty
+  fullName: UnityEditor.SerializedProperty
+- uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField*
+  commentId: Overload:SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField
+  name: GradientField
+  nameWithType: EditorUIELayout.GradientField
+  fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField
+- uid: UnityEditor.UIElements.GradientField
+  commentId: T:UnityEditor.UIElements.GradientField
+  parent: UnityEditor.UIElements
+  isExternal: true
+  name: GradientField
+  nameWithType: GradientField
+  fullName: UnityEditor.UIElements.GradientField

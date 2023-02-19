@@ -1,0 +1,3137 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuiSuiShou.UIEEx.UIELayout
+  commentId: T:SuiSuiShou.UIEEx.UIELayout
+  id: UIELayout
+  parent: SuiSuiShou.UIEEx
+  children:
+  - SuiSuiShou.UIEEx.UIELayout.Box(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Button(System.Action,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Button(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List{System.String},System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,System.Collections.Generic.List{System.String},System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.DropdownField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Foldout(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.GroupBox(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.GroupBox(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.HelpBox(System.String,UnityEngine.UIElements.HelpBoxMessageType,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.HelpBox(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Image(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.IMGUIContainer(System.Action,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.IMGUIContainer(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Label(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Label(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.ListView(System.Collections.IList,System.Single,System.Func{UnityEngine.UIElements.VisualElement},System.Action{UnityEngine.UIElements.VisualElement,System.Int32},UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.ListView(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(System.Single,System.Single,System.Single,System.Single,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(System.String,System.Single,System.Single,System.Single,System.Single,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.PopupWindow(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.ProgressBar(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.RadioButton(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.RadioButton(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(System.String,System.Collections.Generic.List{System.String},UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.RepeatButton(System.Action,System.Int64,System.Int64,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.RepeatButton(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Scroller(System.Single,System.Single,System.Action{System.Single},UnityEngine.UIElements.SliderDirection,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Scroller(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.ScrollView(UnityEngine.UIElements.ScrollViewMode,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.ScrollView(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Slider(System.Single,System.Single,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Slider(System.String,System.Single,System.Single,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Slider(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.SliderInt(System.Int32,System.Int32,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.SliderInt(System.String,System.Int32,System.Int32,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.SliderInt(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.TextElement(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.TextField(System.Int32,System.Boolean,System.Boolean,System.Char,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.TextField(System.String,System.Int32,System.Boolean,System.Boolean,System.Char,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.TextField(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.TextField(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Toggle(System.String,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.Toggle(UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(System.Int32,System.Single,UnityEngine.UIElements.TwoPaneSplitViewOrientation,UnityEngine.UIElements.VisualElement)
+  - SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(UnityEngine.UIElements.VisualElement)
+  langs:
+  - csharp
+  - vb
+  name: UIELayout
+  nameWithType: UIELayout
+  fullName: SuiSuiShou.UIEEx.UIELayout
+  type: Class
+  source:
+    remote:
+      path: Scripts/UIELayout/HelpBox.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: UIELayout
+    path: ../UIEEx/Scripts/UIELayout/HelpBox.cs
+    startLine: 23
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  syntax:
+    content: public static class UIELayout
+    content.vb: Public Module UIELayout
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: SuiSuiShou.UIEEx.UIELayout.ScrollView(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.ScrollView(UnityEngine.UIElements.VisualElement)
+  id: ScrollView(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: ScrollView(VisualElement)
+  nameWithType: UIELayout.ScrollView(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.ScrollView(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/ScrollView.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ScrollView
+    path: ../UIEEx/Scripts/UIELayout/ScrollView.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ScrollView ScrollView(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.ScrollView
+    content.vb: Public Shared Function ScrollView(parent As VisualElement = Nothing) As ScrollView
+  overload: SuiSuiShou.UIEEx.UIELayout.ScrollView*
+- uid: SuiSuiShou.UIEEx.UIELayout.ScrollView(UnityEngine.UIElements.ScrollViewMode,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.ScrollView(UnityEngine.UIElements.ScrollViewMode,UnityEngine.UIElements.VisualElement)
+  id: ScrollView(UnityEngine.UIElements.ScrollViewMode,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: ScrollView(ScrollViewMode, VisualElement)
+  nameWithType: UIELayout.ScrollView(ScrollViewMode, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.ScrollView(UnityEngine.UIElements.ScrollViewMode, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/ScrollView.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ScrollView
+    path: ../UIEEx/Scripts/UIELayout/ScrollView.cs
+    startLine: 45
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ScrollView ScrollView(ScrollViewMode scrollViewMode, VisualElement parent = null)
+    parameters:
+    - id: scrollViewMode
+      type: UnityEngine.UIElements.ScrollViewMode
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.ScrollView
+    content.vb: Public Shared Function ScrollView(scrollViewMode As ScrollViewMode, parent As VisualElement = Nothing) As ScrollView
+  overload: SuiSuiShou.UIEEx.UIELayout.ScrollView*
+- uid: SuiSuiShou.UIEEx.UIELayout.GroupBox(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.GroupBox(UnityEngine.UIElements.VisualElement)
+  id: GroupBox(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: GroupBox(VisualElement)
+  nameWithType: UIELayout.GroupBox(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.GroupBox(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/GroupBox.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: GroupBox
+    path: ../UIEEx/Scripts/UIELayout/GroupBox.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a GroupBox with no label.\n</p>\n"
+  example: []
+  syntax:
+    content: public static GroupBox GroupBox(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.GroupBox
+    content.vb: Public Shared Function GroupBox(parent As VisualElement = Nothing) As GroupBox
+  overload: SuiSuiShou.UIEEx.UIELayout.GroupBox*
+- uid: SuiSuiShou.UIEEx.UIELayout.GroupBox(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.GroupBox(System.String,UnityEngine.UIElements.VisualElement)
+  id: GroupBox(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: GroupBox(string, VisualElement)
+  nameWithType: UIELayout.GroupBox(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.GroupBox(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/GroupBox.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: GroupBox
+    path: ../UIEEx/Scripts/UIELayout/GroupBox.cs
+    startLine: 45
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a GroupBox with a title.\n</p>\n"
+  example: []
+  syntax:
+    content: public static GroupBox GroupBox(string text, VisualElement parent = null)
+    parameters:
+    - id: text
+      type: System.String
+      description: The title text.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.GroupBox
+    content.vb: Public Shared Function GroupBox(text As String, parent As VisualElement = Nothing) As GroupBox
+  overload: SuiSuiShou.UIEEx.UIELayout.GroupBox*
+  nameWithType.vb: UIELayout.GroupBox(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.GroupBox(String, UnityEngine.UIElements.VisualElement)
+  name.vb: GroupBox(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.Slider(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Slider(UnityEngine.UIElements.VisualElement)
+  id: Slider(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Slider(VisualElement)
+  nameWithType: UIELayout.Slider(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Slider(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Slider.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Slider
+    path: ../UIEEx/Scripts/UIELayout/Slider.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Slider Slider(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Slider
+    content.vb: Public Shared Function Slider(parent As VisualElement = Nothing) As Slider
+  overload: SuiSuiShou.UIEEx.UIELayout.Slider*
+- uid: SuiSuiShou.UIEEx.UIELayout.Slider(System.Single,System.Single,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Slider(System.Single,System.Single,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  id: Slider(System.Single,System.Single,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Slider(float, float, SliderDirection, float, VisualElement)
+  nameWithType: UIELayout.Slider(float, float, SliderDirection, float, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Slider(float, float, UnityEngine.UIElements.SliderDirection, float, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Slider.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Slider
+    path: ../UIEEx/Scripts/UIELayout/Slider.cs
+    startLine: 48
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Slider Slider(float start, float end, SliderDirection direction, float pageSize, VisualElement parent = null)
+    parameters:
+    - id: start
+      type: System.Single
+      description: ''
+    - id: end
+      type: System.Single
+      description: ''
+    - id: direction
+      type: UnityEngine.UIElements.SliderDirection
+      description: ''
+    - id: pageSize
+      type: System.Single
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Slider
+    content.vb: Public Shared Function Slider(start As Single, [end] As Single, direction As SliderDirection, pageSize As Single, parent As VisualElement = Nothing) As Slider
+  overload: SuiSuiShou.UIEEx.UIELayout.Slider*
+  nameWithType.vb: UIELayout.Slider(Single, Single, SliderDirection, Single, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.Slider(Single, Single, UnityEngine.UIElements.SliderDirection, Single, UnityEngine.UIElements.VisualElement)
+  name.vb: Slider(Single, Single, SliderDirection, Single, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.Slider(System.String,System.Single,System.Single,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Slider(System.String,System.Single,System.Single,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  id: Slider(System.String,System.Single,System.Single,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Slider(string, float, float, SliderDirection, float, VisualElement)
+  nameWithType: UIELayout.Slider(string, float, float, SliderDirection, float, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Slider(string, float, float, UnityEngine.UIElements.SliderDirection, float, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Slider.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Slider
+    path: ../UIEEx/Scripts/UIELayout/Slider.cs
+    startLine: 66
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Slider Slider(string label, float start, float end, SliderDirection direction, float pageSize, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: start
+      type: System.Single
+      description: ''
+    - id: end
+      type: System.Single
+      description: ''
+    - id: direction
+      type: UnityEngine.UIElements.SliderDirection
+      description: ''
+    - id: pageSize
+      type: System.Single
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Slider
+    content.vb: Public Shared Function Slider(label As String, start As Single, [end] As Single, direction As SliderDirection, pageSize As Single, parent As VisualElement = Nothing) As Slider
+  overload: SuiSuiShou.UIEEx.UIELayout.Slider*
+  nameWithType.vb: UIELayout.Slider(String, Single, Single, SliderDirection, Single, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.Slider(String, Single, Single, UnityEngine.UIElements.SliderDirection, Single, UnityEngine.UIElements.VisualElement)
+  name.vb: Slider(String, Single, Single, SliderDirection, Single, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(UnityEngine.UIElements.VisualElement)
+  id: TwoPaneSplitView(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: TwoPaneSplitView(VisualElement)
+  nameWithType: UIELayout.TwoPaneSplitView(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/TwoPaneSplitView.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TwoPaneSplitView
+    path: ../UIEEx/Scripts/UIELayout/TwoPaneSplitView.cs
+    startLine: 34
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nParameterized constructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TwoPaneSplitView TwoPaneSplitView(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.TwoPaneSplitView
+    content.vb: Public Shared Function TwoPaneSplitView(parent As VisualElement = Nothing) As TwoPaneSplitView
+  overload: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView*
+- uid: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(System.Int32,System.Single,UnityEngine.UIElements.TwoPaneSplitViewOrientation,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(System.Int32,System.Single,UnityEngine.UIElements.TwoPaneSplitViewOrientation,UnityEngine.UIElements.VisualElement)
+  id: TwoPaneSplitView(System.Int32,System.Single,UnityEngine.UIElements.TwoPaneSplitViewOrientation,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: TwoPaneSplitView(int, float, TwoPaneSplitViewOrientation, VisualElement)
+  nameWithType: UIELayout.TwoPaneSplitView(int, float, TwoPaneSplitViewOrientation, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(int, float, UnityEngine.UIElements.TwoPaneSplitViewOrientation, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/TwoPaneSplitView.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TwoPaneSplitView
+    path: ../UIEEx/Scripts/UIELayout/TwoPaneSplitView.cs
+    startLine: 47
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nA SplitView that contains two resizable panes. One pane is fixed-size while the other pane has flex-grow style set to 1 to take all remaining space. The border between he panes is draggable to resize both panes. Both horizontal and vertical modes are supported. Requires _exactly_ two child elements to operate.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TwoPaneSplitView TwoPaneSplitView(int fixedPaneIndex, float fixedPaneStartDimension, TwoPaneSplitViewOrientation orientation, VisualElement parent = null)
+    parameters:
+    - id: fixedPaneIndex
+      type: System.Int32
+    - id: fixedPaneStartDimension
+      type: System.Single
+    - id: orientation
+      type: UnityEngine.UIElements.TwoPaneSplitViewOrientation
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.TwoPaneSplitView
+    content.vb: Public Shared Function TwoPaneSplitView(fixedPaneIndex As Integer, fixedPaneStartDimension As Single, orientation As TwoPaneSplitViewOrientation, parent As VisualElement = Nothing) As TwoPaneSplitView
+  overload: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView*
+  nameWithType.vb: UIELayout.TwoPaneSplitView(Integer, Single, TwoPaneSplitViewOrientation, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView(Integer, Single, UnityEngine.UIElements.TwoPaneSplitViewOrientation, UnityEngine.UIElements.VisualElement)
+  name.vb: TwoPaneSplitView(Integer, Single, TwoPaneSplitViewOrientation, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.Box(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Box(UnityEngine.UIElements.VisualElement)
+  id: Box(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Box(VisualElement)
+  nameWithType: UIELayout.Box(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Box(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Box.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Box
+    path: ../UIEEx/Scripts/UIELayout/Box.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nInitializes and returns an instance of Box.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Box Box(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Box
+    content.vb: Public Shared Function Box(parent As VisualElement = Nothing) As Box
+  overload: SuiSuiShou.UIEEx.UIELayout.Box*
+- uid: SuiSuiShou.UIEEx.UIELayout.Label(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Label(UnityEngine.UIElements.VisualElement)
+  id: Label(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Label(VisualElement)
+  nameWithType: UIELayout.Label(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Label(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Label.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Label
+    path: ../UIEEx/Scripts/UIELayout/Label.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructs a label.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Label Label(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Label
+    content.vb: Public Shared Function Label(parent As VisualElement = Nothing) As Label
+  overload: SuiSuiShou.UIEEx.UIELayout.Label*
+- uid: SuiSuiShou.UIEEx.UIELayout.Label(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Label(System.String,UnityEngine.UIElements.VisualElement)
+  id: Label(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Label(string, VisualElement)
+  nameWithType: UIELayout.Label(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Label(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Label.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Label
+    path: ../UIEEx/Scripts/UIELayout/Label.cs
+    startLine: 45
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructs a label.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Label Label(string text, VisualElement parent = null)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to be displayed.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Label
+    content.vb: Public Shared Function Label(text As String, parent As VisualElement = Nothing) As Label
+  overload: SuiSuiShou.UIEEx.UIELayout.Label*
+  nameWithType.vb: UIELayout.Label(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.Label(String, UnityEngine.UIElements.VisualElement)
+  name.vb: Label(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(UnityEngine.UIElements.VisualElement)
+  id: RadioButtonGroup(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: RadioButtonGroup(VisualElement)
+  nameWithType: UIELayout.RadioButtonGroup(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/RadioButtonGroup.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RadioButtonGroup
+    path: ../UIEEx/Scripts/UIELayout/RadioButtonGroup.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nInitializes and returns an instance of RadioButtonGroup.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RadioButtonGroup RadioButtonGroup(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.RadioButtonGroup
+    content.vb: Public Shared Function RadioButtonGroup(parent As VisualElement = Nothing) As RadioButtonGroup
+  overload: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup*
+- uid: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(System.String,System.Collections.Generic.List{System.String},UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(System.String,System.Collections.Generic.List{System.String},UnityEngine.UIElements.VisualElement)
+  id: RadioButtonGroup(System.String,System.Collections.Generic.List{System.String},UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: RadioButtonGroup(string, List<string>, VisualElement)
+  nameWithType: UIELayout.RadioButtonGroup(string, List<string>, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(string, System.Collections.Generic.List<string>, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/RadioButtonGroup.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RadioButtonGroup
+    path: ../UIEEx/Scripts/UIELayout/RadioButtonGroup.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nInitializes and returns an instance of RadioButtonGroup.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RadioButtonGroup RadioButtonGroup(string label, List<string> radioButtonChoices, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The label for this group
+    - id: radioButtonChoices
+      type: System.Collections.Generic.List{System.String}
+      description: The choices to display in this group
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.RadioButtonGroup
+    content.vb: Public Shared Function RadioButtonGroup(label As String, radioButtonChoices As List(Of String), parent As VisualElement = Nothing) As RadioButtonGroup
+  overload: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup*
+  nameWithType.vb: UIELayout.RadioButtonGroup(String, List(Of String), VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup(String, System.Collections.Generic.List(Of String), UnityEngine.UIElements.VisualElement)
+  name.vb: RadioButtonGroup(String, List(Of String), VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.Foldout(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Foldout(UnityEngine.UIElements.VisualElement)
+  id: Foldout(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Foldout(VisualElement)
+  nameWithType: UIELayout.Foldout(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Foldout(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Foldout.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Foldout
+    path: ../UIEEx/Scripts/UIELayout/Foldout.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructs a Foldout element.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Foldout Foldout(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Foldout
+    content.vb: Public Shared Function Foldout(parent As VisualElement = Nothing) As Foldout
+  overload: SuiSuiShou.UIEEx.UIELayout.Foldout*
+- uid: SuiSuiShou.UIEEx.UIELayout.IMGUIContainer(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.IMGUIContainer(UnityEngine.UIElements.VisualElement)
+  id: IMGUIContainer(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: IMGUIContainer(VisualElement)
+  nameWithType: UIELayout.IMGUIContainer(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.IMGUIContainer(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/IMGUIContainer.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: IMGUIContainer
+    path: ../UIEEx/Scripts/UIELayout/IMGUIContainer.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static IMGUIContainer IMGUIContainer(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.IMGUIContainer
+    content.vb: Public Shared Function IMGUIContainer(parent As VisualElement = Nothing) As IMGUIContainer
+  overload: SuiSuiShou.UIEEx.UIELayout.IMGUIContainer*
+- uid: SuiSuiShou.UIEEx.UIELayout.IMGUIContainer(System.Action,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.IMGUIContainer(System.Action,UnityEngine.UIElements.VisualElement)
+  id: IMGUIContainer(System.Action,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: IMGUIContainer(Action, VisualElement)
+  nameWithType: UIELayout.IMGUIContainer(Action, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.IMGUIContainer(System.Action, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/IMGUIContainer.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: IMGUIContainer
+    path: ../UIEEx/Scripts/UIELayout/IMGUIContainer.cs
+    startLine: 45
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static IMGUIContainer IMGUIContainer(Action onGUIHandler, VisualElement parent = null)
+    parameters:
+    - id: onGUIHandler
+      type: System.Action
+      description: The function assigned to &lt;see cref=&quot;onGUIHandler&quot; />.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.IMGUIContainer
+    content.vb: Public Shared Function IMGUIContainer(onGUIHandler As Action, parent As VisualElement = Nothing) As IMGUIContainer
+  overload: SuiSuiShou.UIEEx.UIELayout.IMGUIContainer*
+- uid: SuiSuiShou.UIEEx.UIELayout.SliderInt(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.SliderInt(UnityEngine.UIElements.VisualElement)
+  id: SliderInt(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: SliderInt(VisualElement)
+  nameWithType: UIELayout.SliderInt(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.SliderInt(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/SliderInt.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: SliderInt
+    path: ../UIEEx/Scripts/UIELayout/SliderInt.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructors for the SliderInt.\n</p>\n"
+  example: []
+  syntax:
+    content: public static SliderInt SliderInt(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.SliderInt
+    content.vb: Public Shared Function SliderInt(parent As VisualElement = Nothing) As SliderInt
+  overload: SuiSuiShou.UIEEx.UIELayout.SliderInt*
+- uid: SuiSuiShou.UIEEx.UIELayout.SliderInt(System.Int32,System.Int32,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.SliderInt(System.Int32,System.Int32,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  id: SliderInt(System.Int32,System.Int32,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: SliderInt(int, int, SliderDirection, float, VisualElement)
+  nameWithType: UIELayout.SliderInt(int, int, SliderDirection, float, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.SliderInt(int, int, UnityEngine.UIElements.SliderDirection, float, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/SliderInt.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: SliderInt
+    path: ../UIEEx/Scripts/UIELayout/SliderInt.cs
+    startLine: 48
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructors for the SliderInt.\n</p>\n"
+  example: []
+  syntax:
+    content: public static SliderInt SliderInt(int start, int end, SliderDirection direction, float pageSize, VisualElement parent = null)
+    parameters:
+    - id: start
+      type: System.Int32
+      description: This is the low value of the slider.
+    - id: end
+      type: System.Int32
+      description: This is the high value of the slider.
+    - id: direction
+      type: UnityEngine.UIElements.SliderDirection
+      description: This is the slider direction, horizontal or vertical.
+    - id: pageSize
+      type: System.Single
+      description: This is the number of values to change when the slider is clicked.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.SliderInt
+    content.vb: Public Shared Function SliderInt(start As Integer, [end] As Integer, direction As SliderDirection, pageSize As Single, parent As VisualElement = Nothing) As SliderInt
+  overload: SuiSuiShou.UIEEx.UIELayout.SliderInt*
+  nameWithType.vb: UIELayout.SliderInt(Integer, Integer, SliderDirection, Single, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.SliderInt(Integer, Integer, UnityEngine.UIElements.SliderDirection, Single, UnityEngine.UIElements.VisualElement)
+  name.vb: SliderInt(Integer, Integer, SliderDirection, Single, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.SliderInt(System.String,System.Int32,System.Int32,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.SliderInt(System.String,System.Int32,System.Int32,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  id: SliderInt(System.String,System.Int32,System.Int32,UnityEngine.UIElements.SliderDirection,System.Single,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: SliderInt(string, int, int, SliderDirection, float, VisualElement)
+  nameWithType: UIELayout.SliderInt(string, int, int, SliderDirection, float, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.SliderInt(string, int, int, UnityEngine.UIElements.SliderDirection, float, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/SliderInt.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: SliderInt
+    path: ../UIEEx/Scripts/UIELayout/SliderInt.cs
+    startLine: 66
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructors for the SliderInt.\n</p>\n"
+  example: []
+  syntax:
+    content: public static SliderInt SliderInt(string label, int start, int end, SliderDirection direction, float pageSize, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: start
+      type: System.Int32
+      description: This is the low value of the slider.
+    - id: end
+      type: System.Int32
+      description: This is the high value of the slider.
+    - id: direction
+      type: UnityEngine.UIElements.SliderDirection
+      description: This is the slider direction, horizontal or vertical.
+    - id: pageSize
+      type: System.Single
+      description: This is the number of values to change when the slider is clicked.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.SliderInt
+    content.vb: Public Shared Function SliderInt(label As String, start As Integer, [end] As Integer, direction As SliderDirection, pageSize As Single, parent As VisualElement = Nothing) As SliderInt
+  overload: SuiSuiShou.UIEEx.UIELayout.SliderInt*
+  nameWithType.vb: UIELayout.SliderInt(String, Integer, Integer, SliderDirection, Single, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.SliderInt(String, Integer, Integer, UnityEngine.UIElements.SliderDirection, Single, UnityEngine.UIElements.VisualElement)
+  name.vb: SliderInt(String, Integer, Integer, SliderDirection, Single, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.Toggle(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Toggle(UnityEngine.UIElements.VisualElement)
+  id: Toggle(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Toggle(VisualElement)
+  nameWithType: UIELayout.Toggle(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Toggle(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Toggle.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Toggle
+    path: ../UIEEx/Scripts/UIELayout/Toggle.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a Toggle with no label.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Toggle Toggle(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Toggle
+    content.vb: Public Shared Function Toggle(parent As VisualElement = Nothing) As Toggle
+  overload: SuiSuiShou.UIEEx.UIELayout.Toggle*
+- uid: SuiSuiShou.UIEEx.UIELayout.Toggle(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Toggle(System.String,UnityEngine.UIElements.VisualElement)
+  id: Toggle(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Toggle(string, VisualElement)
+  nameWithType: UIELayout.Toggle(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Toggle(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Toggle.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Toggle
+    path: ../UIEEx/Scripts/UIELayout/Toggle.cs
+    startLine: 45
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a Toggle with a Label and a default manipulator.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Toggle Toggle(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The Label text.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Toggle
+    content.vb: Public Shared Function Toggle(label As String, parent As VisualElement = Nothing) As Toggle
+  overload: SuiSuiShou.UIEEx.UIELayout.Toggle*
+  nameWithType.vb: UIELayout.Toggle(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.Toggle(String, UnityEngine.UIElements.VisualElement)
+  name.vb: Toggle(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.RepeatButton(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.RepeatButton(UnityEngine.UIElements.VisualElement)
+  id: RepeatButton(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: RepeatButton(VisualElement)
+  nameWithType: UIELayout.RepeatButton(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.RepeatButton(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/RepeatButton.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RepeatButton
+    path: ../UIEEx/Scripts/UIELayout/RepeatButton.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RepeatButton RepeatButton(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.RepeatButton
+    content.vb: Public Shared Function RepeatButton(parent As VisualElement = Nothing) As RepeatButton
+  overload: SuiSuiShou.UIEEx.UIELayout.RepeatButton*
+- uid: SuiSuiShou.UIEEx.UIELayout.RepeatButton(System.Action,System.Int64,System.Int64,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.RepeatButton(System.Action,System.Int64,System.Int64,UnityEngine.UIElements.VisualElement)
+  id: RepeatButton(System.Action,System.Int64,System.Int64,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: RepeatButton(Action, long, long, VisualElement)
+  nameWithType: UIELayout.RepeatButton(Action, long, long, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.RepeatButton(System.Action, long, long, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/RepeatButton.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RepeatButton
+    path: ../UIEEx/Scripts/UIELayout/RepeatButton.cs
+    startLine: 47
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RepeatButton RepeatButton(Action clickEvent, long delay, long interval, VisualElement parent = null)
+    parameters:
+    - id: clickEvent
+      type: System.Action
+      description: The action to execute when the button is pressed.
+    - id: delay
+      type: System.Int64
+      description: The initial delay before the action is executed for the first time.
+    - id: interval
+      type: System.Int64
+      description: The interval between each execution of the action.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.RepeatButton
+    content.vb: Public Shared Function RepeatButton(clickEvent As Action, delay As Long, interval As Long, parent As VisualElement = Nothing) As RepeatButton
+  overload: SuiSuiShou.UIEEx.UIELayout.RepeatButton*
+  nameWithType.vb: UIELayout.RepeatButton(Action, Long, Long, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.RepeatButton(System.Action, Long, Long, UnityEngine.UIElements.VisualElement)
+  name.vb: RepeatButton(Action, Long, Long, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.Button(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Button(UnityEngine.UIElements.VisualElement)
+  id: Button(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Button(VisualElement)
+  nameWithType: UIELayout.Button(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Button(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Button.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Button
+    path: ../UIEEx/Scripts/UIELayout/Button.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructs a Button.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Button Button(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Button
+    content.vb: Public Shared Function Button(parent As VisualElement = Nothing) As Button
+  overload: SuiSuiShou.UIEEx.UIELayout.Button*
+- uid: SuiSuiShou.UIEEx.UIELayout.Button(System.Action,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Button(System.Action,UnityEngine.UIElements.VisualElement)
+  id: Button(System.Action,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Button(Action, VisualElement)
+  nameWithType: UIELayout.Button(Action, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Button(System.Action, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Button.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Button
+    path: ../UIEEx/Scripts/UIELayout/Button.cs
+    startLine: 45
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructs a button with an Action that is triggered when the button is clicked.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Button Button(Action clickEvent, VisualElement parent = null)
+    parameters:
+    - id: clickEvent
+      type: System.Action
+      description: The action triggered when the button is clicked.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Button
+    content.vb: Public Shared Function Button(clickEvent As Action, parent As VisualElement = Nothing) As Button
+  overload: SuiSuiShou.UIEEx.UIELayout.Button*
+- uid: SuiSuiShou.UIEEx.UIELayout.TextElement(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.TextElement(UnityEngine.UIElements.VisualElement)
+  id: TextElement(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: TextElement(VisualElement)
+  nameWithType: UIELayout.TextElement(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.TextElement(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/TextElement.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TextElement
+    path: ../UIEEx/Scripts/UIELayout/TextElement.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nInitializes and returns an instance of TextElement.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TextElement TextElement(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.TextElement
+    content.vb: Public Shared Function TextElement(parent As VisualElement = Nothing) As TextElement
+  overload: SuiSuiShou.UIEEx.UIELayout.TextElement*
+- uid: SuiSuiShou.UIEEx.UIELayout.TextField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.TextField(UnityEngine.UIElements.VisualElement)
+  id: TextField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: TextField(VisualElement)
+  nameWithType: UIELayout.TextField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.TextField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/TextField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TextField
+    path: ../UIEEx/Scripts/UIELayout/TextField.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a new textfield.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TextField TextField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.TextField
+    content.vb: Public Shared Function TextField(parent As VisualElement = Nothing) As TextField
+  overload: SuiSuiShou.UIEEx.UIELayout.TextField*
+- uid: SuiSuiShou.UIEEx.UIELayout.TextField(System.Int32,System.Boolean,System.Boolean,System.Char,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.TextField(System.Int32,System.Boolean,System.Boolean,System.Char,UnityEngine.UIElements.VisualElement)
+  id: TextField(System.Int32,System.Boolean,System.Boolean,System.Char,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: TextField(int, bool, bool, char, VisualElement)
+  nameWithType: UIELayout.TextField(int, bool, bool, char, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.TextField(int, bool, bool, char, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/TextField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TextField
+    path: ../UIEEx/Scripts/UIELayout/TextField.cs
+    startLine: 48
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a new textfield.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TextField TextField(int maxLength, bool multiline, bool isPasswordField, char maskChar, VisualElement parent = null)
+    parameters:
+    - id: maxLength
+      type: System.Int32
+      description: The maximum number of characters this textfield can hold. If 0, there is no limit.
+    - id: multiline
+      type: System.Boolean
+      description: Set this to true to allow multiple lines in the textfield and false if otherwise.
+    - id: isPasswordField
+      type: System.Boolean
+      description: Set this to true to mask the characters and false if otherwise.
+    - id: maskChar
+      type: System.Char
+      description: The character used for masking in a password field.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.TextField
+    content.vb: Public Shared Function TextField(maxLength As Integer, multiline As Boolean, isPasswordField As Boolean, maskChar As Char, parent As VisualElement = Nothing) As TextField
+  overload: SuiSuiShou.UIEEx.UIELayout.TextField*
+  nameWithType.vb: UIELayout.TextField(Integer, Boolean, Boolean, Char, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.TextField(Integer, Boolean, Boolean, Char, UnityEngine.UIElements.VisualElement)
+  name.vb: TextField(Integer, Boolean, Boolean, Char, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.TextField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.TextField(System.String,UnityEngine.UIElements.VisualElement)
+  id: TextField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: TextField(string, VisualElement)
+  nameWithType: UIELayout.TextField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.TextField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/TextField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TextField
+    path: ../UIEEx/Scripts/UIELayout/TextField.cs
+    startLine: 62
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a new textfield.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TextField TextField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.TextField
+    content.vb: Public Shared Function TextField(label As String, parent As VisualElement = Nothing) As TextField
+  overload: SuiSuiShou.UIEEx.UIELayout.TextField*
+  nameWithType.vb: UIELayout.TextField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.TextField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: TextField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.TextField(System.String,System.Int32,System.Boolean,System.Boolean,System.Char,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.TextField(System.String,System.Int32,System.Boolean,System.Boolean,System.Char,UnityEngine.UIElements.VisualElement)
+  id: TextField(System.String,System.Int32,System.Boolean,System.Boolean,System.Char,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: TextField(string, int, bool, bool, char, VisualElement)
+  nameWithType: UIELayout.TextField(string, int, bool, bool, char, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.TextField(string, int, bool, bool, char, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/TextField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: TextField
+    path: ../UIEEx/Scripts/UIELayout/TextField.cs
+    startLine: 80
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a new textfield.\n</p>\n"
+  example: []
+  syntax:
+    content: public static TextField TextField(string label, int maxLength, bool multiline, bool isPasswordField, char maskChar, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: maxLength
+      type: System.Int32
+      description: The maximum number of characters this textfield can hold. If 0, there is no limit.
+    - id: multiline
+      type: System.Boolean
+      description: Set this to true to allow multiple lines in the textfield and false if otherwise.
+    - id: isPasswordField
+      type: System.Boolean
+      description: Set this to true to mask the characters and false if otherwise.
+    - id: maskChar
+      type: System.Char
+      description: The character used for masking in a password field.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.TextField
+    content.vb: Public Shared Function TextField(label As String, maxLength As Integer, multiline As Boolean, isPasswordField As Boolean, maskChar As Char, parent As VisualElement = Nothing) As TextField
+  overload: SuiSuiShou.UIEEx.UIELayout.TextField*
+  nameWithType.vb: UIELayout.TextField(String, Integer, Boolean, Boolean, Char, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.TextField(String, Integer, Boolean, Boolean, Char, UnityEngine.UIElements.VisualElement)
+  name.vb: TextField(String, Integer, Boolean, Boolean, Char, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.DropdownField(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.DropdownField(UnityEngine.UIElements.VisualElement)
+  id: DropdownField(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: DropdownField(VisualElement)
+  nameWithType: UIELayout.DropdownField(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.DropdownField(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/DropdownField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DropdownField
+    path: ../UIEEx/Scripts/UIELayout/DropdownField.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstruct a DropdownField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DropdownField DropdownField(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.DropdownField
+    content.vb: Public Shared Function DropdownField(parent As VisualElement = Nothing) As DropdownField
+  overload: SuiSuiShou.UIEEx.UIELayout.DropdownField*
+- uid: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,UnityEngine.UIElements.VisualElement)
+  id: DropdownField(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: DropdownField(string, VisualElement)
+  nameWithType: UIELayout.DropdownField(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.DropdownField(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/DropdownField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DropdownField
+    path: ../UIEEx/Scripts/UIELayout/DropdownField.cs
+    startLine: 45
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstruct a DropdownField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DropdownField DropdownField(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.DropdownField
+    content.vb: Public Shared Function DropdownField(label As String, parent As VisualElement = Nothing) As DropdownField
+  overload: SuiSuiShou.UIEEx.UIELayout.DropdownField*
+  nameWithType.vb: UIELayout.DropdownField(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.DropdownField(String, UnityEngine.UIElements.VisualElement)
+  name.vb: DropdownField(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List{System.String},System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List{System.String},System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  id: DropdownField(System.Collections.Generic.List{System.String},System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: DropdownField(List<string>, string, Func<string, string>, Func<string, string>, VisualElement)
+  nameWithType: UIELayout.DropdownField(List<string>, string, Func<string, string>, Func<string, string>, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List<string>, string, System.Func<string, string>, System.Func<string, string>, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/DropdownField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DropdownField
+    path: ../UIEEx/Scripts/UIELayout/DropdownField.cs
+    startLine: 62
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstruct a DropdownField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DropdownField DropdownField(List<string> choices, string defaultValue, Func<string, string> formatSelectedValueCallback, Func<string, string> formatListItemCallback, VisualElement parent = null)
+    parameters:
+    - id: choices
+      type: System.Collections.Generic.List{System.String}
+      description: ''
+    - id: defaultValue
+      type: System.String
+      description: ''
+    - id: formatSelectedValueCallback
+      type: System.Func{System.String,System.String}
+      description: ''
+    - id: formatListItemCallback
+      type: System.Func{System.String,System.String}
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.DropdownField
+    content.vb: Public Shared Function DropdownField(choices As List(Of String), defaultValue As String, formatSelectedValueCallback As Func(Of String, String), formatListItemCallback As Func(Of String, String), parent As VisualElement = Nothing) As DropdownField
+  overload: SuiSuiShou.UIEEx.UIELayout.DropdownField*
+  nameWithType.vb: UIELayout.DropdownField(List(Of String), String, Func(Of String, String), Func(Of String, String), VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List(Of String), String, System.Func(Of String, String), System.Func(Of String, String), UnityEngine.UIElements.VisualElement)
+  name.vb: DropdownField(List(Of String), String, Func(Of String, String), Func(Of String, String), VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,System.Collections.Generic.List{System.String},System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,System.Collections.Generic.List{System.String},System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  id: DropdownField(System.String,System.Collections.Generic.List{System.String},System.String,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: DropdownField(string, List<string>, string, Func<string, string>, Func<string, string>, VisualElement)
+  nameWithType: UIELayout.DropdownField(string, List<string>, string, Func<string, string>, Func<string, string>, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.DropdownField(string, System.Collections.Generic.List<string>, string, System.Func<string, string>, System.Func<string, string>, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/DropdownField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DropdownField
+    path: ../UIEEx/Scripts/UIELayout/DropdownField.cs
+    startLine: 80
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstruct a DropdownField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DropdownField DropdownField(string label, List<string> choices, string defaultValue, Func<string, string> formatSelectedValueCallback, Func<string, string> formatListItemCallback, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: choices
+      type: System.Collections.Generic.List{System.String}
+      description: ''
+    - id: defaultValue
+      type: System.String
+      description: ''
+    - id: formatSelectedValueCallback
+      type: System.Func{System.String,System.String}
+      description: ''
+    - id: formatListItemCallback
+      type: System.Func{System.String,System.String}
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.DropdownField
+    content.vb: Public Shared Function DropdownField(label As String, choices As List(Of String), defaultValue As String, formatSelectedValueCallback As Func(Of String, String), formatListItemCallback As Func(Of String, String), parent As VisualElement = Nothing) As DropdownField
+  overload: SuiSuiShou.UIEEx.UIELayout.DropdownField*
+  nameWithType.vb: UIELayout.DropdownField(String, List(Of String), String, Func(Of String, String), Func(Of String, String), VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.DropdownField(String, System.Collections.Generic.List(Of String), String, System.Func(Of String, String), System.Func(Of String, String), UnityEngine.UIElements.VisualElement)
+  name.vb: DropdownField(String, List(Of String), String, Func(Of String, String), Func(Of String, String), VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  id: DropdownField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: DropdownField(List<string>, int, Func<string, string>, Func<string, string>, VisualElement)
+  nameWithType: UIELayout.DropdownField(List<string>, int, Func<string, string>, Func<string, string>, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List<string>, int, System.Func<string, string>, System.Func<string, string>, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/DropdownField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DropdownField
+    path: ../UIEEx/Scripts/UIELayout/DropdownField.cs
+    startLine: 97
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstruct a DropdownField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DropdownField DropdownField(List<string> choices, int defaultIndex, Func<string, string> formatSelectedValueCallback, Func<string, string> formatListItemCallback, VisualElement parent = null)
+    parameters:
+    - id: choices
+      type: System.Collections.Generic.List{System.String}
+      description: ''
+    - id: defaultIndex
+      type: System.Int32
+      description: ''
+    - id: formatSelectedValueCallback
+      type: System.Func{System.String,System.String}
+      description: ''
+    - id: formatListItemCallback
+      type: System.Func{System.String,System.String}
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.DropdownField
+    content.vb: Public Shared Function DropdownField(choices As List(Of String), defaultIndex As Integer, formatSelectedValueCallback As Func(Of String, String), formatListItemCallback As Func(Of String, String), parent As VisualElement = Nothing) As DropdownField
+  overload: SuiSuiShou.UIEEx.UIELayout.DropdownField*
+  nameWithType.vb: UIELayout.DropdownField(List(Of String), Integer, Func(Of String, String), Func(Of String, String), VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.Collections.Generic.List(Of String), Integer, System.Func(Of String, String), System.Func(Of String, String), UnityEngine.UIElements.VisualElement)
+  name.vb: DropdownField(List(Of String), Integer, Func(Of String, String), Func(Of String, String), VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.DropdownField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  id: DropdownField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: DropdownField(string, List<string>, int, Func<string, string>, Func<string, string>, VisualElement)
+  nameWithType: UIELayout.DropdownField(string, List<string>, int, Func<string, string>, Func<string, string>, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.DropdownField(string, System.Collections.Generic.List<string>, int, System.Func<string, string>, System.Func<string, string>, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/DropdownField.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: DropdownField
+    path: ../UIEEx/Scripts/UIELayout/DropdownField.cs
+    startLine: 115
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstruct a DropdownField.\n</p>\n"
+  example: []
+  syntax:
+    content: public static DropdownField DropdownField(string label, List<string> choices, int defaultIndex, Func<string, string> formatSelectedValueCallback, Func<string, string> formatListItemCallback, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: choices
+      type: System.Collections.Generic.List{System.String}
+      description: ''
+    - id: defaultIndex
+      type: System.Int32
+      description: ''
+    - id: formatSelectedValueCallback
+      type: System.Func{System.String,System.String}
+      description: ''
+    - id: formatListItemCallback
+      type: System.Func{System.String,System.String}
+      description: ''
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.DropdownField
+    content.vb: Public Shared Function DropdownField(label As String, choices As List(Of String), defaultIndex As Integer, formatSelectedValueCallback As Func(Of String, String), formatListItemCallback As Func(Of String, String), parent As VisualElement = Nothing) As DropdownField
+  overload: SuiSuiShou.UIEEx.UIELayout.DropdownField*
+  nameWithType.vb: UIELayout.DropdownField(String, List(Of String), Integer, Func(Of String, String), Func(Of String, String), VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.DropdownField(String, System.Collections.Generic.List(Of String), Integer, System.Func(Of String, String), System.Func(Of String, String), UnityEngine.UIElements.VisualElement)
+  name.vb: DropdownField(String, List(Of String), Integer, Func(Of String, String), Func(Of String, String), VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.Scroller(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Scroller(UnityEngine.UIElements.VisualElement)
+  id: Scroller(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Scroller(VisualElement)
+  nameWithType: UIELayout.Scroller(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Scroller(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Scroller.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Scroller
+    path: ../UIEEx/Scripts/UIELayout/Scroller.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Scroller Scroller(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Scroller
+    content.vb: Public Shared Function Scroller(parent As VisualElement = Nothing) As Scroller
+  overload: SuiSuiShou.UIEEx.UIELayout.Scroller*
+- uid: SuiSuiShou.UIEEx.UIELayout.Scroller(System.Single,System.Single,System.Action{System.Single},UnityEngine.UIElements.SliderDirection,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Scroller(System.Single,System.Single,System.Action{System.Single},UnityEngine.UIElements.SliderDirection,UnityEngine.UIElements.VisualElement)
+  id: Scroller(System.Single,System.Single,System.Action{System.Single},UnityEngine.UIElements.SliderDirection,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Scroller(float, float, Action<float>, SliderDirection, VisualElement)
+  nameWithType: UIELayout.Scroller(float, float, Action<float>, SliderDirection, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Scroller(float, float, System.Action<float>, UnityEngine.UIElements.SliderDirection, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Scroller.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Scroller
+    path: ../UIEEx/Scripts/UIELayout/Scroller.cs
+    startLine: 44
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Scroller Scroller(float lowValue, float highValue, Action<float> valueChanged, SliderDirection direction, VisualElement parent = null)
+    parameters:
+    - id: lowValue
+      type: System.Single
+    - id: highValue
+      type: System.Single
+    - id: valueChanged
+      type: System.Action{System.Single}
+    - id: direction
+      type: UnityEngine.UIElements.SliderDirection
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Scroller
+    content.vb: Public Shared Function Scroller(lowValue As Single, highValue As Single, valueChanged As Action(Of Single), direction As SliderDirection, parent As VisualElement = Nothing) As Scroller
+  overload: SuiSuiShou.UIEEx.UIELayout.Scroller*
+  nameWithType.vb: UIELayout.Scroller(Single, Single, Action(Of Single), SliderDirection, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.Scroller(Single, Single, System.Action(Of Single), UnityEngine.UIElements.SliderDirection, UnityEngine.UIElements.VisualElement)
+  name.vb: Scroller(Single, Single, Action(Of Single), SliderDirection, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.ProgressBar(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.ProgressBar(UnityEngine.UIElements.VisualElement)
+  id: ProgressBar(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: ProgressBar(VisualElement)
+  nameWithType: UIELayout.ProgressBar(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.ProgressBar(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/ProgressBar.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ProgressBar
+    path: ../UIEEx/Scripts/UIELayout/ProgressBar.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nA control that displays the progress between a lower and upper bound value.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ProgressBar ProgressBar(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.ProgressBar
+    content.vb: Public Shared Function ProgressBar(parent As VisualElement = Nothing) As ProgressBar
+  overload: SuiSuiShou.UIEEx.UIELayout.ProgressBar*
+- uid: SuiSuiShou.UIEEx.UIELayout.RadioButton(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.RadioButton(UnityEngine.UIElements.VisualElement)
+  id: RadioButton(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: RadioButton(VisualElement)
+  nameWithType: UIELayout.RadioButton(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.RadioButton(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/RadioButton.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RadioButton
+    path: ../UIEEx/Scripts/UIELayout/RadioButton.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a RadioButton with no label.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RadioButton RadioButton(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.RadioButton
+    content.vb: Public Shared Function RadioButton(parent As VisualElement = Nothing) As RadioButton
+  overload: SuiSuiShou.UIEEx.UIELayout.RadioButton*
+- uid: SuiSuiShou.UIEEx.UIELayout.RadioButton(System.String,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.RadioButton(System.String,UnityEngine.UIElements.VisualElement)
+  id: RadioButton(System.String,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: RadioButton(string, VisualElement)
+  nameWithType: UIELayout.RadioButton(string, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.RadioButton(string, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/RadioButton.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: RadioButton
+    path: ../UIEEx/Scripts/UIELayout/RadioButton.cs
+    startLine: 45
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a RadioButton with a Label and a default manipulator.\n</p>\n"
+  example: []
+  syntax:
+    content: public static RadioButton RadioButton(string label, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: The Label text.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.RadioButton
+    content.vb: Public Shared Function RadioButton(label As String, parent As VisualElement = Nothing) As RadioButton
+  overload: SuiSuiShou.UIEEx.UIELayout.RadioButton*
+  nameWithType.vb: UIELayout.RadioButton(String, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.RadioButton(String, UnityEngine.UIElements.VisualElement)
+  name.vb: RadioButton(String, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.PopupWindow(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.PopupWindow(UnityEngine.UIElements.VisualElement)
+  id: PopupWindow(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: PopupWindow(VisualElement)
+  nameWithType: UIELayout.PopupWindow(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.PopupWindow(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/PopupWindow.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: PopupWindow
+    path: ../UIEEx/Scripts/UIELayout/PopupWindow.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nInitializes and returns an instance of PopupWindow.\n</p>\n"
+  example: []
+  syntax:
+    content: public static PopupWindow PopupWindow(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.PopupWindow
+    content.vb: Public Shared Function PopupWindow(parent As VisualElement = Nothing) As PopupWindow
+  overload: SuiSuiShou.UIEEx.UIELayout.PopupWindow*
+- uid: SuiSuiShou.UIEEx.UIELayout.ListView(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.ListView(UnityEngine.UIElements.VisualElement)
+  id: ListView(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: ListView(VisualElement)
+  nameWithType: UIELayout.ListView(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.ListView(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/ListView.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ListView
+    path: ../UIEEx/Scripts/UIELayout/ListView.cs
+    startLine: 32
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a ListView with all default properties. The ListView.itemSource\nmust all be set for the ListView to function properly.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ListView ListView(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.ListView
+    content.vb: Public Shared Function ListView(parent As VisualElement = Nothing) As ListView
+  overload: SuiSuiShou.UIEEx.UIELayout.ListView*
+- uid: SuiSuiShou.UIEEx.UIELayout.ListView(System.Collections.IList,System.Single,System.Func{UnityEngine.UIElements.VisualElement},System.Action{UnityEngine.UIElements.VisualElement,System.Int32},UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.ListView(System.Collections.IList,System.Single,System.Func{UnityEngine.UIElements.VisualElement},System.Action{UnityEngine.UIElements.VisualElement,System.Int32},UnityEngine.UIElements.VisualElement)
+  id: ListView(System.Collections.IList,System.Single,System.Func{UnityEngine.UIElements.VisualElement},System.Action{UnityEngine.UIElements.VisualElement,System.Int32},UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: ListView(IList, float, Func<VisualElement>, Action<VisualElement, int>, VisualElement)
+  nameWithType: UIELayout.ListView(IList, float, Func<VisualElement>, Action<VisualElement, int>, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.ListView(System.Collections.IList, float, System.Func<UnityEngine.UIElements.VisualElement>, System.Action<UnityEngine.UIElements.VisualElement, int>, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/ListView.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: ListView
+    path: ../UIEEx/Scripts/UIELayout/ListView.cs
+    startLine: 51
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructs a ListView, with all important properties provided.\n</p>\n"
+  example: []
+  syntax:
+    content: public static ListView ListView(IList itemsSource, float itemHeight, Func<VisualElement> makeItem, Action<VisualElement, int> bindItem, VisualElement parent = null)
+    parameters:
+    - id: itemsSource
+      type: System.Collections.IList
+      description: The list of items to use as a data source.
+    - id: itemHeight
+      type: System.Single
+      description: The height of each item, in pixels.
+    - id: makeItem
+      type: System.Func{UnityEngine.UIElements.VisualElement}
+      description: >-
+        The factory method to call to create a display item. The method should return a
+
+        VisualElement that can be bound to a data item.
+    - id: bindItem
+      type: System.Action{UnityEngine.UIElements.VisualElement,System.Int32}
+      description: >-
+        The method to call to bind a data item to a display item. The method
+
+        receives as parameters the display item to bind, and the index of the data item to bind it to.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.ListView
+    content.vb: Public Shared Function ListView(itemsSource As IList, itemHeight As Single, makeItem As Func(Of VisualElement), bindItem As Action(Of VisualElement, Integer), parent As VisualElement = Nothing) As ListView
+  overload: SuiSuiShou.UIEEx.UIELayout.ListView*
+  nameWithType.vb: UIELayout.ListView(IList, Single, Func(Of VisualElement), Action(Of VisualElement, Integer), VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.ListView(System.Collections.IList, Single, System.Func(Of UnityEngine.UIElements.VisualElement), System.Action(Of UnityEngine.UIElements.VisualElement, Integer), UnityEngine.UIElements.VisualElement)
+  name.vb: ListView(IList, Single, Func(Of VisualElement), Action(Of VisualElement, Integer), VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.Image(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.Image(UnityEngine.UIElements.VisualElement)
+  id: Image(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: Image(VisualElement)
+  nameWithType: UIELayout.Image(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.Image(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/Image.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: Image
+    path: ../UIEEx/Scripts/UIELayout/Image.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static Image Image(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.Image
+    content.vb: Public Shared Function Image(parent As VisualElement = Nothing) As Image
+  overload: SuiSuiShou.UIEEx.UIELayout.Image*
+- uid: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(UnityEngine.UIElements.VisualElement)
+  id: MinMaxSlider(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: MinMaxSlider(VisualElement)
+  nameWithType: UIELayout.MinMaxSlider(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/MinMaxSlider.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: MinMaxSlider
+    path: ../UIEEx/Scripts/UIELayout/MinMaxSlider.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static MinMaxSlider MinMaxSlider(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.MinMaxSlider
+    content.vb: Public Shared Function MinMaxSlider(parent As VisualElement = Nothing) As MinMaxSlider
+  overload: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider*
+- uid: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(System.Single,System.Single,System.Single,System.Single,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(System.Single,System.Single,System.Single,System.Single,UnityEngine.UIElements.VisualElement)
+  id: MinMaxSlider(System.Single,System.Single,System.Single,System.Single,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: MinMaxSlider(float, float, float, float, VisualElement)
+  nameWithType: UIELayout.MinMaxSlider(float, float, float, float, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(float, float, float, float, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/MinMaxSlider.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: MinMaxSlider
+    path: ../UIEEx/Scripts/UIELayout/MinMaxSlider.cs
+    startLine: 48
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static MinMaxSlider MinMaxSlider(float minValue, float maxValue, float minLimit, float maxLimit, VisualElement parent = null)
+    parameters:
+    - id: minValue
+      type: System.Single
+      description: The minimum value in the range to be represented.
+    - id: maxValue
+      type: System.Single
+      description: The maximum value in the range to be represented.
+    - id: minLimit
+      type: System.Single
+      description: The minimum value of the slider limit.
+    - id: maxLimit
+      type: System.Single
+      description: The maximum value of the slider limit.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.MinMaxSlider
+    content.vb: Public Shared Function MinMaxSlider(minValue As Single, maxValue As Single, minLimit As Single, maxLimit As Single, parent As VisualElement = Nothing) As MinMaxSlider
+  overload: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider*
+  nameWithType.vb: UIELayout.MinMaxSlider(Single, Single, Single, Single, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(Single, Single, Single, Single, UnityEngine.UIElements.VisualElement)
+  name.vb: MinMaxSlider(Single, Single, Single, Single, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(System.String,System.Single,System.Single,System.Single,System.Single,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(System.String,System.Single,System.Single,System.Single,System.Single,UnityEngine.UIElements.VisualElement)
+  id: MinMaxSlider(System.String,System.Single,System.Single,System.Single,System.Single,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: MinMaxSlider(string, float, float, float, float, VisualElement)
+  nameWithType: UIELayout.MinMaxSlider(string, float, float, float, float, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(string, float, float, float, float, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/MinMaxSlider.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: MinMaxSlider
+    path: ../UIEEx/Scripts/UIELayout/MinMaxSlider.cs
+    startLine: 66
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nConstructor.\n</p>\n"
+  example: []
+  syntax:
+    content: public static MinMaxSlider MinMaxSlider(string label, float minValue, float maxValue, float minLimit, float maxLimit, VisualElement parent = null)
+    parameters:
+    - id: label
+      type: System.String
+      description: ''
+    - id: minValue
+      type: System.Single
+      description: The minimum value in the range to be represented.
+    - id: maxValue
+      type: System.Single
+      description: The maximum value in the range to be represented.
+    - id: minLimit
+      type: System.Single
+      description: The minimum value of the slider limit.
+    - id: maxLimit
+      type: System.Single
+      description: The maximum value of the slider limit.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.MinMaxSlider
+    content.vb: Public Shared Function MinMaxSlider(label As String, minValue As Single, maxValue As Single, minLimit As Single, maxLimit As Single, parent As VisualElement = Nothing) As MinMaxSlider
+  overload: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider*
+  nameWithType.vb: UIELayout.MinMaxSlider(String, Single, Single, Single, Single, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider(String, Single, Single, Single, Single, UnityEngine.UIElements.VisualElement)
+  name.vb: MinMaxSlider(String, Single, Single, Single, Single, VisualElement)
+- uid: SuiSuiShou.UIEEx.UIELayout.HelpBox(UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.HelpBox(UnityEngine.UIElements.VisualElement)
+  id: HelpBox(UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: HelpBox(VisualElement)
+  nameWithType: UIELayout.HelpBox(VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.HelpBox(UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/HelpBox.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: HelpBox
+    path: ../UIEEx/Scripts/UIELayout/HelpBox.cs
+    startLine: 31
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a new HelpBox.\n</p>\n"
+  example: []
+  syntax:
+    content: public static HelpBox HelpBox(VisualElement parent = null)
+    parameters:
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.HelpBox
+    content.vb: Public Shared Function HelpBox(parent As VisualElement = Nothing) As HelpBox
+  overload: SuiSuiShou.UIEEx.UIELayout.HelpBox*
+- uid: SuiSuiShou.UIEEx.UIELayout.HelpBox(System.String,UnityEngine.UIElements.HelpBoxMessageType,UnityEngine.UIElements.VisualElement)
+  commentId: M:SuiSuiShou.UIEEx.UIELayout.HelpBox(System.String,UnityEngine.UIElements.HelpBoxMessageType,UnityEngine.UIElements.VisualElement)
+  id: HelpBox(System.String,UnityEngine.UIElements.HelpBoxMessageType,UnityEngine.UIElements.VisualElement)
+  parent: SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: HelpBox(string, HelpBoxMessageType, VisualElement)
+  nameWithType: UIELayout.HelpBox(string, HelpBoxMessageType, VisualElement)
+  fullName: SuiSuiShou.UIEEx.UIELayout.HelpBox(string, UnityEngine.UIElements.HelpBoxMessageType, UnityEngine.UIElements.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: Scripts/UIELayout/HelpBox.cs
+      branch: main
+      repo: git@github.com:blightue/UIEEx.git
+    id: HelpBox
+    path: ../UIEEx/Scripts/UIELayout/HelpBox.cs
+    startLine: 46
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+  namespace: SuiSuiShou.UIEEx
+  summary: "\n<p>\nCreates a new HelpBox.\n</p>\n"
+  example: []
+  syntax:
+    content: public static HelpBox HelpBox(string text, HelpBoxMessageType messageType, VisualElement parent = null)
+    parameters:
+    - id: text
+      type: System.String
+      description: The message text.
+    - id: messageType
+      type: UnityEngine.UIElements.HelpBoxMessageType
+      description: The type of message.
+    - id: parent
+      type: UnityEngine.UIElements.VisualElement
+      description: The parent of this element.
+    return:
+      type: UnityEngine.UIElements.HelpBox
+    content.vb: Public Shared Function HelpBox(text As String, messageType As HelpBoxMessageType, parent As VisualElement = Nothing) As HelpBox
+  overload: SuiSuiShou.UIEEx.UIELayout.HelpBox*
+  nameWithType.vb: UIELayout.HelpBox(String, HelpBoxMessageType, VisualElement)
+  fullName.vb: SuiSuiShou.UIEEx.UIELayout.HelpBox(String, UnityEngine.UIElements.HelpBoxMessageType, UnityEngine.UIElements.VisualElement)
+  name.vb: HelpBox(String, HelpBoxMessageType, VisualElement)
+references:
+- uid: SuiSuiShou.UIEEx
+  commentId: N:SuiSuiShou.UIEEx
+  name: SuiSuiShou.UIEEx
+  nameWithType: SuiSuiShou.UIEEx
+  fullName: SuiSuiShou.UIEEx
+  spec.csharp:
+  - uid: SuiSuiShou
+    name: SuiSuiShou
+  - name: .
+  - uid: SuiSuiShou.UIEEx
+    name: UIEEx
+  spec.vb:
+  - uid: SuiSuiShou
+    name: SuiSuiShou
+  - name: .
+  - uid: SuiSuiShou.UIEEx
+    name: UIEEx
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuiSuiShou.UIEEx.UIELayout.ScrollView*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.ScrollView
+  name: ScrollView
+  nameWithType: UIELayout.ScrollView
+  fullName: SuiSuiShou.UIEEx.UIELayout.ScrollView
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements.ScrollView
+  commentId: T:UnityEngine.UIElements.ScrollView
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: ScrollView
+  nameWithType: ScrollView
+  fullName: UnityEngine.UIElements.ScrollView
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEngine.UIElements.ScrollViewMode
+  commentId: T:UnityEngine.UIElements.ScrollViewMode
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: ScrollViewMode
+  nameWithType: ScrollViewMode
+  fullName: UnityEngine.UIElements.ScrollViewMode
+- uid: SuiSuiShou.UIEEx.UIELayout.GroupBox*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.GroupBox
+  name: GroupBox
+  nameWithType: UIELayout.GroupBox
+  fullName: SuiSuiShou.UIEEx.UIELayout.GroupBox
+- uid: UnityEngine.UIElements.GroupBox
+  commentId: T:UnityEngine.UIElements.GroupBox
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: GroupBox
+  nameWithType: GroupBox
+  fullName: UnityEngine.UIElements.GroupBox
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuiSuiShou.UIEEx.UIELayout.Slider*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.Slider
+  name: Slider
+  nameWithType: UIELayout.Slider
+  fullName: SuiSuiShou.UIEEx.UIELayout.Slider
+- uid: UnityEngine.UIElements.Slider
+  commentId: T:UnityEngine.UIElements.Slider
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Slider
+  nameWithType: Slider
+  fullName: UnityEngine.UIElements.Slider
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine.UIElements.SliderDirection
+  commentId: T:UnityEngine.UIElements.SliderDirection
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: SliderDirection
+  nameWithType: SliderDirection
+  fullName: UnityEngine.UIElements.SliderDirection
+- uid: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView
+  name: TwoPaneSplitView
+  nameWithType: UIELayout.TwoPaneSplitView
+  fullName: SuiSuiShou.UIEEx.UIELayout.TwoPaneSplitView
+- uid: UnityEngine.UIElements.TwoPaneSplitView
+  commentId: T:UnityEngine.UIElements.TwoPaneSplitView
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: TwoPaneSplitView
+  nameWithType: TwoPaneSplitView
+  fullName: UnityEngine.UIElements.TwoPaneSplitView
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UnityEngine.UIElements.TwoPaneSplitViewOrientation
+  commentId: T:UnityEngine.UIElements.TwoPaneSplitViewOrientation
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: TwoPaneSplitViewOrientation
+  nameWithType: TwoPaneSplitViewOrientation
+  fullName: UnityEngine.UIElements.TwoPaneSplitViewOrientation
+- uid: SuiSuiShou.UIEEx.UIELayout.Box*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.Box
+  name: Box
+  nameWithType: UIELayout.Box
+  fullName: SuiSuiShou.UIEEx.UIELayout.Box
+- uid: UnityEngine.UIElements.Box
+  commentId: T:UnityEngine.UIElements.Box
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Box
+  nameWithType: Box
+  fullName: UnityEngine.UIElements.Box
+- uid: SuiSuiShou.UIEEx.UIELayout.Label*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.Label
+  name: Label
+  nameWithType: UIELayout.Label
+  fullName: SuiSuiShou.UIEEx.UIELayout.Label
+- uid: UnityEngine.UIElements.Label
+  commentId: T:UnityEngine.UIElements.Label
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: UnityEngine.UIElements.Label
+- uid: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup
+  name: RadioButtonGroup
+  nameWithType: UIELayout.RadioButtonGroup
+  fullName: SuiSuiShou.UIEEx.UIELayout.RadioButtonGroup
+- uid: UnityEngine.UIElements.RadioButtonGroup
+  commentId: T:UnityEngine.UIElements.RadioButtonGroup
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: RadioButtonGroup
+  nameWithType: RadioButtonGroup
+  fullName: UnityEngine.UIElements.RadioButtonGroup
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<string>
+  nameWithType: List<string>
+  fullName: System.Collections.Generic.List<string>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SuiSuiShou.UIEEx.UIELayout.Foldout*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.Foldout
+  name: Foldout
+  nameWithType: UIELayout.Foldout
+  fullName: SuiSuiShou.UIEEx.UIELayout.Foldout
+- uid: UnityEngine.UIElements.Foldout
+  commentId: T:UnityEngine.UIElements.Foldout
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Foldout
+  nameWithType: Foldout
+  fullName: UnityEngine.UIElements.Foldout
+- uid: SuiSuiShou.UIEEx.UIELayout.IMGUIContainer*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.IMGUIContainer
+  name: IMGUIContainer
+  nameWithType: UIELayout.IMGUIContainer
+  fullName: SuiSuiShou.UIEEx.UIELayout.IMGUIContainer
+- uid: UnityEngine.UIElements.IMGUIContainer
+  commentId: T:UnityEngine.UIElements.IMGUIContainer
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: IMGUIContainer
+  nameWithType: IMGUIContainer
+  fullName: UnityEngine.UIElements.IMGUIContainer
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: SuiSuiShou.UIEEx.UIELayout.SliderInt*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.SliderInt
+  name: SliderInt
+  nameWithType: UIELayout.SliderInt
+  fullName: SuiSuiShou.UIEEx.UIELayout.SliderInt
+- uid: UnityEngine.UIElements.SliderInt
+  commentId: T:UnityEngine.UIElements.SliderInt
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: SliderInt
+  nameWithType: SliderInt
+  fullName: UnityEngine.UIElements.SliderInt
+- uid: SuiSuiShou.UIEEx.UIELayout.Toggle*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.Toggle
+  name: Toggle
+  nameWithType: UIELayout.Toggle
+  fullName: SuiSuiShou.UIEEx.UIELayout.Toggle
+- uid: UnityEngine.UIElements.Toggle
+  commentId: T:UnityEngine.UIElements.Toggle
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: UnityEngine.UIElements.Toggle
+- uid: SuiSuiShou.UIEEx.UIELayout.RepeatButton*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.RepeatButton
+  name: RepeatButton
+  nameWithType: UIELayout.RepeatButton
+  fullName: SuiSuiShou.UIEEx.UIELayout.RepeatButton
+- uid: UnityEngine.UIElements.RepeatButton
+  commentId: T:UnityEngine.UIElements.RepeatButton
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: RepeatButton
+  nameWithType: RepeatButton
+  fullName: UnityEngine.UIElements.RepeatButton
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: SuiSuiShou.UIEEx.UIELayout.Button*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.Button
+  name: Button
+  nameWithType: UIELayout.Button
+  fullName: SuiSuiShou.UIEEx.UIELayout.Button
+- uid: UnityEngine.UIElements.Button
+  commentId: T:UnityEngine.UIElements.Button
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UIElements.Button
+- uid: SuiSuiShou.UIEEx.UIELayout.TextElement*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.TextElement
+  name: TextElement
+  nameWithType: UIELayout.TextElement
+  fullName: SuiSuiShou.UIEEx.UIELayout.TextElement
+- uid: UnityEngine.UIElements.TextElement
+  commentId: T:UnityEngine.UIElements.TextElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: TextElement
+  nameWithType: TextElement
+  fullName: UnityEngine.UIElements.TextElement
+- uid: SuiSuiShou.UIEEx.UIELayout.TextField*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.TextField
+  name: TextField
+  nameWithType: UIELayout.TextField
+  fullName: SuiSuiShou.UIEEx.UIELayout.TextField
+- uid: UnityEngine.UIElements.TextField
+  commentId: T:UnityEngine.UIElements.TextField
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: TextField
+  nameWithType: TextField
+  fullName: UnityEngine.UIElements.TextField
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: char
+  nameWithType: char
+  fullName: char
+  nameWithType.vb: Char
+  fullName.vb: Char
+  name.vb: Char
+- uid: SuiSuiShou.UIEEx.UIELayout.DropdownField*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.DropdownField
+  name: DropdownField
+  nameWithType: UIELayout.DropdownField
+  fullName: SuiSuiShou.UIEEx.UIELayout.DropdownField
+- uid: UnityEngine.UIElements.DropdownField
+  commentId: T:UnityEngine.UIElements.DropdownField
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: DropdownField
+  nameWithType: DropdownField
+  fullName: UnityEngine.UIElements.DropdownField
+- uid: System.Func{System.String,System.String}
+  commentId: T:System.Func{System.String,System.String}
+  parent: System
+  definition: System.Func`2
+  name: Func<string, string>
+  nameWithType: Func<string, string>
+  fullName: System.Func<string, string>
+  nameWithType.vb: Func(Of String, String)
+  fullName.vb: System.Func(Of String, String)
+  name.vb: Func(Of String, String)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: SuiSuiShou.UIEEx.UIELayout.Scroller*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.Scroller
+  name: Scroller
+  nameWithType: UIELayout.Scroller
+  fullName: SuiSuiShou.UIEEx.UIELayout.Scroller
+- uid: UnityEngine.UIElements.Scroller
+  commentId: T:UnityEngine.UIElements.Scroller
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Scroller
+  nameWithType: Scroller
+  fullName: UnityEngine.UIElements.Scroller
+- uid: System.Action{System.Single}
+  commentId: T:System.Action{System.Single}
+  parent: System
+  definition: System.Action`1
+  name: Action<float>
+  nameWithType: Action<float>
+  fullName: System.Action<float>
+  nameWithType.vb: Action(Of Single)
+  fullName.vb: System.Action(Of Single)
+  name.vb: Action(Of Single)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuiSuiShou.UIEEx.UIELayout.ProgressBar*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.ProgressBar
+  name: ProgressBar
+  nameWithType: UIELayout.ProgressBar
+  fullName: SuiSuiShou.UIEEx.UIELayout.ProgressBar
+- uid: UnityEngine.UIElements.ProgressBar
+  commentId: T:UnityEngine.UIElements.ProgressBar
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: ProgressBar
+  nameWithType: ProgressBar
+  fullName: UnityEngine.UIElements.ProgressBar
+- uid: SuiSuiShou.UIEEx.UIELayout.RadioButton*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.RadioButton
+  name: RadioButton
+  nameWithType: UIELayout.RadioButton
+  fullName: SuiSuiShou.UIEEx.UIELayout.RadioButton
+- uid: UnityEngine.UIElements.RadioButton
+  commentId: T:UnityEngine.UIElements.RadioButton
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: RadioButton
+  nameWithType: RadioButton
+  fullName: UnityEngine.UIElements.RadioButton
+- uid: SuiSuiShou.UIEEx.UIELayout.PopupWindow*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.PopupWindow
+  name: PopupWindow
+  nameWithType: UIELayout.PopupWindow
+  fullName: SuiSuiShou.UIEEx.UIELayout.PopupWindow
+- uid: UnityEngine.UIElements.PopupWindow
+  commentId: T:UnityEngine.UIElements.PopupWindow
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: PopupWindow
+  nameWithType: PopupWindow
+  fullName: UnityEngine.UIElements.PopupWindow
+- uid: SuiSuiShou.UIEEx.UIELayout.ListView*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.ListView
+  name: ListView
+  nameWithType: UIELayout.ListView
+  fullName: SuiSuiShou.UIEEx.UIELayout.ListView
+- uid: UnityEngine.UIElements.ListView
+  commentId: T:UnityEngine.UIElements.ListView
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: ListView
+  nameWithType: ListView
+  fullName: UnityEngine.UIElements.ListView
+- uid: System.Collections.IList
+  commentId: T:System.Collections.IList
+  parent: System.Collections
+  isExternal: true
+  name: IList
+  nameWithType: IList
+  fullName: System.Collections.IList
+- uid: System.Func{UnityEngine.UIElements.VisualElement}
+  commentId: T:System.Func{UnityEngine.UIElements.VisualElement}
+  parent: System
+  definition: System.Func`1
+  name: Func<VisualElement>
+  nameWithType: Func<VisualElement>
+  fullName: System.Func<UnityEngine.UIElements.VisualElement>
+  nameWithType.vb: Func(Of VisualElement)
+  fullName.vb: System.Func(Of UnityEngine.UIElements.VisualElement)
+  name.vb: Func(Of VisualElement)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+- uid: System.Action{UnityEngine.UIElements.VisualElement,System.Int32}
+  commentId: T:System.Action{UnityEngine.UIElements.VisualElement,System.Int32}
+  parent: System
+  definition: System.Action`2
+  name: Action<VisualElement, int>
+  nameWithType: Action<VisualElement, int>
+  fullName: System.Action<UnityEngine.UIElements.VisualElement, int>
+  nameWithType.vb: Action(Of VisualElement, Integer)
+  fullName.vb: System.Action(Of UnityEngine.UIElements.VisualElement, Integer)
+  name.vb: Action(Of VisualElement, Integer)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+- uid: SuiSuiShou.UIEEx.UIELayout.Image*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.Image
+  name: Image
+  nameWithType: UIELayout.Image
+  fullName: SuiSuiShou.UIEEx.UIELayout.Image
+- uid: UnityEngine.UIElements.Image
+  commentId: T:UnityEngine.UIElements.Image
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: UnityEngine.UIElements.Image
+- uid: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.MinMaxSlider
+  name: MinMaxSlider
+  nameWithType: UIELayout.MinMaxSlider
+  fullName: SuiSuiShou.UIEEx.UIELayout.MinMaxSlider
+- uid: UnityEngine.UIElements.MinMaxSlider
+  commentId: T:UnityEngine.UIElements.MinMaxSlider
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: MinMaxSlider
+  nameWithType: MinMaxSlider
+  fullName: UnityEngine.UIElements.MinMaxSlider
+- uid: SuiSuiShou.UIEEx.UIELayout.HelpBox*
+  commentId: Overload:SuiSuiShou.UIEEx.UIELayout.HelpBox
+  name: HelpBox
+  nameWithType: UIELayout.HelpBox
+  fullName: SuiSuiShou.UIEEx.UIELayout.HelpBox
+- uid: UnityEngine.UIElements.HelpBox
+  commentId: T:UnityEngine.UIElements.HelpBox
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: HelpBox
+  nameWithType: HelpBox
+  fullName: UnityEngine.UIElements.HelpBox
+- uid: UnityEngine.UIElements.HelpBoxMessageType
+  commentId: T:UnityEngine.UIElements.HelpBoxMessageType
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: HelpBoxMessageType
+  nameWithType: HelpBoxMessageType
+  fullName: UnityEngine.UIElements.HelpBoxMessageType

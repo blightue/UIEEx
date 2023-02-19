@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuiSuiShou.UIEEx
+  commentId: N:SuiSuiShou.UIEEx
+  id: SuiSuiShou.UIEEx
+  children:
+  - SuiSuiShou.UIEEx.UIEExtension
+  - SuiSuiShou.UIEEx.UIELayout
+  langs:
+  - csharp
+  - vb
+  name: SuiSuiShou.UIEEx
+  nameWithType: SuiSuiShou.UIEEx
+  fullName: SuiSuiShou.UIEEx
+  type: Namespace
+  assemblies:
+  - SuiSuiShou.UIEEx.Runtime
+references:
+- uid: SuiSuiShou.UIEEx.UIELayout
+  commentId: T:SuiSuiShou.UIEEx.UIELayout
+  name: UIELayout
+  nameWithType: UIELayout
+  fullName: SuiSuiShou.UIEEx.UIELayout
+- uid: SuiSuiShou.UIEEx.UIEExtension
+  commentId: T:SuiSuiShou.UIEEx.UIEExtension
+  name: UIEExtension
+  nameWithType: UIEExtension
+  fullName: SuiSuiShou.UIEEx.UIEExtension
