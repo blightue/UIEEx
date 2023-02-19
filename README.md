@@ -4,7 +4,7 @@
 
 UIEEx(UIElement Extension) is an extension library of Unity UI Elements package. UIEEx improve the workflow of creating editor &amp; runtime UI with UI Elements.
 
-[Full Documentation](Doc URL)
+[Full Documentation](https://blightue.github.io/UIEEx/)
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ UIEEx(UIElement Extension) is an extension library of Unity UI Elements package.
 
  * UIEEx provide method chaining for elements, you can use `Set[Property]` to set element property.
   
- * Check all supported properties in [ElementExtension](Doc URL) api documentation.
+ * Check all supported properties in [ElementExtension](https://blightue.github.io/UIEEx/api/SuiSuiShou.UIEEx.UIEExtension.html#methods) api documentation.
 
  * Sample:
     ```csharp
