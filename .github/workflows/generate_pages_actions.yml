@@ -1,0 +1,26 @@
+name: Generate_Pages_Actions
+run-name: Gene pages
+on: 
+  push:
+    branches: [ docfx ]
+jobs:
+  add_docfx:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v3
+      - name: Setup docfx
+        run: dotnet tool update -g docfx
+      - name: Docfx build
+        run: docfx build docfx.json
+        continue-on-error: false
+      - name: Publish
+        if: github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _site
+          publish_branch: gh-pages
+          force_orphan: true
