@@ -1,7 +1,7 @@
 # **UIEEx Documentation**
 
 
-![version](https://badgen.net/badge/version/0.1.2/orange) ![license](https://badgen.net/github/license/blightue/UIEEx)
+![version](https://img.shields.io/github/package-json/v/blightue/UIEEx) ![license](https://img.shields.io/github/license/blightue/UIEEx)
 
 UIEEx(UIElement Extension) is an extension library of Unity UI Elements package. UIEEx improve the workflow of creating editor &amp; runtime UI with UI Elements.
 
