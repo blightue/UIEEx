@@ -1,2 +1,11 @@
-- name: Introduction
-  href: intro.md
+items:
+- name: Installation instructions
+  href: installation_instructions.md
+- name: Quick start
+  items:
+  - name: Elements Factory
+    href: elements_factory.md
+  - name: Method chaining
+    href: method_chaining.md
+  - name: Samples
+    href: samples.md
