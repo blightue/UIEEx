@@ -83,4 +83,25 @@ UIEEx(UIElement Extension) is an extension library of Unity UI Elements package.
         }
     }
     ```
-* Inspector
+
+* Custom Editor Sample
+    ```csharp
+    [CustomEditor(typeof(TestClass))]
+    public class TestClassEditor : UnityEditor.Editor
+    {
+        private TestClass _target;
+
+        public override VisualElement CreateInspectorGUI()
+        {
+            VisualElement root = new VisualElement  ();
+
+            TextField inputField = UIELayout.   TextField("My Text", root)
+                .SetBindingPath(nameof(_target. m_Text));
+
+            IntegerField countField =   EditorUIELayout.IntegerField("My  Count", 100, root)
+                .SetBindingPath(nameof(_target. m_Count));
+
+            return root;
+        }
+    }
+    ```
