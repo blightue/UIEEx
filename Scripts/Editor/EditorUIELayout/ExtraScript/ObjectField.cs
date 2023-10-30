@@ -1,4 +1,6 @@
 ﻿/*
+This script is used for adding extra-ctor for EditorUIElayout
+
 Copyright 2023 SUISUISHOU(blightue@gmail.com)
 
 Licensed under the Apache License, Version 2.0 (the "License")
@@ -21,7 +23,7 @@ using SuiSuiShou.UIEEx;
 
 namespace SuiSuiShou.UIEEx.Editor
 {
-    public static partial class EditorUIELayout 
+    public static partial class EditorUIELayout
     {
         /// <summary>
         /// <para>
@@ -31,13 +33,15 @@ namespace SuiSuiShou.UIEEx.Editor
         /// <param name="label">The label of this field</param>
         /// <param name="objType">The object type of the binding content</param>
         /// <param name="parent">The parent of this element.</param>
-        public static ObjectField ObjectField (System.String label, Type objType, VisualElement parent = null)
-        {{
-            ObjectField objectField = new ObjectField();
-            objectField.objectType = objType;
-            objectField.SetParent(parent);
-            return objectField;
-        }}
+        public static ObjectField ObjectField(System.String label, Type objType, VisualElement parent = null)
+        {
+            {
+                ObjectField objectField = new ObjectField(label);
+                objectField.objectType = objType;
+                objectField.SetParent(parent);
+                return objectField;
+            }
+        }
 
         /// <summary>
         /// <para>
@@ -48,14 +52,16 @@ namespace SuiSuiShou.UIEEx.Editor
         /// <param name="objectType">The object type of the binding content</param>
         /// <param name="allowSceneObjects">Allows scene objects to be assigned to the field</param>
         /// <param name="parent">The parent of this element.</param>
-        public static ObjectField ObjectField (System.String label, Type objectType, bool allowSceneObjects, VisualElement parent = null)
-        {{
-            ObjectField objectField = new ObjectField();
-            objectField.objectType = objectType;
-            objectField.allowSceneObjects = allowSceneObjects;
-            objectField.SetParent(parent);
-            return objectField;
-        }}
+        public static ObjectField ObjectField(System.String label, Type objectType, bool allowSceneObjects, VisualElement parent = null)
+        {
+            {
+                ObjectField objectField = new ObjectField(label);
+                objectField.objectType = objectType;
+                objectField.allowSceneObjects = allowSceneObjects;
+                objectField.SetParent(parent);
+                return objectField;
+            }
+        }
 
     }
 }

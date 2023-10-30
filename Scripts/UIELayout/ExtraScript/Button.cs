@@ -1,4 +1,6 @@
 ﻿/*
+This script is used for adding extra_ctor for UIELayout
+
 Copyright 2023 SUISUISHOU(blightue@gmail.com)
 
 Licensed under the Apache License, Version 2.0 (the "License")
