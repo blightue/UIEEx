@@ -1,7 +1,7 @@
 {
   "name": "net.suisuishou.uielementextension",
   "displayName": "UI Elements Extention",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "unity": "2020.3",
   "description": "UIEEx(UIElements Extension) is an extension library of Unity UI Elements package. UIEEx improve the workflow of creating editor & runtime UI by UI Elements.",
   "keywords": [
