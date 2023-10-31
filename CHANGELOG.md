@@ -1,12 +1,20 @@
 # Changelog
 
+## [0.1.4] - 2023-10-31
+
+### Added
+
+* Add Extra-ctor template
+
+* Implement Extra-ctor for *ObjectField* , *Button*
+
 ## [0.1.3] - 2023-10-17
 
 ### Update
 
 * Add npmignore manifest file to ignore code generator scripts
-
-
+  
+  
 
 ## [0.1.2] - 2023-02-06
 
