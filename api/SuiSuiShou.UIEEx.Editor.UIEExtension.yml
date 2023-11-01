@@ -15,9 +15,9 @@ items:
   type: Class
   source:
     remote:
-      path: Scripts/Editor/EditorUIEExtension.cs
-      branch: main
-      repo: git@github.com:blightue/UIEEx.git
+      path: Scripts\Editor\EditorUIEExtension.cs
+      branch: extra_ctor
+      repo: https://github.com/blightue/UIEEx.git
     id: UIEExtension
     path: ../UIEEx/Scripts/Editor/EditorUIEExtension.cs
     startLine: 6
@@ -51,16 +51,16 @@ items:
   type: Method
   source:
     remote:
-      path: Scripts/Editor/EditorUIEExtension.cs
-      branch: main
-      repo: git@github.com:blightue/UIEEx.git
+      path: Scripts\Editor\EditorUIEExtension.cs
+      branch: extra_ctor
+      repo: https://github.com/blightue/UIEEx.git
     id: SetBindObject
     path: ../UIEEx/Scripts/Editor/EditorUIEExtension.cs
     startLine: 15
   assemblies:
   - SuiSuiShou.UIEEx.Editor
   namespace: SuiSuiShou.UIEEx.Editor
-  summary: "\nSet the bind object of the target element\n"
+  summary: Set the bind object of the target element
   example: []
   syntax:
     content: 'public static T SetBindObject<T>(this T target, SerializedObject serializedObj) where T : BindableElement'
@@ -85,31 +85,39 @@ items:
 references:
 - uid: SuiSuiShou.UIEEx.Editor
   commentId: N:SuiSuiShou.UIEEx.Editor
+  href: SuiSuiShou.html
   name: SuiSuiShou.UIEEx.Editor
   nameWithType: SuiSuiShou.UIEEx.Editor
   fullName: SuiSuiShou.UIEEx.Editor
   spec.csharp:
   - uid: SuiSuiShou
     name: SuiSuiShou
+    href: SuiSuiShou.html
   - name: .
   - uid: SuiSuiShou.UIEEx
     name: UIEEx
+    href: SuiSuiShou.UIEEx.html
   - name: .
   - uid: SuiSuiShou.UIEEx.Editor
     name: Editor
+    href: SuiSuiShou.UIEEx.Editor.html
   spec.vb:
   - uid: SuiSuiShou
     name: SuiSuiShou
+    href: SuiSuiShou.html
   - name: .
   - uid: SuiSuiShou.UIEEx
     name: UIEEx
+    href: SuiSuiShou.UIEEx.html
   - name: .
   - uid: SuiSuiShou.UIEEx.Editor
     name: Editor
+    href: SuiSuiShou.UIEEx.Editor.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -120,6 +128,7 @@ references:
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   name: Equals(object)
   nameWithType: object.Equals(object)
   fullName: object.Equals(object)
@@ -130,24 +139,29 @@ references:
   - uid: System.Object.Equals(System.Object)
     name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   name: Equals(object, object)
   nameWithType: object.Equals(object, object)
   fullName: object.Equals(object, object)
@@ -158,34 +172,41 @@ references:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ','
   - name: " "
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ','
   - name: " "
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
   nameWithType: object.GetHashCode()
   fullName: object.GetHashCode()
@@ -195,18 +216,21 @@ references:
   - uid: System.Object.GetHashCode
     name: GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
   nameWithType: object.GetType()
   fullName: object.GetType()
@@ -216,18 +240,21 @@ references:
   - uid: System.Object.GetType
     name: GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
   - name: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
   nameWithType: object.MemberwiseClone()
   fullName: object.MemberwiseClone()
@@ -237,18 +264,21 @@ references:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
   - name: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   name: ReferenceEquals(object, object)
   nameWithType: object.ReferenceEquals(object, object)
   fullName: object.ReferenceEquals(object, object)
@@ -259,34 +289,41 @@ references:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ','
   - name: " "
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ','
   - name: " "
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
   nameWithType: object.ToString()
   fullName: object.ToString()
@@ -296,22 +333,26 @@ references:
   - uid: System.Object.ToString
     name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuiSuiShou.UIEEx.Editor.UIEExtension.SetBindObject*
   commentId: Overload:SuiSuiShou.UIEEx.Editor.UIEExtension.SetBindObject
+  href: SuiSuiShou.UIEEx.Editor.UIEExtension.html#SuiSuiShou_UIEEx_Editor_UIEExtension_SetBindObject__1___0_UnityEditor_SerializedObject_
   name: SetBindObject
   nameWithType: UIEExtension.SetBindObject
   fullName: SuiSuiShou.UIEEx.Editor.UIEExtension.SetBindObject

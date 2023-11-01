@@ -18,11 +18,13 @@ items:
 references:
 - uid: SuiSuiShou.UIEEx.Editor.EditorUIELayout
   commentId: T:SuiSuiShou.UIEEx.Editor.EditorUIELayout
+  href: SuiSuiShou.UIEEx.Editor.EditorUIELayout.html
   name: EditorUIELayout
   nameWithType: EditorUIELayout
   fullName: SuiSuiShou.UIEEx.Editor.EditorUIELayout
 - uid: SuiSuiShou.UIEEx.Editor.UIEExtension
   commentId: T:SuiSuiShou.UIEEx.Editor.UIEExtension
+  href: SuiSuiShou.UIEEx.Editor.UIEExtension.html
   name: UIEExtension
   nameWithType: UIEExtension
   fullName: SuiSuiShou.UIEEx.Editor.UIEExtension

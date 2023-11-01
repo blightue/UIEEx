@@ -19,16 +19,16 @@ items:
   type: Class
   source:
     remote:
-      path: Scripts/UIEExtension.cs
-      branch: main
-      repo: git@github.com:blightue/UIEEx.git
+      path: Scripts\UIEExtension.cs
+      branch: extra_ctor
+      repo: https://github.com/blightue/UIEEx.git
     id: UIEExtension
     path: ../UIEEx/Scripts/UIEExtension.cs
     startLine: 9
   assemblies:
   - SuiSuiShou.UIEEx.Runtime
   namespace: SuiSuiShou.UIEEx
-  summary: "\nUI Elements extension methods\n"
+  summary: UI Elements extension methods
   example: []
   syntax:
     content: public static class UIEExtension
@@ -57,16 +57,16 @@ items:
   type: Method
   source:
     remote:
-      path: Scripts/UIEExtension.cs
-      branch: main
-      repo: git@github.com:blightue/UIEEx.git
+      path: Scripts\UIEExtension.cs
+      branch: extra_ctor
+      repo: https://github.com/blightue/UIEEx.git
     id: SetParent
     path: ../UIEEx/Scripts/UIEExtension.cs
     startLine: 17
   assemblies:
   - SuiSuiShou.UIEEx.Runtime
   namespace: SuiSuiShou.UIEEx
-  summary: "\nSet the parent of the target element\n"
+  summary: Set the parent of the target element
   example: []
   syntax:
     content: 'public static T SetParent<T>(this T target, VisualElement parent) where T : VisualElement'
@@ -101,16 +101,16 @@ items:
   type: Method
   source:
     remote:
-      path: Scripts/UIEExtension.cs
-      branch: main
-      repo: git@github.com:blightue/UIEEx.git
+      path: Scripts\UIEExtension.cs
+      branch: extra_ctor
+      repo: https://github.com/blightue/UIEEx.git
     id: SetBindingPath
     path: ../UIEEx/Scripts/UIEExtension.cs
     startLine: 29
   assemblies:
   - SuiSuiShou.UIEEx.Runtime
   namespace: SuiSuiShou.UIEEx
-  summary: "\nSet the binding path of the target element\n"
+  summary: Set the binding path of the target element
   example: []
   syntax:
     content: 'public static T SetBindingPath<T>(this T target, string bindingPath) where T : IBindable'
@@ -145,16 +145,16 @@ items:
   type: Method
   source:
     remote:
-      path: Scripts/UIEExtension.cs
-      branch: main
-      repo: git@github.com:blightue/UIEEx.git
+      path: Scripts\UIEExtension.cs
+      branch: extra_ctor
+      repo: https://github.com/blightue/UIEEx.git
     id: SetText
     path: ../UIEEx/Scripts/UIEExtension.cs
     startLine: 45
   assemblies:
   - SuiSuiShou.UIEEx.Runtime
   namespace: SuiSuiShou.UIEEx
-  summary: "\nSet the text of the target element\n"
+  summary: Set the text of the target element
   example: []
   syntax:
     content: 'public static T SetText<T>(this T target, string text) where T : TextElement'
@@ -190,16 +190,16 @@ items:
   type: Method
   source:
     remote:
-      path: Scripts/UIEExtension.cs
-      branch: main
-      repo: git@github.com:blightue/UIEEx.git
+      path: Scripts\UIEExtension.cs
+      branch: extra_ctor
+      repo: https://github.com/blightue/UIEEx.git
     id: SetLabel
     path: ../UIEEx/Scripts/UIEExtension.cs
     startLine: 58
   assemblies:
   - SuiSuiShou.UIEEx.Runtime
   namespace: SuiSuiShou.UIEEx
-  summary: "\nSet the Label content of the target element, return BaseField<see cref=\"!:T\"></see>\n"
+  summary: Set the Label content of the target element, return BaseFieldT
   example: []
   syntax:
     content: public static BaseField<T> SetLabel<T>(this BaseField<T> target, string label)
@@ -235,16 +235,16 @@ items:
   type: Method
   source:
     remote:
-      path: Scripts/UIEExtension.cs
-      branch: main
-      repo: git@github.com:blightue/UIEEx.git
+      path: Scripts\UIEExtension.cs
+      branch: extra_ctor
+      repo: https://github.com/blightue/UIEEx.git
     id: SetLabel
     path: ../UIEEx/Scripts/UIEExtension.cs
     startLine: 72
   assemblies:
   - SuiSuiShou.UIEEx.Runtime
   namespace: SuiSuiShou.UIEEx
-  summary: "\nSet the Label content of BaseField<see cref=\"!:V\"></see> element, return the target element\n"
+  summary: Set the Label content of BaseFieldV element, return the target element
   example: []
   syntax:
     content: 'public static T SetLabel<T, V>(this T target, string label) where T : BaseField<V>'
@@ -271,25 +271,31 @@ items:
 references:
 - uid: SuiSuiShou.UIEEx
   commentId: N:SuiSuiShou.UIEEx
+  href: SuiSuiShou.html
   name: SuiSuiShou.UIEEx
   nameWithType: SuiSuiShou.UIEEx
   fullName: SuiSuiShou.UIEEx
   spec.csharp:
   - uid: SuiSuiShou
     name: SuiSuiShou
+    href: SuiSuiShou.html
   - name: .
   - uid: SuiSuiShou.UIEEx
     name: UIEEx
+    href: SuiSuiShou.UIEEx.html
   spec.vb:
   - uid: SuiSuiShou
     name: SuiSuiShou
+    href: SuiSuiShou.html
   - name: .
   - uid: SuiSuiShou.UIEEx
     name: UIEEx
+    href: SuiSuiShou.UIEEx.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
   name: object
   nameWithType: object
   fullName: object
@@ -300,6 +306,7 @@ references:
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   name: Equals(object)
   nameWithType: object.Equals(object)
   fullName: object.Equals(object)
@@ -310,24 +317,29 @@ references:
   - uid: System.Object.Equals(System.Object)
     name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   name: Equals(object, object)
   nameWithType: object.Equals(object, object)
   fullName: object.Equals(object, object)
@@ -338,34 +350,41 @@ references:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ','
   - name: " "
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ','
   - name: " "
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
   nameWithType: object.GetHashCode()
   fullName: object.GetHashCode()
@@ -375,18 +394,21 @@ references:
   - uid: System.Object.GetHashCode
     name: GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
   - name: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
   nameWithType: object.GetType()
   fullName: object.GetType()
@@ -396,18 +418,21 @@ references:
   - uid: System.Object.GetType
     name: GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
   - name: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
   nameWithType: object.MemberwiseClone()
   fullName: object.MemberwiseClone()
@@ -417,18 +442,21 @@ references:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
   - name: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   name: ReferenceEquals(object, object)
   nameWithType: object.ReferenceEquals(object, object)
   fullName: object.ReferenceEquals(object, object)
@@ -439,34 +467,41 @@ references:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ','
   - name: " "
   - uid: System.Object
     name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ','
   - name: " "
   - uid: System.Object
     name: Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
   nameWithType: object.ToString()
   fullName: object.ToString()
@@ -476,22 +511,26 @@ references:
   - uid: System.Object.ToString
     name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
   - name: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuiSuiShou.UIEEx.UIEExtension.SetParent*
   commentId: Overload:SuiSuiShou.UIEEx.UIEExtension.SetParent
+  href: SuiSuiShou.UIEEx.UIEExtension.html#SuiSuiShou_UIEEx_UIEExtension_SetParent__1___0_UnityEngine_UIElements_VisualElement_
   name: SetParent
   nameWithType: UIEExtension.SetParent
   fullName: SuiSuiShou.UIEEx.UIEExtension.SetParent
@@ -536,6 +575,7 @@ references:
     isExternal: true
 - uid: SuiSuiShou.UIEEx.UIEExtension.SetBindingPath*
   commentId: Overload:SuiSuiShou.UIEEx.UIEExtension.SetBindingPath
+  href: SuiSuiShou.UIEEx.UIEExtension.html#SuiSuiShou_UIEEx_UIEExtension_SetBindingPath__1___0_System_String_
   name: SetBindingPath
   nameWithType: UIEExtension.SetBindingPath
   fullName: SuiSuiShou.UIEEx.UIEExtension.SetBindingPath
@@ -543,6 +583,7 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
   name: string
   nameWithType: string
   fullName: string
@@ -551,11 +592,13 @@ references:
   name.vb: String
 - uid: SuiSuiShou.UIEEx.UIEExtension.SetText*
   commentId: Overload:SuiSuiShou.UIEEx.UIEExtension.SetText
+  href: SuiSuiShou.UIEEx.UIEExtension.html#SuiSuiShou_UIEEx_UIEExtension_SetText__1___0_System_String_
   name: SetText
   nameWithType: UIEExtension.SetText
   fullName: SuiSuiShou.UIEEx.UIEExtension.SetText
 - uid: SuiSuiShou.UIEEx.UIEExtension.SetLabel*
   commentId: Overload:SuiSuiShou.UIEEx.UIEExtension.SetLabel
+  href: SuiSuiShou.UIEEx.UIEExtension.html#SuiSuiShou_UIEEx_UIEExtension_SetLabel__1_UnityEngine_UIElements_BaseField___0__System_String_
   name: SetLabel
   nameWithType: UIEExtension.SetLabel
   fullName: SuiSuiShou.UIEEx.UIEExtension.SetLabel

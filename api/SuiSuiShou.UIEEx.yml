@@ -18,11 +18,13 @@ items:
 references:
 - uid: SuiSuiShou.UIEEx.UIELayout
   commentId: T:SuiSuiShou.UIEEx.UIELayout
+  href: SuiSuiShou.UIEEx.UIELayout.html
   name: UIELayout
   nameWithType: UIELayout
   fullName: SuiSuiShou.UIEEx.UIELayout
 - uid: SuiSuiShou.UIEEx.UIEExtension
   commentId: T:SuiSuiShou.UIEEx.UIEExtension
+  href: SuiSuiShou.UIEEx.UIEExtension.html
   name: UIEExtension
   nameWithType: UIEExtension
   fullName: SuiSuiShou.UIEEx.UIEExtension
