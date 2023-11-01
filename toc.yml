@@ -1,4 +1,4 @@
-- name: Get Started
+- name: Manual
   href: articles/
-- name: Api Documentation
+- name: API
   href: api/

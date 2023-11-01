@@ -35,7 +35,8 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+		  "assets/image/**"
         ]
       }
     ],
@@ -52,9 +53,17 @@
     ],
     "dest": "_site",
     "globalMetadataFiles": [],
+	"globalMetadata" : {
+		"_appFooter" : "Made by <a href=\"https://www.suisuishou.net\" target=\"_blank\">SuiSuiShou</a>",
+		"_appLogoPath" : "assets/image/UIEEx_Icon_DarkMode.svg",
+		"_appName" : "UIEEx",
+		"_appFaviconPath" : "assets/image/UIEEx_Icon_DarkMode.svg",
+		"_enableSearch" : true,
+	},
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+	  "modern"
     ],
     "postProcessors": [],
     "noLangKeyword": false,
