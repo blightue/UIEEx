@@ -1,0 +1,3661 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EditorUIELayout | UIEEx </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EditorUIELayout | UIEEx ">
+      
+      
+      <link rel="icon" href="../assets/image/UIEEx_icon_dark.svg">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/blightue/UIEEx/new/extra_ctor/apiSpec/new?filename=SuiSuiShou_UIEEx_Editor_EditorUIELayout.md&amp;value=---%0Auid%3A%20SuiSuiShou.UIEEx.Editor.EditorUIELayout%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../assets/image/UIEEx_icon_dark.svg" alt="UIEEx">
+            UIEEx
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout">
+
+
+
+  <h1 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout" class="text-break">
+Class EditorUIELayout  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\ExtraScript\ToolbarSearchField.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SuiSuiShou.html">SuiSuiShou</a>.<a class="xref" href="SuiSuiShou.UIEEx.html">UIEEx</a>.<a class="xref" href="SuiSuiShou.UIEEx.Editor.html">Editor</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SuiSuiShou.UIEEx.Editor.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class EditorUIELayout</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">EditorUIELayout</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_BoundsField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_BoundsField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(System.String,UnityEngine.UIElements.VisualElement)">
+  BoundsField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\BoundsField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of BoundsField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BoundsField BoundsField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">BoundsField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_BoundsField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_BoundsField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsField(UnityEngine.UIElements.VisualElement)">
+  BoundsField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\BoundsField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of BoundsField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BoundsField BoundsField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">BoundsField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_BoundsIntField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_BoundsIntField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(System.String,UnityEngine.UIElements.VisualElement)">
+  BoundsIntField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\BoundsIntField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of BoundsIntField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BoundsIntField BoundsIntField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">BoundsIntField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_BoundsIntField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_BoundsIntField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.BoundsIntField(UnityEngine.UIElements.VisualElement)">
+  BoundsIntField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\BoundsIntField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of BoundsIntField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BoundsIntField BoundsIntField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">BoundsIntField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ColorField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ColorField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(System.String,UnityEngine.UIElements.VisualElement)">
+  ColorField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ColorField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of ColorField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ColorField ColorField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ColorField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ColorField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ColorField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ColorField(UnityEngine.UIElements.VisualElement)">
+  ColorField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ColorField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of ColorField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ColorField ColorField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ColorField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_CurveField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_CurveField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(System.String,UnityEngine.UIElements.VisualElement)">
+  CurveField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\CurveField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of CurveField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CurveField CurveField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CurveField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_CurveField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_CurveField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.CurveField(UnityEngine.UIElements.VisualElement)">
+  CurveField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\CurveField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of CurveField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CurveField CurveField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CurveField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_DoubleField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_DoubleField_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(System.Int32,UnityEngine.UIElements.VisualElement)">
+  DoubleField(int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\DoubleField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DoubleField DoubleField(int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters the field can take.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DoubleField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_DoubleField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_DoubleField_System_String_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)">
+  DoubleField(string, int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\DoubleField.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DoubleField DoubleField(string label, int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters the field can take.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DoubleField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_DoubleField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_DoubleField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.DoubleField(UnityEngine.UIElements.VisualElement)">
+  DoubleField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\DoubleField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DoubleField DoubleField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">DoubleField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumField_System_Enum_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.Enum,UnityEngine.UIElements.VisualElement)">
+  EnumField(Enum, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Construct an EnumField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumField EnumField(Enum defaultValue, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.enum">Enum</a></dt>
+    <dd><p>Initial value. Also used to detect Enum type.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumField_System_String_System_Enum_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)">
+  EnumField(string, Enum, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumField.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Construct an EnumField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumField EnumField(string label, Enum defaultValue, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.enum">Enum</a></dt>
+    <dd><p>Initial value. Also used to detect Enum type.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumField(UnityEngine.UIElements.VisualElement)">
+  EnumField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Construct an EnumField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumField EnumField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_System_Enum_System_Boolean_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)">
+  EnumFlagsField(Enum, bool, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumFlagsField.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumFlagsField EnumFlagsField(Enum defaultValue, bool includeObsoleteValues, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.enum">Enum</a></dt>
+    <dd><p>Initial value. This also detects the Enum type.</p>
+</dd>
+    <dt><code>includeObsoleteValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumFlagsField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_System_Enum_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.Enum,UnityEngine.UIElements.VisualElement)">
+  EnumFlagsField(Enum, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumFlagsField.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumFlagsField EnumFlagsField(Enum defaultValue, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.enum">Enum</a></dt>
+    <dd><p>Initial value. This also detects the Enum type.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumFlagsField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_System_String_System_Enum_System_Boolean_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,System.Enum,System.Boolean,UnityEngine.UIElements.VisualElement)">
+  EnumFlagsField(string, Enum, bool, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumFlagsField.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumFlagsField EnumFlagsField(string label, Enum defaultValue, bool includeObsoleteValues, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.enum">Enum</a></dt>
+    <dd><p>Initial value. This also detects the Enum type.</p>
+</dd>
+    <dt><code>includeObsoleteValues</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumFlagsField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_System_String_System_Enum_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,System.Enum,UnityEngine.UIElements.VisualElement)">
+  EnumFlagsField(string, Enum, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumFlagsField.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumFlagsField EnumFlagsField(string label, Enum defaultValue, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.enum">Enum</a></dt>
+    <dd><p>Initial value. This also detects the Enum type.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumFlagsField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(System.String,UnityEngine.UIElements.VisualElement)">
+  EnumFlagsField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumFlagsField.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumFlagsField EnumFlagsField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumFlagsField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_EnumFlagsField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.EnumFlagsField(UnityEngine.UIElements.VisualElement)">
+  EnumFlagsField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\EnumFlagsField.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructs an EnumFlagsField with a default value, and initializes its underlying type.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EnumFlagsField EnumFlagsField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">EnumFlagsField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_FloatField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_FloatField_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(System.Int32,UnityEngine.UIElements.VisualElement)">
+  FloatField(int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\FloatField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FloatField FloatField(int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters the field can take.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">FloatField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_FloatField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_FloatField_System_String_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)">
+  FloatField(string, int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\FloatField.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FloatField FloatField(string label, int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters the field can take.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">FloatField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_FloatField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_FloatField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.FloatField(UnityEngine.UIElements.VisualElement)">
+  FloatField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\FloatField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FloatField FloatField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">FloatField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_GradientField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_GradientField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(System.String,UnityEngine.UIElements.VisualElement)">
+  GradientField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\GradientField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GradientField GradientField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GradientField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_GradientField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_GradientField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.GradientField(UnityEngine.UIElements.VisualElement)">
+  GradientField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\GradientField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GradientField GradientField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GradientField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Hash128Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Hash128Field_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(System.Int32,UnityEngine.UIElements.VisualElement)">
+  Hash128Field(int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Hash128Field.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Hash128Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Hash128Field Hash128Field(int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters for the field.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Hash128Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Hash128Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Hash128Field_System_String_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(System.String,System.Int32,UnityEngine.UIElements.VisualElement)">
+  Hash128Field(string, int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Hash128Field.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Hash128Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Hash128Field Hash128Field(string label, int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters for the field.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Hash128Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Hash128Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Hash128Field_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Hash128Field(UnityEngine.UIElements.VisualElement)">
+  Hash128Field(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Hash128Field.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Hash128Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Hash128Field Hash128Field(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Hash128Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_InspectorElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_InspectorElement_UnityEditor_Editor_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.Editor,UnityEngine.UIElements.VisualElement)">
+  InspectorElement(Editor, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\InspectorElement.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+InspectorElement constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InspectorElement InspectorElement(Editor editor, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>editor</code> <span class="xref">Editor</span></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">InspectorElement</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_InspectorElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_InspectorElement_UnityEditor_SerializedObject_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEditor.SerializedObject,UnityEngine.UIElements.VisualElement)">
+  InspectorElement(SerializedObject, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\InspectorElement.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+InspectorElement constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InspectorElement InspectorElement(SerializedObject obj, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">SerializedObject</span></dt>
+    <dd><p>Create a SerializedObject from given obj and automatically Bind() to it.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">InspectorElement</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_InspectorElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_InspectorElement_UnityEngine_Object_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.Object,UnityEngine.UIElements.VisualElement)">
+  InspectorElement(Object, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\InspectorElement.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+InspectorElement constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InspectorElement InspectorElement(Object obj, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <span class="xref">Object</span></dt>
+    <dd><p>Create a SerializedObject from given obj and automatically Bind() to it.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">InspectorElement</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_InspectorElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_InspectorElement_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.InspectorElement(UnityEngine.UIElements.VisualElement)">
+  InspectorElement(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\InspectorElement.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+InspectorElement constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static InspectorElement InspectorElement(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">InspectorElement</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_IntegerField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_IntegerField_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(System.Int32,UnityEngine.UIElements.VisualElement)">
+  IntegerField(int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\IntegerField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntegerField IntegerField(int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters the field can take.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IntegerField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_IntegerField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_IntegerField_System_String_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)">
+  IntegerField(string, int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\IntegerField.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntegerField IntegerField(string label, int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters the field can take.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IntegerField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_IntegerField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_IntegerField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.IntegerField(UnityEngine.UIElements.VisualElement)">
+  IntegerField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\IntegerField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IntegerField IntegerField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">IntegerField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerField_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.Int32,UnityEngine.UIElements.VisualElement)">
+  LayerField(int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LayerField.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of LayerField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LayerField LayerField(int defaultValue, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The initial layer value this field should use.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerField_System_String_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)">
+  LayerField(string, int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LayerField.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of LayerField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LayerField LayerField(string label, int defaultValue, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label for the field.</p>
+</dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The initial layer value this field should use.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(System.String,UnityEngine.UIElements.VisualElement)">
+  LayerField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LayerField.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of LayerField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LayerField LayerField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label for the field.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerField(UnityEngine.UIElements.VisualElement)">
+  LayerField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LayerField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of LayerField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LayerField LayerField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerMaskField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerMaskField_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.Int32,UnityEngine.UIElements.VisualElement)">
+  LayerMaskField(int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LayerMaskField.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor of the field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LayerMaskField LayerMaskField(int defaultMask, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>defaultMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The mask to use for a first selection.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerMaskField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerMaskField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerMaskField_System_String_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)">
+  LayerMaskField(string, int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LayerMaskField.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor of the field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LayerMaskField LayerMaskField(string label, int defaultMask, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The label to prefix the &lt;see cref=&quot;LayerMaskField&quot; /&gt;.</p>
+</dd>
+    <dt><code>defaultMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The mask to use for a first selection.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerMaskField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerMaskField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerMaskField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(System.String,UnityEngine.UIElements.VisualElement)">
+  LayerMaskField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LayerMaskField.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor of the field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LayerMaskField LayerMaskField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The label to prefix the &lt;see cref=&quot;LayerMaskField&quot; /&gt;.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerMaskField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerMaskField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LayerMaskField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LayerMaskField(UnityEngine.UIElements.VisualElement)">
+  LayerMaskField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LayerMaskField.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor of the field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LayerMaskField LayerMaskField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LayerMaskField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LongField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LongField_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(System.Int32,UnityEngine.UIElements.VisualElement)">
+  LongField(int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LongField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LongField LongField(int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters the field can take.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LongField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LongField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LongField_System_String_System_Int32_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(System.String,System.Int32,UnityEngine.UIElements.VisualElement)">
+  LongField(string, int, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LongField.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LongField LongField(string label, int maxLength, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>maxLength</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Maximum number of characters the field can take.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LongField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LongField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_LongField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.LongField(UnityEngine.UIElements.VisualElement)">
+  LongField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\LongField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static LongField LongField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">LongField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_MaskField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_MaskField_System_Collections_Generic_List_System_String__System_Int32_System_Func_System_String_System_String__System_Func_System_String_System_String__UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)">
+  MaskField(List&lt;string&gt;, int, Func&lt;string, string&gt;, Func&lt;string, string&gt;, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\MaskField.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of MaskField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MaskField MaskField(List&lt;string&gt; choices, int defaultMask, Func&lt;string, string&gt; formatSelectedValueCallback, Func&lt;string, string&gt; formatListItemCallback, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>choices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>A list of choices to populate the field.</p>
+</dd>
+    <dt><code>defaultMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>formatSelectedValueCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>A callback to format the selected value. Unity calls this method automatically when a new value is selected in the field..</p>
+</dd>
+    <dt><code>formatListItemCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The initial mask value this field should use. Unity calls this method automatically when displaying choices for the field.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MaskField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_MaskField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_MaskField_System_String_System_Collections_Generic_List_System_String__System_Int32_System_Func_System_String_System_String__System_Func_System_String_System_String__UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.String,System.Collections.Generic.List{System.String},System.Int32,System.Func{System.String,System.String},System.Func{System.String,System.String},UnityEngine.UIElements.VisualElement)">
+  MaskField(string, List&lt;string&gt;, int, Func&lt;string, string&gt;, Func&lt;string, string&gt;, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\MaskField.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of MaskField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MaskField MaskField(string label, List&lt;string&gt; choices, int defaultMask, Func&lt;string, string&gt; formatSelectedValueCallback, Func&lt;string, string&gt; formatListItemCallback, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label for the field.</p>
+</dd>
+    <dt><code>choices</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>A list of choices to populate the field.</p>
+</dd>
+    <dt><code>defaultMask</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+    <dt><code>formatSelectedValueCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>A callback to format the selected value. Unity calls this method automatically when a new value is selected in the field..</p>
+</dd>
+    <dt><code>formatListItemCallback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The initial mask value this field should use. Unity calls this method automatically when displaying choices for the field.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MaskField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_MaskField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_MaskField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(System.String,UnityEngine.UIElements.VisualElement)">
+  MaskField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\MaskField.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of MaskField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MaskField MaskField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label for the field.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MaskField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_MaskField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_MaskField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.MaskField(UnityEngine.UIElements.VisualElement)">
+  MaskField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\MaskField.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of MaskField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MaskField MaskField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">MaskField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ObjectField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ObjectField_System_String_System_Type_System_Boolean_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(System.String,System.Type,System.Boolean,UnityEngine.UIElements.VisualElement)">
+  ObjectField(string, Type, bool, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\ExtraScript\ObjectField.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObjectField ObjectField(string label, Type objectType, bool allowSceneObjects, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The label of this field</p>
+</dd>
+    <dt><code>objectType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>The object type of the binding content</p>
+</dd>
+    <dt><code>allowSceneObjects</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Allows scene objects to be assigned to the field</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ObjectField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ObjectField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ObjectField_System_String_System_Type_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(System.String,System.Type,UnityEngine.UIElements.VisualElement)">
+  ObjectField(string, Type, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\ExtraScript\ObjectField.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObjectField ObjectField(string label, Type objType, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The label of this field</p>
+</dd>
+    <dt><code>objType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
+    <dd><p>The object type of the binding content</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ObjectField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ObjectField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ObjectField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(System.String,UnityEngine.UIElements.VisualElement)">
+  ObjectField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ObjectField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObjectField ObjectField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ObjectField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ObjectField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ObjectField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ObjectField(UnityEngine.UIElements.VisualElement)">
+  ObjectField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ObjectField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObjectField ObjectField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ObjectField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_PropertyField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_PropertyField_UnityEditor_SerializedProperty_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty,System.String,UnityEngine.UIElements.VisualElement)">
+  PropertyField(SerializedProperty, string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\PropertyField.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+PropertyField constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PropertyField PropertyField(SerializedProperty property, string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <span class="xref">SerializedProperty</span></dt>
+    <dd><p>Providing a SerializedProperty in the construct just sets the bindingPath. You will still have to call Bind() on the PropertyField afterwards.</p>
+</dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optionally overwrite the property label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PropertyField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_PropertyField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_PropertyField_UnityEditor_SerializedProperty_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.UIElements.VisualElement)">
+  PropertyField(SerializedProperty, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\PropertyField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+PropertyField constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PropertyField PropertyField(SerializedProperty property, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>property</code> <span class="xref">SerializedProperty</span></dt>
+    <dd><p>Providing a SerializedProperty in the construct just sets the bindingPath. You will still have to call Bind() on the PropertyField afterwards.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PropertyField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_PropertyField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_PropertyField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.PropertyField(UnityEngine.UIElements.VisualElement)">
+  PropertyField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\PropertyField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+PropertyField constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PropertyField PropertyField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">PropertyField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_RectField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_RectField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(System.String,UnityEngine.UIElements.VisualElement)">
+  RectField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\RectField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of RectField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RectField RectField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RectField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_RectField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_RectField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectField(UnityEngine.UIElements.VisualElement)">
+  RectField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\RectField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of RectField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RectField RectField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RectField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_RectIntField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_RectIntField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(System.String,UnityEngine.UIElements.VisualElement)">
+  RectIntField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\RectIntField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of RectIntField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RectIntField RectIntField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RectIntField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_RectIntField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_RectIntField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.RectIntField(UnityEngine.UIElements.VisualElement)">
+  RectIntField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\RectIntField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of RectIntField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RectIntField RectIntField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">RectIntField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_TagField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_TagField_System_String_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(System.String,System.String,UnityEngine.UIElements.VisualElement)">
+  TagField(string, string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\TagField.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of CurveField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TagField TagField(string label, string defaultValue, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label for the field.</p>
+</dd>
+    <dt><code>defaultValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The initial tag value this field should use.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TagField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_TagField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_TagField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.TagField(UnityEngine.UIElements.VisualElement)">
+  TagField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\TagField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of CurveField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TagField TagField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TagField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Toolbar_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Toolbar_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Toolbar(UnityEngine.UIElements.VisualElement)">
+  Toolbar(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Toolbar.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Toolbar Toolbar(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Toolbar</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarBreadcrumbs_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarBreadcrumbs_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarBreadcrumbs(UnityEngine.UIElements.VisualElement)">
+  ToolbarBreadcrumbs(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ToolbarBreadcrumbs.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructs a breadcrumb UI element for the toolbar to help users navigate a hierarchy.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolbarBreadcrumbs ToolbarBreadcrumbs(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ToolbarBreadcrumbs</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarButton_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarButton_System_Action_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(System.Action,UnityEngine.UIElements.VisualElement)">
+  ToolbarButton(Action, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ToolbarButton.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolbarButton ToolbarButton(Action clickEvent, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>clickEvent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>The action to be called when the button is pressed.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ToolbarButton</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarButton_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarButton_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarButton(UnityEngine.UIElements.VisualElement)">
+  ToolbarButton(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ToolbarButton.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolbarButton ToolbarButton(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ToolbarButton</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarMenu_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarMenu_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarMenu(UnityEngine.UIElements.VisualElement)">
+  ToolbarMenu(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ToolbarMenu.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolbarMenu ToolbarMenu(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ToolbarMenu</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarPopupSearchField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarPopupSearchField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarPopupSearchField(UnityEngine.UIElements.VisualElement)">
+  ToolbarPopupSearchField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ToolbarPopupSearchField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolbarPopupSearchField ToolbarPopupSearchField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ToolbarPopupSearchField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarSearchField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarSearchField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSearchField(UnityEngine.UIElements.VisualElement)">
+  ToolbarSearchField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ToolbarSearchField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolbarSearchField ToolbarSearchField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ToolbarSearchField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarSpacer_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarSpacer_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarSpacer(UnityEngine.UIElements.VisualElement)">
+  ToolbarSpacer(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ToolbarSpacer.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolbarSpacer ToolbarSpacer(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ToolbarSpacer</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarToggle_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_ToolbarToggle_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.ToolbarToggle(UnityEngine.UIElements.VisualElement)">
+  ToolbarToggle(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\ToolbarToggle.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Constructor.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ToolbarToggle ToolbarToggle(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">ToolbarToggle</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector2Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector2Field_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(System.String,UnityEngine.UIElements.VisualElement)">
+  Vector2Field(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector2Field.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector2Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2Field Vector2Field(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector2Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector2Field_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2Field(UnityEngine.UIElements.VisualElement)">
+  Vector2Field(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector2Field.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector2Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2Field Vector2Field(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector2IntField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector2IntField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(System.String,UnityEngine.UIElements.VisualElement)">
+  Vector2IntField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector2IntField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector2IntField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2IntField Vector2IntField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2IntField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector2IntField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector2IntField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector2IntField(UnityEngine.UIElements.VisualElement)">
+  Vector2IntField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector2IntField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector2IntField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2IntField Vector2IntField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2IntField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector3Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector3Field_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(System.String,UnityEngine.UIElements.VisualElement)">
+  Vector3Field(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector3Field.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector3Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Field Vector3Field(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector3Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector3Field_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3Field(UnityEngine.UIElements.VisualElement)">
+  Vector3Field(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector3Field.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector3Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Field Vector3Field(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector3IntField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector3IntField_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(System.String,UnityEngine.UIElements.VisualElement)">
+  Vector3IntField(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector3IntField.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector3IntField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3IntField Vector3IntField(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3IntField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector3IntField_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector3IntField_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector3IntField(UnityEngine.UIElements.VisualElement)">
+  Vector3IntField(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector3IntField.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector3IntField.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3IntField Vector3IntField(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3IntField</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector4Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector4Field_System_String_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(System.String,UnityEngine.UIElements.VisualElement)">
+  Vector4Field(string, VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector4Field.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector4Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4Field Vector4Field(string label, VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to use as a label.</p>
+</dd>
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector4Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector4Field_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field*"></a>
+
+  <h3 id="SuiSuiShou_UIEEx_Editor_EditorUIELayout_Vector4Field_UnityEngine_UIElements_VisualElement_" data-uid="SuiSuiShou.UIEEx.Editor.EditorUIELayout.Vector4Field(UnityEngine.UIElements.VisualElement)">
+  Vector4Field(VisualElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\AutoGenerated\Vector4Field.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>
+Initializes and returns an instance of Vector4Field.
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4Field Vector4Field(VisualElement parent = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>parent</code> <span class="xref">VisualElement</span></dt>
+    <dd><p>The parent of this element.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector4Field</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/blightue/UIEEx/blob/extra_ctor/Scripts\Editor\EditorUIELayout\ExtraScript\ToolbarSearchField.cs/#L25" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Made by <a href="https://www.suisuishou.net" target="_blank">SuiSuiShou</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

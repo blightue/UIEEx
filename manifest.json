@@ -1,0 +1,238 @@
+{
+  "source_base_path": "/home/runner/work/UIEEx/UIEEx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SuiSuiShou.UIEEx.Editor.EditorUIELayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SuiSuiShou.UIEEx.Editor.EditorUIELayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SuiSuiShou.UIEEx.Editor.UIEExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SuiSuiShou.UIEEx.Editor.UIEExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SuiSuiShou.UIEEx.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SuiSuiShou.UIEEx.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SuiSuiShou.UIEEx.UIEExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SuiSuiShou.UIEEx.UIEExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SuiSuiShou.UIEEx.UIELayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SuiSuiShou.UIEEx.UIELayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SuiSuiShou.UIEEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SuiSuiShou.UIEEx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/elements_factory.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/elements_factory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/installation_instructions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/installation_instructions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/method_chaining.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/method_chaining.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/quick_start.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/quick_start.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/samples.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/samples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/image/UIEEx_Icon.afdesign",
+      "output": {
+        "resource": {
+          "relative_path": "assets/image/UIEEx_Icon.afdesign"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/image/UIEEx_Icon_51px.afdesign",
+      "output": {
+        "resource": {
+          "relative_path": "assets/image/UIEEx_Icon_51px.afdesign"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/image/UIEEx_icon_dark.svg",
+      "output": {
+        "resource": {
+          "relative_path": "assets/image/UIEEx_icon_dark.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "assets/image/UIEEx_icon_light.svg",
+      "output": {
+        "resource": {
+          "relative_path": "assets/image/UIEEx_icon_light.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "doc_branch_readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "doc_branch_readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
