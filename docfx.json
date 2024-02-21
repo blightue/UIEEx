@@ -7,7 +7,7 @@
             "SuiSuiShou.UIEEx.Editor.csproj",
             "SuiSuiShou.UIEEx.Runtime.csproj"
           ],
-      "src": "../../"
+          "src": "../../"
         }
       ],
       "dest": "api",
@@ -36,7 +36,7 @@
       {
         "files": [
           "images/**",
-		  "assets/image/**"
+          "assets/image/**"
         ]
       }
     ],
@@ -53,17 +53,19 @@
     ],
     "dest": "_site",
     "globalMetadataFiles": [],
-	"globalMetadata" : {
-		"_appFooter" : "Made by <a href=\"https://www.suisuishou.net\" target=\"_blank\">SuiSuiShou</a>",
-		"_appLogoPath" : "assets/image/UIEEx_Icon_DarkMode.svg",
-		"_appName" : "UIEEx",
-		"_appFaviconPath" : "assets/image/UIEEx_Icon_DarkMode.svg",
-		"_enableSearch" : true,
-	},
+    "globalMetadata": {
+      "_appTitle": "UIEEx",
+      "_appName": "UIEEx",
+      "_appLogoPath": "assets/image/UIEEx_icon_dark.svg",
+      "_appFooter": "Made by <a href=\"https://www.suisuishou.net\" target=\"_blank\">SuiSuiShou</a>",
+      "_appFaviconPath": "assets/image/UIEEx_icon_dark.svg",
+      "_enableSearch": true
+    },
     "fileMetadataFiles": [],
     "template": [
       "default",
-	  "modern"
+      "modern",
+      "template"
     ],
     "postProcessors": [],
     "noLangKeyword": false,

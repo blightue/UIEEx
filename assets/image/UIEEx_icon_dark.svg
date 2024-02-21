@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Shadow" transform="matrix(0.066592,0,0,0.0586092,-3.92209,-5.62266)">
+        <g transform="matrix(180,0,0,180,814.432,597.673)">
+        </g>
+        <text x="105.052px" y="597.673px" style="font-family:'AbrilFatface-Regular', 'Abril Fatface';font-size:180px;fill:rgb(201,191,19);fill-opacity:0.63;">&lt;UIEEx&gt;</text>
+    </g>
+    <g id="DarkMode" transform="matrix(0.066592,0,0,0.0586092,-5.11512,-6.63592)">
+        <g transform="matrix(180,0,0,180,814.432,597.673)">
+        </g>
+        <text x="105.052px" y="597.673px" style="font-family:'AbrilFatface-Regular', 'Abril Fatface';font-size:180px;fill:rgb(230,230,230);">&lt;UIEEx&gt;</text>
+    </g>
+    <g transform="matrix(0.0793416,0,0,0.0586092,-14.8298,-5.05524)">
+        <path d="M231.54,615.819L785.071,615.819" style="fill:none;stroke:rgb(201,191,19);stroke-width:7.17px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+    </g>
+</svg>
